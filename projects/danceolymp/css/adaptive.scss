@@ -1,0 +1,609 @@
+// Адаптивная верстка //
+@media (max-width: 1360px) {
+	/*--- Main ---*/
+	body {background-position: center;}
+	.container {width: 1210px;}
+	.lead__img {width: 100%;}
+	.video-bg {width: 100%;}
+	/*--- Shedule ---*/
+	.shedule__cell p {padding: 10px 14px;}
+	/*--- Tango ---*/
+	.lead_tango .lead__title h2 {padding: 0 90px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0 140px;}
+	/*--- Private lesson ---*/
+	.dance_private .dance__title {padding: inherit;}
+	/*--- About ---*/
+	.about__features {padding: 4px 160px;}
+	.about__mission {padding: 0 160px;}
+	.about__wrapper {margin: 0 140px;}
+	.about__gallery-controls .controls__prev {left: 3px;}
+	.about__gallery-controls .controls__next {right: 3px;}
+	.about__video {margin-left: 0;}
+	.trainers__slide {padding: 0 140px;}
+    .trainers__controls .controls__next {right: 35px;}
+	.review__slider-controls {padding: 0 160px;}
+	.review__slider .review__video {left: 83%;}
+  /*--- Publication ---*/
+  .event__btns {width: 916px; padding: 0;}
+  .post__title {width: 80%;}
+  .post__follow {width: 20%;}
+	/*--- Dance styles ---*/
+	.page-intro_styles .page-intro__container {padding: 0 90px;}
+	.styles__container {padding: 0 135px;}
+	.page-intro_styles .page-intro__container {padding: 0 60px;}
+	/*--- News ---*/
+	.news__container {padding: 0 160px;}
+	.news__tab-navigation {padding: 0 230px;}
+	.news__gallery-img {height: 600px;}
+}
+
+@media (max-width:1270px) {
+	/*--- Main ---*/
+	.container {width: 954px;}
+	.main-menu {margin-top: 10px;}
+	.main-menu li {margin-top: 15px;}
+	.main-menu li a {line-height: 1.2em;}
+	.service__title_small {font-size: 26px;}
+	.service__title_big {font-size: 100px;}
+	.service_group .service__title_big {font-size: 100px;}
+	.service_tango .service__title_big {font-size: 100px; margin-left: -17px; margin-top: -55px; letter-spacing: 28px;}
+	.review__content {padding: 0 50px;}
+	.review__content p {width: 60%;}
+	.page-navigation__container {padding: 0;}
+	.lead__title {padding: 80px 120px;}
+	.service__bottom-img img {transform: translate(0,0); position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; min-width: 100%; min-height: 100%; width: 0; object-fit: contain;}
+	.service__top-img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; transform: translate(0,0) !important;}
+	.service__top-img img {transform: translate(0,0); position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; max-width: 100%; max-height: 100%; object-fit: contain;}
+	.service_personal .service__content, .service_tango .service__content {padding-left: 80px; padding-right: 0;}
+	.service_group .service__content {padding-left: 0;}
+	.lead__title h2 a {font-size: 30px;}
+	.review__media {width: 100%;}
+	.review__img {width: 100%;}
+	.page-footer__copyright {width: 68%;}
+	.dance-styles__describe h3 {font-size: 20px;}
+	.review__video {left: 85%;}
+	.review__media::after {right: 143px;}
+	.page-title h1 {padding: 0;}
+	.breadcrumbs li:first-child a {padding-left: 0;}
+    .dance-styles__slider {padding: 0 130px;}
+    .review {padding-top: 70px;}
+	/*--- Shedule ---*/
+	.shedule__wrapper {overflow-x: scroll;}
+	.shedule__body {width: 1000px;}
+	.shedule__cell p {padding: 10px;}
+	.shedule__cell_time p {line-height: 6.3em;}
+	/*--- Wedding dance ---*/
+	.page-intro p {padding: 0;}
+	.dance__container {padding: 0 60px;}
+	.video {width: 100%; height: 500px;}
+	.video__promo {width: 100%; height: 100%;}
+	.additionally__list-describe p {padding: 0 220px;}
+	.additionally__items {padding: 0 60px;}
+	.additionally__offer h3 {padding-right: 160px;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 0;}
+	.page-intro_faq p {padding: 0;}
+	.faq__container {padding: 0;}
+	/*--- Tango ---*/
+	.lead_tango .lead__title h2 {padding: 0;}
+	.page-intro_tango p {padding: 0 70px;}
+	.trends__container {padding: 0 80px;}
+	.tango-trainers__list {padding: 0 140px;}
+	.tango-shedule__title {padding: 0 50px;}
+	.tango-shedule__container {padding: 0 80px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0 70px;}
+	.trainers__list {text-align: center;}
+	.trainers__item {margin: 0 20px 50px;}
+	.trainers__item:nth-child(3n+3) {margin-right: 20px;}
+	.trainers__item:last-child {margin-right: 20px;}
+	/*--- About ---*/
+	.page-intro__content {padding: 0 60px;}
+	.page-intro__btns {padding-right: 105px;}
+	.about__features, .about__mission {padding: 0 60px;}
+	.trainers__slide li:nth-child(n+3) {display: none;}
+	.review__slider-controls {padding: 0 30px;}
+	.about__wrapper {margin: 0 110px;}
+	.review__slider-overflow {width: 87%;}
+    .review__slider .review__video {left: 79%;}
+  /*--- Publication ---*/
+  .event__container {padding: 0;}
+  .event__btns {width: 100%; padding: 0;}
+  .post__content p {padding-right: 0;}
+  .post__title {width: 75%;}
+  .post__follow {width: 25%;}
+	/*--- Services ---*/
+	.page-intro_services p {padding: 0;}
+	.service__btns-list {flex-direction: row; height: auto; padding: 0;}
+	.service__btns-list li {margin-right: 30px;}
+	.service_band .service__content {padding-left: 0;}
+	.service_wedding .service__content {padding-right: 0;}
+	.service_corporative .service__content {padding-left: 0;}
+	.service_corporative .service__title_small {margin-left: -30px;}
+	.service_corporative .service__title_big {margin-left: -40px;}
+	.service_party .service__content {padding-right: 0;}
+	.service_party .service__title_small {margin-left: 60px;}
+	.service_party .service__title_big {margin-left: 80px;}
+	.service_gift .service__content {padding-left: 0;}
+	.service_competition .service__content {padding-right: 0;}
+	.service_competition .service__title_big {margin-left: 30px;}
+	.service_competition .service__title_small {margin-left: 30px;}
+	.support__phone {padding: 0 200px;}
+	.support__email, .support__answer {padding: 0;}
+	/*--- Dance styles ---*/
+	.styles__container {padding: 0;}
+	.dance-category p {padding-right: 0;}
+	.dance-category_euro p:nth-of-type(3) {padding-right: 0;}
+	.dance-category_latino p:first-of-type {padding-right: 0;}
+	.dance-category_latino p:nth-of-type(4) {padding-right: 0;}
+	.page-intro_styles .page-intro__container {padding: 0;}
+	.dance-category__img-bottom, .dance-category__img-top {width: 100%; transform: translate(0) !important;}
+	.dance-category__img-bottom img {width: 120%; margin-left: -10%;}
+	.dance-category__img-top img {width: 100%;}
+	.dance-category__img {margin-bottom: 90px;}
+	/*--- News ---*/
+	.news__container {padding: 0 60px;}
+	.news__btn {left: -50px;}
+	.news__content {padding-left: 20px;}
+	.news__gallery-img {height: 500px;}
+  /*--- Contacts ---*/
+  .contacts__fullway {padding: 0;}
+	.page-title_contacts h1 {padding: 0;}
+	.contacts__container {padding: 0;}
+}
+
+@media (max-width:1014px) {
+	/*--- Main ---*/
+	.container {width: 890px;}
+	.service__content {padding: 0 50px;}
+	.service__title_small {font-size: 24px;}
+	.service__title_big {font-size: 90px;}
+	.service_group .service__title_big {font-size: 90px;}
+	.service_tango .service__title_big {font-size: 90px; margin-left: -49px; margin-top: -43px; letter-spacing: 20px;}
+	.dance-styles__img {width: 310px; height: 430px;}
+	.dance-styles__describe {width: 58%;}
+	.dance-styles__describe h3 {font-size: 22px;}
+	.btn_youtube {padding-left: 60px; letter-spacing: 3px;}
+	.order-form__container {padding: 35px 42px 0;}
+	.contact-info__container {padding: 0;}
+	.review__media::after {right: 123px;}
+	.btn_youtube:hover {padding-left: 80px;}
+	.review__video {left: 86%;}
+	/*--- Wedding dance ---*/
+	.page-intro p br {display: none;}
+	.additionally__offer h3 {padding-right: 130px;}
+	/*--- Tango ---*/
+	.trends__title {padding-right: 200px;}
+	.tango-trainers__list {padding: 0 120px;}
+	/*--- Trainers ---*/
+	.trainers-contacts__btns {padding: 0;}
+	/*--- About ---*/
+	.page-intro__col p {padding: 0 30px 0 12px;}
+	.about__slider {height: 460px;}
+	.trainers__slide {padding: 0 120px;}
+	.review__minigallery li {width: 230px; height: 140px;}
+	.review__slider-overflow .wrapper-outer {width: 254px;}
+    .review__slider .review__video {left: 83%;}
+  /*--- Publication ---*/
+	.post__header h2 {font-size: 26px; letter-spacing: 5px;}
+  .post__follow {flex-direction: column; justify-content: flex-start; align-items: center;}
+	/*--- Services ---*/
+	.service_corporative .service__title_small {margin-left: -50px;}
+	.service_corporative .service__title_big {margin-left: -70px;}
+	.service_party .service__title_small {margin-left: 90px;}
+	.service_party .service__title_big {margin-left: 110px;}
+	.support__phone {padding: 0 150px;}
+	/*--- News ---*/
+	.news__tabs {padding: 0 105px;}
+	.news__tab-navigation {padding: 0 200px;}
+  /*--- Contacts ---*/
+  .contacts__container {flex-wrap: wrap;}
+  .contacts__list {margin-bottom: 30px;}
+  .contacts__fullway {width: 100%;}
+	/*--- Animations ---*/
+	.decolines--fixed {width: 620px;}
+}
+
+@media (max-width:950px) {
+	/*--- Main ---*/
+	.container {width: 730px;}
+	.page-header__blockquote {display: none;}
+	.service {flex-wrap: wrap;}
+	.service__img {width: 100%;}
+	.service__content {width: 100%; padding: 0 !important;}
+	.service:nth-child(odd) .service__img {order: 1;}
+	.service_tango .service__title_big {font-size: 110px; margin-left: -24px; margin-top: -57px;}
+	.service_tango .service__top-img {transform: translateX(184px);}
+	.dance-styles__img {display: none;}
+	.dance-styles__describe {width: 100%;}
+	.review__content {padding: 0 30px; height: 450px; margin-top: -450px;}
+	.review__img {height: 450px;}
+	.review__media::after {display: none;}
+	.review__video {top: 40px; left: 81%;}
+	.lead__controls {padding: 0;}
+	.lead__title h2 a {display: block; font-size: 26px;}
+	/*--- Wedding dance ---*/
+	.video {height: 400px;}
+	.additionally__list-describe p {padding: 0 100px;}
+	.additionally__offer h3 {padding-right: 50px;}
+	.order-form__name {width: 100%;}
+	.order-form__phone, .order-form__email {width: 48%;}
+	/*--- Tango ---*/
+	.trends__title {padding: 0;}
+	.tango-trainers__list {padding: 0 60px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0 60px;}
+	.trainers__list {justify-content: flex-start;}
+	.trainers__item:nth-child(odd) {margin-left: 0;}
+	.trainers__item:nth-child(even) {margin-right: 0;}
+	.trainers-contacts__btns {flex-wrap: wrap;}
+	.trainers-contacts__btn {margin-right: 15px;}
+	/*--- About ---*/
+	.about__slider {height: 370px;}
+	.trainers__controls .controls__prev {left: -15px;}
+	.trainers__controls .controls__next {right: -15px;}
+	.trainers__slide {padding: 0 65px;}
+	.review__minigallery li {width: 180px; height: 110px;}
+	.review__slider .review__video {left: 79%;}
+	.review__slider-overflow .wrapper-outer {width: 208px;}
+    .review__slider > .slider-overflow {height: 450px;}
+    .review__content p {width: 70%;}
+    /*--- Publication ---*/
+    .post__img {margin-right: 30px;}
+	/*--- Services ---*/
+	.service_corporative .service__title_small {margin-left: 0;}
+	.service_corporative .service__title_big {margin-left: -15px;}
+	.service_party .service__title_small {margin-left: 10px;}
+	.service_party .service__title_big {margin-left: 30px;}
+	.service_gift .service__title_small {margin-left: 20px;}
+	.service_gift .service__title_big {margin-left: 0;}
+	.support__phone {padding: 0 70px;}
+	/*--- Dance styles ---*/
+	.page-menu {padding: 0 70px;}
+	.dance-category__img {min-height: 0; margin-bottom: 40px;}
+	.dance-category p {padding-right: 0;}
+	.page-intro_styles p {padding: 0;}
+	.dance-category_latino h3 {padding-right: 0;}
+	/*--- News ---*/
+	.news__tabs {padding: 0 30px;}
+	.news__item {width: 100%;}
+	.news__tab-navigation {padding: 0 120px;}
+	.news__gallery-img {height: 400px;}
+}
+
+@media (min-width:791px) {
+	/*--- Main ---*/
+	.page-header__burger {display: none;}
+}
+
+@media (max-width:790px) {
+	/*--- Main ---*/
+	.container {width: 580px;}
+	.page-header__container {padding-top: 40px; justify-content: space-between; align-items: center; position: relative;}
+	.page-header__logo {padding: 0; position: absolute; left: 0; right: 0; margin: auto; width: 76px;}
+	.page-header__contacts {padding: 0;}
+	.page-header__navigation {position: absolute; left: 0; top: 0; padding: 0; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; width: 100%; height: 100%; padding: 40px; box-sizing: border-box; background-color: #272727;}
+	.page-header {box-sizing: border-box; z-index: 101;}
+	.page-header.active {height: 100%; background-color: #272727;}
+	.page-header.active .page-header__navigation {opacity: 1; pointer-events: all;}
+	.main-menu {flex-direction: column; justify-content: center; align-items: center; align-content: center; background-color: #272727;}
+	.main-menu li {margin: 0; margin-top: 20px;}
+	.dance-styles__content {padding-right: 0;}
+	.dance-styles__controls .controls__prev {left: 0;}
+	.dance-styles__controls .controls__next {right: 0;}
+	.review__content p {width: 70%;}
+    .dance-styles__slider {padding: 0 80px;}
+	.lead__img {height: 700px;}
+	.lead__slider {height: 700px;}
+	.lead__controls {padding: 0;}
+	.lead__container {height: 700px; margin-top: -700px;}
+	.order-form__phone, .order-form__email {width: 100%;}
+	.order-form__email label {padding-left: 0; padding-right: 10px;}
+	.order-form__text textarea {line-height: 2.6em; height: 5.2em;}
+	.order-form__text label {align-self: flex-start; padding-right: 10px; width: 80px; text-align: left;}
+	.order-form__input label {width: 80px; text-align: left;}
+	.video-bg {height: 700px;}
+	.lead__title {padding: 80px;}
+	.review__video {left: 77%;}
+	/*--- Shedule ---*/
+	.shedule__container {padding: 0;}
+	.shedule__cell_time p {line-height: 6em;}
+	/*--- Wedding dance ---*/
+	.page-section__title {padding: 0 30px;}
+	.dance__container {padding: 0 40px;}
+	.video {height: 340px;}
+	.additionally__list-describe p {padding: 0 40px;}
+	.additionally__items {padding: 0 40px;}
+	.additionally__item {width: 100%;}
+	.additionally__offer h3, .additionally__offer p {padding: 0;}
+	.dance__video {margin-top: 20px;}
+	/*--- FAQ ---*/
+	.faq__container {padding: 0;}
+	/*--- Tango ---*/
+	.trends__container {padding: 0;}
+	.trends__items {width: 100%;}
+	.trends__items_left {padding-right: 0;}
+	.trends__items_right {padding-left: 0;}
+	.tango-trainers__list {padding: 0;}
+	.tango-shedule__container {padding: 0;}
+	.tango-shedule__describe p {width: 100%; margin-top: 20px;}
+	.tango-shedule__describe p:nth-child(odd) {padding-right: 0;}
+	.tango-shedule__describe p:nth-child(even) {padding-left: 0;}
+	.dance__duration {margin-bottom: 28px;}
+	/*--- Trainers ---*/
+	.page-intro_trainers p, .page-title_trainers h1, .trainers__container, .trainers-contacts__container {padding: 0;}
+	.trainers__item:nth-child(odd) {margin-right: 10px;}
+	.trainers__item:nth-child(even) {margin-left: 10px;}
+	.trainers__biography p {text-align: center; padding: 0 10px;}
+	/*--- Private lesson ---*/
+	.lead_private .lead__img {height: 500px;}
+	.lead_private .lead__container {height: 500px; margin-top: -500px;}
+	.lead_private .lead__title {margin-top: 0;}
+	/*--- About ---*/
+	.page-intro__content {padding: 0 40px; flex-wrap: wrap;}
+	.page-intro__col {width: 100%;}
+	.page-intro__col_right {padding-left: 0;}
+	.about__features, .about__mission {padding: 0 40px;}
+	.text-list__list_about .text-list__item {width: 100%;}
+	.text-list__list_about .text-list__item:nth-child(even) {padding-left: 0;}
+	.text-list__list_about .text-list__item:nth-child(3) {margin-top: 0;}
+	.text-list__list_about .text-list__item:nth-child(5) {margin-top: 0;}
+    .about__slider {height: 270px;}
+	.trainers__slide li:nth-child(n+2) {display: none;}
+	.trainers__slide .trainers__list {text-align: center;}
+	.trainers__slide .trainers__item {margin: 0;}
+	.review__slider-overflow {width: 80%;}
+	.review__slider .review__video {left: 74%;}
+  /*--- Publication ---*/
+  .event__container {padding: 0;}
+  .post__header {margin-bottom: 20px;}
+  .post__img {float: none; margin-right: auto; margin-left: auto;}
+	.post__header h2 {font-size: 24px; letter-spacing: 4px;}
+	.event__btns .event__btn {letter-spacing: 3px;}
+	/*--- Dance styles ---*/
+	.dance-category__img {display: none;}
+	.dance-category_club h3 {padding-top: 0;}
+	/*--- News ---*/
+	.news__tabs {justify-content: center; flex-wrap: wrap;}
+	.news__tab-navigation {padding: 0 60px;}
+	.news__gallery-img {height: 300px;}
+	.news__slider-overflow {width: 75%;}
+   /*--- Contacts ---*/
+  .page-title_contacts h1 {padding: 0;}
+  .contacts__container {padding: 0;}
+}
+
+@media (max-width:640px) {
+	/*--- Main ---*/
+	h2 {font-size: 28px;}
+	.container {width: 420px;}
+	.page-header__contacts {width: 130px; min-width: 0;}
+	.page-header__contacts a {letter-spacing: 0.6px;}
+	.lead__title {padding: 70px 0;}
+	.lead__title p {width: 100%;}
+	.lead__title h2 a {font-size: 22px; line-height: 1.4em;}
+	.lead__btn-mouse {display: none;}
+	.service__img {min-height: 250px;}
+	.service__top-img {display: none;}
+	.service__bottom-img {width: 100%; transform: translate(0,0); left: 0; top: 0; height: 100%;}
+	.service_personal .service__title_small {margin-left: 0;}
+	.service_personal .service__title_big {margin-left: 20px; font-size: 70px;}
+	.service_group .service__title_big {margin-bottom: 0; font-size: 70px;}
+	.service_tango .service__title_big {margin: 0; font-size: 70px;}
+	.controls__prev, .controls__next {width: 40px;}
+	.controls__prev::before, .controls__next::before {width: 40px;}
+    .dance-styles__slider {padding: 0 50px;}
+	.dance-styles__describe h3 {font-size: 18px;}
+	.review__header, .review__footer {width: 100%;}
+	.review__img {width: 100%;}
+	.review__content {padding: 0;}
+	.page-title h1 {padding: 0;}
+	.dance__price, .dance__count {font-size: 40px;}
+	.page-intro p {padding: 0;}
+	.breadcrumbs {flex-wrap: wrap;}
+	.service__title_small {font-size: 20px;}
+	.service {margin-bottom: 50px;}
+	.service_group {margin-bottom: 50px;}
+	.review {padding-top: 70px;}
+	.review__video {left: 70%;}
+    .order-form__success-message {width: 90%;}
+	/*--- Shedule ---*/
+	.shedule__cell_time p {line-height: 5.7em;}
+	.page-navigation__container_shedule {padding: 22px 38px 0;}
+	/*--- Wedding dance ---*/
+	.page-section__title {padding: 0;}
+	.dance__container {padding: 0;}
+	.dance__video {margin-left: 0;}
+	.additionally__list-describe p {padding: 0;}
+	.additionally__items {padding: 0;}
+	.additionally__item {margin-top: 50px;}
+	.additionally__offer h3 {margin-bottom: 20px;}
+	.additionally__btn {max-width: 100%; letter-spacing: 3px;}
+	/*--- FAQ ---*/
+	.faq__question p {padding-right: 10px;}
+	/*--- Tango ---*/
+	.tango-trainers__list {justify-content: center;}
+	.shedule-table__cell_lesson {padding-left: 12px; padding-right: 12px;}
+	.shedule-table__cell {font-size: 13px;}
+	.shedule-table__cell_day {font-size: 14px; padding-left: 12px; padding-right: 12px;}
+	.shedule-table__cell_time {padding-left: 6px; padding-right: 6px;}
+	/*--- Trainers ---*/
+	.trainers__list {justify-content: center}
+	.trainers__item {margin-left: 0 !important; margin-right: 0 !important;}
+	.trainers-contacts__btns {justify-content: center;}
+	.trainers-contacts__btn {margin: 0 25px;}
+	.trainers-contacts__btn_services {padding-left: 0;}
+	.mission_stylized {padding: 44px 0;}
+	/*--- Private lesson ---*/
+	.lead_private .lead__title h2 {letter-spacing: 5px;}
+	/*--- About ---*/
+	.page-intro__btns {padding-right: 0;}
+	.about__container h2 {font-size: 28px; margin-left: 0;}
+	.about__slider {height: 210px;}
+    .about__wrapper {margin: 0 60px;}
+	.review_about {margin-left: 0;}
+	.review__slider, .review__slider-item {width: 100%;}
+	.review__media {width: 100%;}
+	.review__slider-overflow {width: 65%;}
+	.review__slider .review__video {left: 63%;}
+  /*--- Publication ---*/
+  .event__btn {line-height: 2em;}
+  .event__btn:last-of-type {text-align: right;}
+  .post {width: 100%;}
+  .post__header {width: 100%; flex-direction: column;}
+  .post__title {width: 100%; }
+  .post__follow {width: 100%; flex-direction: row; align-items: flex-start;}
+	/*--- Services ---*/
+	.service__bottom-img img {width: 100%; transform: translate(0);}
+	.service__btns-list {padding: 0;}
+	.service_wedding .service__title_small {font-size: 24px;}
+	.service_wedding .service__title_big {font-size: 90px;}
+	.service_corporative .service__title_small {font-size: 24px; margin-left: 10px;}
+	.service_corporative .service__title_big {font-size: 62px; margin-left: -5px;}
+	.service_party .service__title_small {font-size: 24px; letter-spacing: 18px; margin-left: 15px;}
+	.service_party .service__title_big {font-size: 90px; letter-spacing: 30px;}
+	.service_gift .service__title_small {font-size: 24px; letter-spacing: 22px;}
+	.service_gift .service__title_big {font-size: 50px; letter-spacing: 7px;}
+	.service_competition .service__title_big {font-size: 44px; letter-spacing: 9px; margin-left: 20px;}
+	.service_competition .service__title_small {font-size: 30px; letter-spacing: 7px; margin-left: 20px;}
+	.support__phone {padding: 0;}
+	.page-request__title {width: 90%;}
+	/*--- Dance styles ---*/
+	.page-intro_styles .page-intro__container {padding: 0;}
+	.styles__container {padding: 0;}
+	/*--- News ---*/
+	.news__tabs {padding: 0 40px;}
+	.news__tabs-item:nth-of-type(2) {padding-left: 0;}
+	.news__img {display: none;}
+	.news__content {padding-left: 0;}
+	.news__tab-navigation {padding: 0; margin: 76px 0 36px;}
+	.news__btn {top: -100px;}
+	.news__title a {font-size: 18px;}
+	.news__gallery-img {height: 200px;}
+  /*--- Contacts ---*/
+  .contacts__list {min-width: 420px; width: 100%;}
+  .map {height: 460px;}
+	/*--- Animations ---*/
+	.decolines--fixed {width: 290px;}
+}
+
+@media (max-width:480px) {
+	/*--- Main ---*/
+	.container {width: 290px;}
+	.page-header__contacts {display: none;}
+	.lead__title h2 a {font-size: 20px;}
+	.lead__title p {padding: 0 10px; margin-top: 30px;}
+	.service__title_small {font-size: 14px;}
+	.service_personal .service__title_big {font-size: 48px; margin-bottom: 0;}
+	.service_group .service__title_big {font-size: 48px; margin-bottom: 0;}
+	.service__img figcaption {padding: 0;}
+	.service_tango .service__title_big {font-size: 48px; letter-spacing: 20px;}
+	.service__img {min-height: 220px;}
+	h2 {font-size: 24px;}
+	.dance-styles__describe h3 {font-size: 15px; word-wrap: break-word;}
+	.review__content p {width: 100%;}
+	.page-title h1 {font-size: 25px;}
+	.page-navigation__container {padding: 0;}
+	.page-section__title {font-size: 22px; letter-spacing: 4px;}
+	.order-form__container {padding: 35px 0 0;}
+	.order-form__text textarea {height: 7.8em;}
+	.dance__price, .dance__count {font-size: 30px;}
+	.lead__title {padding-bottom: 0;}
+	.dance-styles__describe {padding: 0; padding-top: 20px;}
+	.dance-styles__controls {top: 0; width: 60%; transform: translate(-50%, 0);}
+    .dance-styles__slider {padding: 0;}
+	.main-menu li a {font-size: 13px;}
+	.service__content p {font-size: 15px;}
+	.page-intro p {font-size: 15px;}
+	.breadcrumbs li a {padding-left: 6px; padding-right: 12px;}
+	.breadcrumbs li:last-child a {padding-right: 0;}
+	.review__video {left: 55%;}
+    .order-form__error-message p {line-height: 3em;}
+    .order-form__success-message h5 {line-height: 3em;}
+	/*--- Shedule ---*/
+	.page-navigation__container_shedule {padding: 22px 20px 0;}
+	.shedule__month {font-size: 25px;}
+	.shedule__mmyyyy {padding: 0 20px;}
+	.shedule__year {font-size: 90px; letter-spacing: 20px;}
+	.shedule__wrapper {margin-top: -25px;}
+	.shedule__cell_time p {line-height: 5em;}
+	/*--- Wedding dance ---*/
+	.lead_wedding .lead__img {height: 500px;}
+	.lead_wedding .lead__container {height: 500px; margin-top: -500px;}
+	.lead_wedding .lead__title h2 {font-size: 28px;}
+	.page-intro p {padding: 0;}
+	.video {height: 240px;}
+	.additionally__btn {margin-left: 0; line-height: 2em;}
+	.page-request__title {width: 90%;}
+	/*--- FAQ ---*/
+	.page-title_faq {padding: 5px 0;}
+	.faq__question {padding: 20px;}
+	.faq__question p {line-height: 1.5em;}
+	.faq__answer {padding: 0 20px;}
+	.faq__answer p {padding: 8px 50px 38px 0; line-height: 1.5em;}
+	/*--- Tango ---*/
+	.lead_tango .lead__title h2 {font-size: 25px; letter-spacing: 6px;}
+	.dance__cost_tango {padding-right: 0;}
+	.shedule-table-wrapper {overflow-x: scroll; margin-bottom: 58px;}
+	.shedule-table {margin-bottom: 0; width: 150%;}
+	/*--- Trainers ---*/
+	.trainers-contacts__btns {justify-content: flex-start;}
+	.trainers-contacts__btn {margin: 20px; letter-spacing: 3px; line-height: 2em;}
+	.mission_stylized {flex-wrap: wrap;}
+	.mission_stylized .mission__title {width: 100%; margin-bottom: 15px;}
+	.contact-info_trainers {padding-right: 0;}
+	/*--- Private lesson ---*/
+	.lead_private .lead__title h2 {letter-spacing: 2.9px; font-size: 24px;}
+	.dance__describe p {font-size: 15px;}
+	/*--- About ---*/
+	.page-intro__content {padding: 0;}
+	.about__container h2 {font-size: 24px;}
+	.about__features, .about__mission {padding: 0;}
+	.text-list__list_about .text-list__item, .text-list__list_about .text-list__item:nth-child(even) {padding-right: 0;}
+	.about__slider {height: 130px;}
+	.trainers__controls .controls__prev {left: 0;}
+	.trainers__controls .controls__next {right: 0;}
+	.trainers__slide {padding: 0;}
+	.review__slider-controls {padding: 0;}
+	.review__slider .review__video {left: 48%;}
+	.review__slider-overflow .wrapper-outer {width: 200px;}
+    .review__slider-overflow {width: 72%;}
+    /*--- Publication ---*/
+    .event__btn {letter-spacing: 1px;}
+    .event__btn:first-of-type {padding-left: 35px;}
+    .event__btn:last-of-type {padding-right: 35px;}  
+    .post__title h2 {font-size: 22px; letter-spacing: 2px;}
+	.post__content p {font-size: 15px;}
+	.event__btns .event__btn {letter-spacing: 1px;}
+	/*--- Services ---*/
+	.services {padding-top: 0;}
+	.service_wedding .service__title_small {font-size: 14px; letter-spacing: 20px; margin-left: 20px;}
+	.service_wedding .service__title_big {font-size: 50px; margin-left: 20px;}
+	.service_corporative .service__title_small {font-size: 14px; letter-spacing: 11px;}
+	.service_corporative .service__title_big {font-size: 40px; margin-top: 0;}
+	.service_party .service__title_small {font-size: 14px; letter-spacing: 13px;}
+	.service_party .service__title_big {font-size: 60px; letter-spacing: 22px;}
+	.service_gift .service__title_small {font-size: 14px; letter-spacing: 18px;}
+	.service_gift .service__title_big {font-size: 34px; letter-spacing: 5px;}
+	.service_competition .service__title_big {font-size: 28px; letter-spacing: 6px; margin-left: 10px;}
+	.service_competition .service__title_small {font-size: 22px; letter-spacing: 5px; margin-left: 10px;}
+	.page-request__title p {margin-right: 0; line-height: 2em; padding: 10px 0;}
+	/*--- Dance styles ---*/
+	.page-menu {padding: 0;}
+	.dance-category_euro p:nth-of-type(3) {padding-right: 0;}
+	.dance-category_latino p:nth-of-type(4) {padding-right: 0;}
+	.styles__btns {align-items: flex-start; padding-right: 0;}
+	.styles__btns a {margin: 20px; letter-spacing: 3px; line-height: 2em;}
+	/*--- News ---*/
+	.news__container {padding: 0;}
+	.paginator__item:first-child {margin-right: 20px;}
+	.paginator__item:last-child {margin-left: 20px;}
+	.news__btn {left: 0;}
+	.news__title a {font-size: 16px;}
+  /*--- Contacts ---*/
+  .contacts__list {min-width: 100%;}
+  .map {height: 345px;}
+  
+}
+// Адаптивная верстка //

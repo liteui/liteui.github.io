@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Главная</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="assets/styles/app.min.css" rel="stylesheet">
+    <script src="assets/scripts/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+</head>
+
+<body>
+    <div class="index">
+        <header class="header">
+            <div class="header__top"><a class="header__top-link" href="https://www.purina.ru/"><img class="header__top-logo"
+                        src="assets/images/logo-purina.svg" alt="" role="presentation" /></a></div>
+            <div class="header__main">
+                <div class="header__container container container_wide">
+                    <div class="header__logos"><a class="header__logo-link" href="https://www.friskies.ru/films/"><img
+                                class="header__logo header__logo_main" src="assets/images/logo-friskies.png" alt=""
+                                role="presentation" /></a><img class="header__logo header__logo_screen" src="assets/images/logo-screen-1.png"
+                            alt="" role="presentation" /></div>
+                    <div class="header__mob-bg"></div>
+                    <div class="header__menu">
+                        <div class="header__menu-item"><a class="link header__link header__link_menu" href="jury.html"><span
+                                    class="link__text">жюри</span></a></div>
+                        <div class="header__menu-item"><a class="link header__link header__link_menu" href="prize.html"><span
+                                    class="link__text">приз</span></a></div>
+                        <div class="header__menu-item"><a class="link header__link header__link_menu"><span class="link__text">галерея</span></a></div>
+                        <div class="header__menu-item"><a class="link header__link header__link_menu" href="conditions.html"><span
+                                    class="link__text">условия</span></a></div>
+                        <div class="header__menu-item header__mob-login"><a class="link header__link header__link_menu js-fancybox"
+                                href="#login"><span class="link__text">войти</span></a></div>
+                    </div>
+                    <div class="header__account">
+                        <div class="header__login"><a class="link link_icon header__link js-fancybox" href="#login"><svg
+                                    class="link__icon">
+                                    <use xlink:href="assets/images/icon.svg#icon_user"></use>
+                                </svg><span class="link__text">войти</span></a></div>
+                        <!--<div class="header__user">
+                            <div class="header__user-top">
+                                <div class="header__avatar"><img class="header__user-img" src="assets/images/avatar.png"
+                                        alt="" role="presentation" /></div>
+                                <p class="header__user-name">Мария<br> Павлова</p><span class="header__user-arrow"></span>
+                            </div>
+                            <div class="header__user-menu">
+                                <div class="header__user-item"><a class="link link_icon link_small header__user-link"
+                                        href="profile.html"><svg class="link__icon">
+                                            <use xlink:href="assets/images/icon.svg#icon_user"></use>
+                                        </svg><span class="link__text">профиль</span></a></div>
+                                <div class="header__user-item"><a class="link link_icon link_small header__user-link is-active"
+                                        href="video.html"><svg class="link__icon">
+                                            <use xlink:href="assets/images/icon.svg#icon_cam"></use>
+                                        </svg><span class="link__text">моя работа</span></a></div>
+                                <div class="header__user-item header__logout"><a class="link link_icon link_small header__user-link"
+                                        href="#" data-type="logout"><svg class="link__icon">
+                                            <use xlink:href="assets/images/icon.svg#icon_logout"></use>
+                                        </svg><span class="link__text">выйти</span></a></div>
+                            </div>
+                        </div>-->
+                    </div><span class="header__back-arrow"></span><span class="header__burger"><span class="header__burger-line"></span></span>
+                </div>
+            </div>
+        </header>
+        <div class="screen screen_main">
+            <div class="screen__image"><video class="screen__video" poster="assets/images/bg-1.jpg"></video></div>
+            <div class="screen__gradient"></div>
+            <div class="screen__wrapper screen__wrapper_main">
+                <div class="screen__container container">
+                    <div class="screen__content screen__content_main">
+                        <p class="screen__subheading screen__subheading_main">конкурс</p>
+                        <h1 class="screen__heading screen__heading_main">короткометражных<br> фильмов</h1>
+                        <p class="screen__text screen__text_main">Это социальный проект для молодых<br class="show-sm">
+                            специалистов в области кино,<br class="hide-sm"> где они<br class="show-sm"> могут снять
+                            короткометражный<br class="show-sm"> фильм и сделать шаг<br class="hide-sm"> в карьере,
+                            <br class="show-sm"> помогая уличным котам найти дом<br> и своего Человека</p><a class="button screen__button screen__button_main js-fancybox"
+                            href="#register">участвовать</a>
+                    </div>
+                </div>
+            </div><a class="screen__scroll-button js-anchor" href="#second"><img class="screen__scroll-icon hide-sm"
+                    src="assets/images/mouse.png" alt="" role="presentation" /><img class="screen__scroll-icon show-sm"
+                    src="assets/images/mouse-sm.png" alt="" role="presentation" /></a>
+        </div>
+        <div class="screen" id="second">
+            <div class="screen__image"><img class="screen__bg" src="assets/images/bg-2.jpg" alt="" role="presentation" /></div>
+            <div class="screen__gradient"></div>
+            <div class="screen__wrapper">
+                <div class="screen__container container">
+                    <div class="screen__content screen__content_left"><img class="screen__logo screen__logo_sc2" src="assets/images/logo-screen-2.png"
+                            alt="" role="presentation" />
+                        <p class="screen__subheading">измени взгляд на проблему</p>
+                        <h2 class="screen__heading">бездомных&nbsp;животных</h2>
+                        <p class="screen__text">В России кошка считается символом<br class="show-md"> домашнего<br
+                                class="hide-md"> уюта и тепла. Но только<br class="show-md"> в Москве более 50000<br
+                                class="hide-md"> котов и кошек<br class="show-md"> выживают на улицах<br class="hide-md">
+                            без заботы<br class="show-md"> и любви человека.</p><a class="button screen__button js-fancybox"
+                            href="#register">участвовать</a>
+                    </div>
+                </div>
+            </div><a class="screen__brand-link" href="https://www.friskies.ru/films/"><img class="screen__brand-logo"
+                    src="assets/images/logo-friskies.png" alt="" role="presentation" /></a>
+        </div>
+        <div class="screen">
+            <div class="screen__image"><img class="screen__bg" src="assets/images/bg-3.jpg" alt="" role="presentation" /></div>
+            <div class="screen__gradient"></div>
+            <div class="screen__wrapper">
+                <div class="screen__container container">
+                    <div class="screen__content screen__content_right"><img class="screen__logo screen__logo_sc3" src="assets/images/logo-screen-3.png"
+                            alt="" role="presentation" />
+                        <p class="screen__subheading">выиграй поездку на</p>
+                        <h2 class="screen__heading">международный<br> кинофестиваль</h2>
+                        <p class="screen__text">Сними уникальное социальное<br class="show-md"> кино,<br class="hide-md">
+                            которое получит оценку<br class="show-md"> признанных<br class="hide-md"> мастеров<br class="show-md">
+                            кинематографа и станет<br class="hide-md"> ценным
+                            <br class="show-md"> пополнением в портфолио!</p><a class="button screen__button js-fancybox"
+                            href="#register">участвовать</a>
+                    </div>
+                </div>
+            </div><a class="screen__brand-link" href="https://www.friskies.ru/films/"><img class="screen__brand-logo"
+                    src="assets/images/logo-friskies.png" alt="" role="presentation" /></a>
+        </div>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__left"><img class="footer__logo" src="assets/images/logo-purina-small.svg" alt=""
+                        role="presentation" /></div>
+                <div class="footer__center">
+                    <div class="footer__menu">
+                        <div class="footer__menu-item"><a class="link link_xsmall footer__link" href="jury.html"><span
+                                    class="link__text">жюри</span></a></div>
+                        <div class="footer__menu-item"><a class="link link_xsmall footer__link" href="prize.html"><span
+                                    class="link__text">приз</span></a></div>
+                        <div class="footer__menu-item"><a class="link link_xsmall footer__link" href="#"><span class="link__text">галерея</span></a></div>
+                        <div class="footer__menu-item"><a class="link link_xsmall footer__link" href="conditions.html"><span
+                                    class="link__text">условия</span></a></div>
+                        <div class="footer__menu-item"><a class="link link_xsmall footer__link js-fancybox" href="#login"><span
+                                    class="link__text">войти</span></a></div>
+                    </div>
+                    <div class="footer__item">
+                        <p class="footer__title">горячая линия:</p><a class="footer__tel" href="tel:88002008900">8 800
+                            200 8 900</a><br /><br /><a class="link footer__mail" href="mailto:contact@ru.nestle.com"><span
+                                class="link__text">contact@ru.nestle.com</span></a>
+                    </div>
+                    <div class="footer__item">
+                        <p class="footer__title">поделиться:</p>
+                        <div class="footer__social">
+                            <div class="footer__social-button footer__social-button_fb">
+                                <div class="fb-share-button" data-href="https://friskies.ru/films" data-layout="button"
+                                    data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore"
+                                        target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffriskies.ru%2Ffilms&amp;amp;src=sdkpreparse">Поделиться</a></div>
+                                <div class="footer__social-bg"></div><svg class="footer__social-icon footer__social-icon_fb">
+                                    <use xlink:href="assets/images/icon.svg#icon_fb"></use>
+                                </svg>
+                            </div>
+                            <div class="footer__social-button footer__social-button_vk">
+                                <script type="text/javascript">
+                                    document.write(VK.Share.button({
+                                        url: "https://friskies.ru/films"
+                                    }, {
+                                            type: "custom",
+                                            text: "<img src=\"https://vk.com/images/share_32.png\" width=\"32\" height=\"32\" />"
+                                        }));
+                                </script>
+                                <div class="footer__social-bg"></div><svg class="footer__social-icon footer__social-icon_vk">
+                                    <use xlink:href="assets/images/icon.svg#icon_vk"></use>
+                                </svg>
+                            </div>
+                            <div class="footer__social-button footer__social-button_ok">
+                                <div id="ok_shareWidget"></div>
+                                <script>
+                                    ! function (d, id, did, st, title, description, image) {
+                                        var js = d.createElement("script");
+                                        js.src = "https://connect.ok.ru/connect.js";
+                                        js.onload = js.onreadystatechange = function () {
+                                            if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                                                if (!this.executed) {
+                                                    this.executed = true;
+                                                    setTimeout(function () {
+                                                        OK.CONNECT.insertShareWidget(id, did, st, title, description, image);
+                                                    }, 0);
+                                                }
+                                            }
+                                        };
+                                        d.documentElement.appendChild(js);
+                                    }(document, "ok_shareWidget", "https://friskies.ru/films", '{"sz":150,"st":"oval"}', "", "", "");
+                                </script>
+                                <div class="footer__social-bg"></div><svg class="footer__social-icon footer__social-icon_ok">
+                                    <use xlink:href="assets/images/icon.svg#icon_ok"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer__copyright">Purina 2018 ®<br> Владелец товарных знаков: Société des Produits
+                        Nestlé S.A.</p>
+                </div>
+                <div class="footer__right"><a class="footer__brand-link" href="https://www.friskies.ru/films/"><img
+                            class="footer__brand-logo" src="assets/images/logo-friskies.png" alt="" role="presentation" /></a></div>
+            </div>
+        </footer>
+    </div>
+    <div class="popups">
+        <div class="popup" id="register">
+            <div class="popup__container container"><a class="popup__close"></a>
+                <div class="popup__scroll-hider">
+                    <div class="popup__wrapper">
+                        <div class="popup__inner">
+                            <div class="popup__content">
+                                <p class="popup__heading">Регистрация участника</p>
+                                <form class="popup__form" action="/user/registration?_format=json">
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-user.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-user-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="text" name="firstname" placeholder="Ваше имя" />
+                                        <p class="inputbox__error popup__error">Только кириллица</p>
+                                    </div>
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-user.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-user-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="text" name="lastname" placeholder="Ваша фамилия" />
+                                        <p class="inputbox__error popup__error">Только кириллица</p>
+                                    </div>
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-date.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-date-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="text" name="birthday" placeholder="Дата рождения" />
+                                        <p class="inputbox__error popup__error">Поле заполнено неверно!</p>
+                                    </div>
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-mail.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-mail-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="email" name="email" placeholder="Ваш e-mail" />
+                                        <p class="inputbox__error popup__error">Поле заполнено неверно!</p>
+                                    </div>
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-lock.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-lock-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="password" name="password1" placeholder="Ваш пароль" />
+                                        <p class="inputbox__error popup__error">Поле заполнено неверно!</p>
+                                    </div>
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-lock.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-lock-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="password" name="password2" placeholder="Повторите пароль" />
+                                        <p class="inputbox__error popup__error">Поле заполнено неверно!</p>
+                                    </div><label class="checkradio popup__checkbox"><input class="checkradio__input"
+                                            name="agreement" value="yes" check="check" type="checkbox" /><span class="checkradio__box"></span><span
+                                            class="checkradio__content">Нажимая на&nbsp;кпопку «Зарегистрировать»,
+                                            я&nbsp;принимаю условия <a href="#">Соглашение о&nbsp;конфиденциальности</a></span>
+                                        <p class="checkradio__error popup__error">Заполните поле</p>
+                                    </label>
+                                    <label class="checkradio popup__checkbox"><input class="checkradio__input" name="personal"
+                                            value="yes" check="check" type="checkbox" /><span class="checkradio__box"></span><span
+                                            class="checkradio__content">Даю согласие на&nbsp;обработку моих
+                                            персональных данных в&nbsp;соответсвие с&nbsp;<a href="#">Политикой
+                                                ООО«Нестле Россия» по&nbsp;защите персональных данных</a></span>
+                                        <p class="checkradio__error popup__error">Заполните поле</p>
+                                    </label><label class="checkradio checkradio_short popup__checkbox"><input class="checkradio__input"
+                                            name="conditions" value="yes" check="check" type="checkbox" /><span class="checkradio__box"></span><span
+                                            class="checkradio__content">Принимаю <a href="#">условия акции</a></span>
+                                        <p class="checkradio__error popup__error">Заполните поле</p>
+                                    </label>
+                                    <button class="button button_cond popup__button">Зарегистрироваться</button>
+                                    <div class="popup__form-bottom"><a class="popup__link" href="#login">Войти в личный
+                                            кабинет</a></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__message"></div>
+            </div>
+        </div>
+        <div class="popup" id="login">
+            <div class="popup__container container"><a class="popup__close"></a>
+                <div class="popup__scroll-hider">
+                    <div class="popup__wrapper">
+                        <div class="popup__inner">
+                            <div class="popup__content">
+                                <p class="popup__heading">Вход в личный кабинет</p>
+                                <form class="popup__form" action="/user?_format=json">
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-mail.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-mail-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="email" name="name" placeholder="Ваш e-mail" />
+                                        <p class="inputbox__error popup__error">Поле заполнено неверно!</p>
+                                    </div>
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-lock.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-lock-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="password" name="pass" placeholder="Введите пароль" />
+                                        <p class="inputbox__error popup__error">Неверный пароль!</p>
+                                    </div>
+                                    <div class="popup__note"><a class="popup__link popup__link_small" href="#recovery">Забыли
+                                            пароль?</a></div><button class="button button_cond popup__button">Войти</button>
+                                    <div class="popup__form-bottom"><a class="popup__link" href="#register">Зарегистрироваться
+                                            на проекте</a></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__message"></div>
+            </div>
+        </div>
+        <div class="popup" id="recovery">
+            <div class="popup__container container"><a class="popup__close"></a>
+                <div class="popup__scroll-hider">
+                    <div class="popup__wrapper">
+                        <div class="popup__inner">
+                            <div class="popup__content">
+                                <p class="popup__heading">Восстановить пароль</p>
+                                <p class="popup__text">Укажите e-mail, указанный при&nbsp;регистрации. Вам будет
+                                    выслано письмо со ссылкой для&nbsp;смены пароля.</p>
+                                <form class="popup__form" action="/user/password?_format=json">
+                                    <div class="inputbox popup__inputbox">
+                                        <div class="inputbox__icon"><img class="inputbox__icon-img inputbox__icon-img_def"
+                                                src="assets/images/input-mail.png" alt="" role="presentation" /><img
+                                                class="inputbox__icon-img inputbox__icon-img_err" src="assets/images/input-mail-err.png"
+                                                alt="" role="presentation" /></div><input class="input popup__input"
+                                            type="email" name="name" placeholder="Ваш e-mail" />
+                                        <p class="inputbox__error popup__error">Поле заполнено неверно!</p>
+                                    </div><button class="button button_cond popup__button">Отправить</button>
+                                    <div class="popup__form-bottom"><a class="popup__link" href="#login">Войти в личный
+                                            кабинет</a></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__message"></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/scripts/app.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    <!-- fb-->
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+
+</html>

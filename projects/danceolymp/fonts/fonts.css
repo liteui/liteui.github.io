@@ -1,0 +1,142 @@
+/* font-family: 'GothamPro'; */
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProRegular/GothamProRegular.eot');
+    src: url('GothamProRegular/GothamProRegular.eot?#iefix')format('embedded-opentype'),
+    url('GothamProRegular/GothamProRegular.woff') format('woff'),
+    url('GothamProRegular/GothamProRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProBold/GothamProBold.eot');
+    src: url('GothamProBold/GothamProBold.eot?#iefix')format('embedded-opentype'),
+    url('GothamProBold/GothamProBold.woff') format('woff'),
+    url('GothamProBold/GothamProBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProBlack/GothamProBlack.eot');
+    src: url('GothamProBlack/GothamProBlack.eot?#iefix')format('embedded-opentype'),
+    url('GothamProBlack/GothamProBlack.woff') format('woff'),
+    url('GothamProBlack/GothamProBlack.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProItalic/GothamProItalic.eot');
+    src: url('GothamProItalic/GothamProItalic.eot?#iefix')format('embedded-opentype'),
+    url('GothamProItalic/GothamProItalic.woff') format('woff'),
+    url('GothamProItalic/GothamProItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProMedium/GothamProMedium.eot');
+    src: url('GothamProMedium/GothamProMedium.eot?#iefix')format('embedded-opentype'),
+    url('GothamProMedium/GothamProMedium.woff') format('woff'),
+    url('GothamProMedium/GothamProMedium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProLight/GothamProLight.eot');
+    src: url('GothamProLight/GothamProLight.eot?#iefix')format('embedded-opentype'),
+    url('GothamProLight/GothamProLight.woff') format('woff'),
+    url('GothamProLight/GothamProLight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProMediumItalic/GothamProMediumItalic.eot');
+    src: url('GothamProMediumItalic/GothamProMediumItalic.eot?#iefix')format('embedded-opentype'),
+    url('GothamProMediumItalic/GothamProMediumItalic.woff') format('woff'),
+    url('GothamProMediumItalic/GothamProMediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProLightItalic/GothamProLightItalic.eot');
+    src: url('GothamProLightItalic/GothamProLightItalic.eot?#iefix')format('embedded-opentype'),
+    url('GothamProLightItalic/GothamProLightItalic.woff') format('woff'),
+    url('GothamProLightItalic/GothamProLightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamProBoldItalic/GothamProBoldItalic.eot');
+    src: url('GothamProBoldItalic/GothamProBoldItalic.eot?#iefix')format('embedded-opentype'),
+    url('GothamProBoldItalic/GothamProBoldItalic.woff') format('woff'),
+    url('GothamProBoldItalic/GothamProBoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'GothamProBlackItalic';
+    src: url('GothamProBlackItalic/GothamProBlackItalic.eot');
+    src: url('GothamProBlackItalic/GothamProBlackItalic.eot?#iefix')format('embedded-opentype'),
+    url('GothamProBlackItalic/GothamProBlackItalic.woff') format('woff'),
+    url('GothamProBlackItalic/GothamProBlackItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* font-family: 'Philosopher'; */
+@font-face {
+    font-family: 'Philosopher';
+    src: url('PhilosopherRegular/PhilosopherRegular.eot');
+    src: url('PhilosopherRegular/PhilosopherRegular.eot?#iefix')format('embedded-opentype'),
+    url('PhilosopherRegular/PhilosopherRegular.woff') format('woff'),
+    url('PhilosopherRegular/PhilosopherRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('PhilosopherBold/PhilosopherBold.eot');
+    src: url('PhilosopherBold/PhilosopherBold.eot?#iefix')format('embedded-opentype'),
+    url('PhilosopherBold/PhilosopherBold.woff') format('woff'),
+    url('PhilosopherBold/PhilosopherBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('PhilosopherItalic/PhilosopherItalic.eot');
+    src: url('PhilosopherItalic/PhilosopherItalic.eot?#iefix')format('embedded-opentype'),
+    url('PhilosopherItalic/PhilosopherItalic.woff') format('woff'),
+    url('PhilosopherItalic/PhilosopherItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('PhilosopherBoldItalic/PhilosopherBoldItalic.eot');
+    src: url('PhilosopherBoldItalic/PhilosopherBoldItalic.eot?#iefix')format('embedded-opentype'),
+    url('PhilosopherBoldItalic/PhilosopherBoldItalic.woff') format('woff'),
+    url('PhilosopherBoldItalic/PhilosopherBoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+}
+

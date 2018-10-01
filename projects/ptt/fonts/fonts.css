@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'PF Din Text';
+    font-style: normal;
+    font-weight: 300;
+    src: url('PFDinTextUniversal-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'PF Din Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('PFDinTextUniversal-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'PF Din Text';
+    font-style: normal;
+    font-weight: 500;
+    src: url('PFDinTextUniversal-Medium.otf') format('opentype');
+}

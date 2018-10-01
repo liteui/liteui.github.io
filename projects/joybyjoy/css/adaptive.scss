@@ -1,0 +1,384 @@
+// Адаптивная верстка //
+@media (max-width:1300px) {
+  .container {width: 960px;}
+  section.second > img:first-child {left: -120px}
+  section.second > img:nth-child(2) {right:-110px;}
+  section.second > img:nth-child(3) {left:-50px;}
+  section.second > img:nth-child(4) {right:-70px}
+  
+  section.third > img:nth-child(2) {top:auto; bottom:80px;}
+  section.fourth > img:first-child {left: -35px; top: 100px;}
+  section.fourth > img:nth-child(2) {right: -40px; bottom: 140px; top: auto;}
+  
+  section.fifth .container .numbers {padding:0;}
+  section.fifth .container .numbers > div {width:300px}
+  section.fifth .container .line {margin-left:150px; margin-right:150px;}
+  section.fifth > img:nth-child(1) {left: -20px; top: 0px;}
+  section.fifth > img:nth-child(2) {right: -160px; top: auto; bottom: 10px;}
+  section.sixth .slide .container {padding-left:600px}
+  section.sixth .bigimage {width: 600px; height: 100%;}
+  section.sixth .bigimage img {max-width:100%; top:0; left:0}
+  
+  section.seventh .photo img {max-width:100%; left:0; top:0; transform:none; top:0;}
+  section.seventh .bloggers .number.small {padding-left:0}
+  section.seventh .photo {height:140px}
+  
+  section.seventh .bloggers .number.small + p.amper {max-width: 200px; line-height: 1.2em;}
+  section.seventh > img:nth-child(4) {right:-80px; bottom:-40px; top:auto;}
+  section.seventh > img:nth-child(3) {top:1750px}
+  section.seventh > img:first-child {right:-30px; top:340px;}
+  section.eighth > img:nth-child(2) {right:-20px}
+  section.eighth > img:nth-child(1) {left:-85px}
+  section.eighth > img:nth-child(4) {right:-130px; top:1950px;}
+  
+  .card {width:960px}
+  .card .cols .leftside .photo img {max-width:80%}
+  .card .cols .leftside .order {padding-left:70px}
+  .card .arrows {margin-top:63px;}
+  .card .cols .rightside p.heading + p {margin-top:54px}
+  .card .cols .leftside .photo {margin-top:18px; height:280px;}
+}
+
+@media (max-width:1010px) {
+    .container, .card {width:600px; min-width:0;}
+    header {top:30px}
+    section {min-height:0; display:block;}
+    section.first {padding-top:150px}
+    h1 {font-size:35px}
+    section.third > img:nth-child(1) {right:-20px; top:110px;}
+    section.third > img:nth-child(2) {left:-55px; bottom:45px;}
+    section.second p br, section.third p br, section.fourth p br, section.eighth .container > p br {display:none}
+    section.fourth > img:first-child {width: 160px; top: 60px; left: -60px;}
+    section.fourth > img:nth-child(2) {width:150px}
+    section.sixth .slide .container {padding-left:0}
+    section.sixth .bigimage {position:relative; height:300px; width:100%; text-align: center; margin-bottom:30px;
+        img {max-height:100%; max-width:100%; position:static;}
+    }
+    section.sixth .slide {padding-top:60px;}
+    section.sixth .round.big {width:90px; height:90px; position:relative; display: inline-block; vertical-align: middle; margin: 0 20px;
+        &+p {display: inline-block; vertical-align: middle; width: 235px; text-align: left;}
+    }
+    section.sixth .round.big .triangle {position:absolute; left:7px; top:0; right:0; bottom:0; margin:auto; border-top: 18px solid transparent; border-bottom: 18px solid transparent; border-left: 30px solid black;}
+    section.sixth .round.big .triangle:after {border-top: 14px solid transparent; border-bottom: 14px solid transparent; border-left: 24px solid white; left: -28px; top: -14px;}
+    section.sixth .name {font-size: 24px; display: inline-block; vertical-align: middle; width: 235px; text-align: right;}
+    section.sixth .images {margin-top:40px; width:400px}
+    section.fifth .container .numbers:last-child {margin-bottom:0}
+    section.sixth {padding-bottom:0}
+    section.seventh .columns > div, section.seventh .columns > a {width:46%; margin-top:50px;
+        &:nth-of-type(3n+1) {margin-left:8%}
+        &:nth-of-type(2n+1) {margin-left:0}
+    }
+    section.seventh .photo img {max-height:100%}
+    section.seventh .bloggers .photo {margin-bottom:20px}
+    section.seventh .bloggers .number.small {text-align: right;}
+    .number.small {font-size:35px}
+    section.seventh .amper {font-size:22px;}
+    section.seventh .bloggers .number.small + p.amper {width:210px; max-width:none;}
+    section.seventh h1 {margin-bottom:15px}
+    section.second .container > div .buttons, section.third .buttons, section.fourth .buttons, section.seventh .buttons, section.nineth .buttons {margin-top:50px}
+    section.seventh .jury {margin-top:100px}
+    section.seventh {padding-bottom:0}
+    section.seventh > img:nth-child(3) {left:-50px; width:180px; top:1650px;}
+    section.seventh > img:first-child {width:100px}
+    section.seventh > img:nth-child(2) {left: -47px; top: 800px; width: 130px;}
+    section.seventh > img:nth-child(4) {width: 130px; right: -40px; bottom: 70px;}
+    .number {font-size:50px}
+    
+    .stages {padding-left:60px; margin-top:70px;}
+    .stages p.number {top: -35px; left: -126px;}
+    .stages .round.small {left:-48px}
+    .stages > ol {padding-left:40px;}
+    
+    section.eighth > img:nth-child(1) {width: 130px; left: -40px; top: 40px;}
+    section.eighth > img:nth-child(2) {width: 100px; top: 300px;}
+    
+    .stages > ol > li:first-child + li, .stages > ol > li + li {margin-top:60px;}
+    .stages h3 + p {margin-top:32px}
+    .stages > ol > li:last-child {margin-top: -68px; top: 128px;}
+    
+    
+    section.eighth .buttons {margin-top:180px}
+    section.eighth > img:nth-child(3) {right: -90px; top: 1030px; width: 180px;}
+    section.eighth > img:nth-child(4) {right: -50px; top: 2180px; width: 150px;}
+    section.eighth {padding-bottom:0}
+    section.nineth h2 {font-size:50px}
+    section.nineth .frame > p:nth-child(2) {font-size:20px; font-weight:400}
+    section.nineth .frame > p:nth-child(3) {font-size:26px}
+    section.nineth .frame > p:nth-child(4) {font-size:18px; margin-bottom:2px;}
+    section.nineth .frame > p:nth-child(5) {font-size:15px}
+    section.nineth .frame > p {line-height:1.6em}
+    section.nineth h2 {margin-top:100px}
+    section.nineth .frame {padding-bottom:100px}
+    section.nineth .frame > img:nth-of-type(1) {width: 450px; margin-left: -243px; top: -66px;}
+    section.nineth .frame > img:nth-of-type(2) {left: -75px; top: 20px; width: 130px;}
+    section.nineth .frame > img:nth-of-type(3) {right: -60px; top: -50px; width: 160px;}
+    section.nineth .frame > img:nth-of-type(4) {left: -43px; bottom: -35px; width: 80px;}
+    section.nineth .frame > img:nth-of-type(5) {right: -55px; bottom: 17px; width: 100px;}
+    section.nineth {padding-top:100px}
+    
+    section.fifth .stagefifth {display:none}
+    section.fifth .stages {display:block;
+        .round+p {text-transform: uppercase; letter-spacing: 0.2em; font-size:16px;}
+    }
+    section.fifth {
+        .stages > ol > li:last-child {margin-top:56px; top:4px;}
+    }
+    section.fifth > img:nth-child(1) {left: -20px; top: -50px; width: 90px;}
+    section.fifth > img:nth-child(2) {width: 200px; right: -60px; bottom: -50px;}
+    
+    section.second > img:first-child {left: -90px; width: 160px; top: 165px;}
+    section.second > img:nth-child(2) {right: -60px; width: 120px; top: 120px;}
+    section.second > img:nth-child(3) {left: -50px; width: 120px; top: auto; bottom: -4px;}
+    section.second > img:nth-child(4) {right: -30px; width: 100px; top: auto; bottom: 60px;}
+    
+    section.first .tv {display:none;}
+    section.first {padding-bottom:0;}
+    
+    .card {position:relative;}
+    .card .cols {padding-left:0}
+    .card .cols .leftside {width:100%;}
+    .card .cols .rightside {padding-left: 30px; padding-right: 30px; padding-top: 20px;}
+    .card .cols .rightside p.heading + p {padding-right:0; min-height:0; margin-top:390px;}
+    .card .cols .leftside.texts + .rightside p.heading + p {margin-top:440px}
+    .card .cols .leftside .photo + p+p {font-size:16px}
+    .card .cols .leftside .order {    padding-left: 30px; padding-top: 92px; font-size:28px;}
+    .card .cols .leftside .photo img {    max-width: 90%;
+    max-height: 100%;}
+    .card .cols .leftside .photo {margin-top:0}
+    .card .cols .leftside .order span {font-size:60px;}
+    .card .arrows {margin-top:43px}
+    .card {padding-bottom:30px;}
+    .card .cols .leftside .photo {height:230px;}
+    .card .cols .leftside .photo + p {margin-top:10px;}
+    
+}
+
+@media (max-width:750px) {
+    .container, header .container, .card {width:400px}
+    header .container > div:first-child {width:100%; text-align: center; padding-bottom:30px;}
+    header .container >div:last-child {width:100%; text-align: center;}
+    header .logo {margin-top:0;}
+    .button.login {width:124px; line-height:39px; height:41px;}
+    section.first {padding-top:190px;}
+    
+    section.first .texts p.heading {font-size:14px}
+    h2 {font-size:28px;}
+    section.first .texts p:nth-child(3) {font-size:19px;}
+    section.first .texts hr {width:350px;}
+    section.first .texts p:nth-child(5) {font-size:18.5px;}
+    section.first .texts p:nth-child(6) {font-size:24px;}
+    section.first .texts p:nth-child(7) {font-size:15px;}
+    section.first .texts hr.small {width:200px}
+    section.first .texts p:nth-child(9) {font-size:21px;}
+    .buttons {width:100%;}
+    .buttons a {width:190px; font-size:11px;}
+    .buttons .join img {margin-left:10px; width: 10px; height: auto; top: -2px;}
+    
+    h1 {font-size:35px;}
+    section.second h1 {word-break: break-word; -webkit-hyphens: auto; -ms-hyphens: auto; -moz-hyphens: auto; hyphens: auto;}
+    
+    section.second {padding-top:100px}
+    section.second > img:first-child {left:-120px;}
+    section.second > img:nth-child(2) {right:-80px}
+    p {font-size:16px}
+    section.first .texts h2 {margin-top:20px}
+    section.second > img:nth-child(3) {left: -50px; width: 100px; bottom: 55px;}
+    section.second > img:nth-child(4) {right: -30px; width: 75px; top: auto; bottom: 120px;}
+    section {padding:100px 0}
+    
+    section.third > img:nth-child(1) {width:80px; top:40px}
+    section.third > img:nth-child(2) {left: -20px; bottom: auto; width: 80px; top: 50px;}
+    section.fourth > img:first-child {width: 100px; top: 35px; left: -30px;}
+    section.fourth > img:nth-child(2) {width: 110px; bottom: auto; top: 40px;}
+    section.fifth > img:nth-child(1) {left: -20px; top: 15px; width: 70px;}
+    .number {font-size:35px;}
+    .stages p.number {top:-21px;}
+    .stages > ol > li:first-child + li, .stages > ol > li + li {margin-top:45px}
+    section.fifth .stages > ol > li:last-child {margin-top: 15px; top: 30px;}
+    section.sixth {padding-top:120px}
+    section.fifth > img:nth-child(2) {width:160px}
+    section.sixth .bigimage {height:220px}
+    section.sixth .round.big {margin: 0 20px 0 0; width:50px; height:50px;}
+    section.sixth .round.big .triangle {
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 20px solid black;
+        left: 5px;
+}
+    
+    section.sixth .round.big .triangle:after {border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 14px solid white; left: -18px; top: -7px;}
+    section.sixth .name {width:100%; text-align: center; font-size:20px; margin-bottom:12px;}
+    section.sixth .images {width:340px;}
+    section.sixth .slide {padding-top:50px;}
+    section.sixth .round.big + p {width:170px;}
+    section.seventh .columns > div, section.seventh .columns > a {width:100%; margin-left:0 !important;}
+    section.seventh .photo {width:100%; text-align: center;
+        img {position:static;}
+    }
+    section.seventh > img:nth-child(4) {width:100px}
+    section.eighth > img:nth-child(1) {width:105px;}
+    section.eighth > img:nth-child(2) {width: 80px; top: 100px;}
+    h3 {font-size:20px}
+    .stages h3 + p {margin-top:28px}
+    section.eighth > img:nth-child(3) {right: -60px; top: 1030px; width: 100px;}
+    section.eighth > img:nth-child(4) {right: -40px; top: 2120px; width: 100px;}
+    .stages > ol > li:last-child {margin-top: -115px; top: 160px;}
+    section.eighth .buttons {margin-top:210px}
+    
+    section.nineth h2 {font-size:35px; margin-top:70px;}
+    section.nineth .frame {padding-bottom:70px;}
+    section.nineth .frame > p:nth-child(2) {font-size:21px}
+    section.nineth .frame > p:nth-child(3) {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;}
+    section.nineth .frame > p:nth-child(4) {
+    font-size: 17px;
+    margin-bottom: 2px;
+    padding: 0 80px;}
+    section.nineth .frame > p:nth-child(5) {
+    font-size: 18px;
+    padding: 0 65px;
+    margin-top: 10px;
+}
+    section.nineth .buttons {width:340px}
+    section.nineth .buttons img {display:none}
+    section.nineth .buttons a {width:160px;}
+    section.nineth .frame > img:nth-of-type(2) {
+    left: -35px;
+    top: 5px;
+    width: 90px;}
+    section.nineth .frame > img:nth-of-type(3) {
+    right: -31px;
+    top: -33px;
+    width: 105px;}
+    section.nineth .frame > img:nth-of-type(4) {
+    left: -24px;
+    bottom: -29px;
+    width: 70px;
+}
+    section.nineth .frame > img:nth-of-type(5) {
+    right: -30px;
+    bottom: -36px;
+    width: 80px;
+}
+    
+    .card .cols .leftside .photo {height:190px;}
+    .card .cols .leftside .order {font-size:24px}
+    .card .cols .leftside .order span {font-size:45px}
+    .card .cols .rightside p.heading {font-size:21px}
+    .card .cols .rightside p.heading + p {margin-top:340px}
+    .card .cols .leftside .photo + p + p {font-size:14px;}
+    .card .cols .leftside.texts + .rightside p.heading + p {margin-top:380px}
+}
+
+@media (max-width:440px) {
+    .container, header .container, .card {width:320px}
+    h2 {font-size:20px}
+    section.first .texts p:nth-child(3) {font-size:14px}
+    section.first .texts hr {width:263px}
+    section.first .texts p:nth-child(5) {font-size:14px; margin-top:15px;}
+    section.first .texts p:nth-child(6) {font-size:18px}
+    section.first .texts p:nth-child(7) {font-size:11px; font-weight:500; margin-bottom:15px;}
+    section.first .texts hr.small {width:120px}
+    section.first .texts p:nth-child(3) {margin-bottom:15px;}
+    section.first .texts p:nth-child(9) {font-size:15px; margin-top:14px;}
+    section.first .texts p:nth-child(10) {font-size:19.4px;}
+    .buttons .join img {display:none}
+    .buttons a {width:150px;}
+    section.first .buttons {margin-top:30px}
+    header {top:25px;}
+    header .container > div:first-child {padding-bottom:25px;}
+    section.first {padding-top:170px;}
+    h1 {font-size:26px}
+    section.second .container > div .buttons, section.third .buttons, section.fourth .buttons, section.seventh .buttons, section.nineth .buttons {margin-top:40px}
+    section.second > img:nth-child(3) {bottom:-31px;}
+    section.second > img:nth-child(4) {bottom:35px;}
+    section.second {padding:60px 0}
+    section.third {padding:60px 0}
+    section.fourth {padding-top:60px;}
+    section.fifth > img:nth-child(1) {top:0}
+    section.fifth .stages .round + p {font-size:14px; word-wrap: break-word}
+    section.fifth .stages > ol > li:last-child p {padding-right:40px}
+    section.sixth .name {font-size:16px}
+    section.sixth .bigimage {height:210px;}
+    section.sixth .images .smallimage img {max-height:80%;}
+    section.sixth .images .smallimage {height:130px;}
+    section.sixth .images {width:100%}
+    section.sixth .images > div:first-child .smallimage img {left:0}
+    section.sixth .images > div:last-child .smallimage img {right:0}
+    .stages > ol > li:last-child {
+    margin-top: -165px;
+    top: 210px;
+}
+    section.eighth .buttons {margin-top:260px;}
+    section.nineth {padding-top:80px}
+    section.nineth .frame > p:nth-child(4) {    padding: 0 30px;}
+    section.nineth .frame > p:nth-child(5) {padding:0 25px;}
+    section.nineth .buttons {width:100%}
+    section.nineth .buttons a {width:140px}
+    footer .cols p {font-size:14px}
+    section.nineth .frame > img:nth-of-type(2) {width:80px; top:-20px;}
+    section.nineth .frame > img:nth-of-type(3) {width:90px}
+    section.nineth .frame > img:nth-of-type(4) {width:57px}
+    section.nineth .frame > img:nth-of-type(5) {width:67px}
+    
+    .card .cols .rightside {padding-left: 20px; padding-right: 20px; padding-top: 38px;}
+    .card .cols .rightside p.heading {
+    font-size: 20px;
+    text-align: left;
+    line-height: 2em;
+}
+    .card .cols .rightside p.heading span {
+    padding-bottom: 6px;
+}
+    
+    .card .cols .leftside .order {padding-left:20px}
+    .card .cols .leftside .photo {height:130px; margin-top:10px;}
+    .card .cols .leftside .photo + p {font-size:20px;}
+    .card .cols .rightside p.heading + p {margin-top:260px}
+    .card .cols .leftside.texts + .rightside p.heading + p {margin-top:290px}
+    .card .cols .rightside p.heading {font-size:18px}
+    .card .cols .leftside .order {padding-top:85px}
+    .card .arrows p {margin:0 10px}
+}
+
+@media (max-width:360px) {
+    .container, header .container, .card {width:280px}
+    .buttons a {
+    width: 130px;
+    font-size: 10px;
+}
+    section.first .buttons {margin-top:20px}
+    h1 {font-size:23px}
+    section.second .container > div > p:nth-child(2) {margin-top:30px}
+    section.second .container > div .buttons, section.third .buttons, section.fourth .buttons, section.seventh .buttons, section.nineth .buttons {margin-top:35px}
+    p {font-size:15px}
+    section.second > img:first-child {left:-133px;}
+    section.second > img:nth-child(2) {right:-86px; top:45px;}
+    section.fourth > img:first-child {top:15px; left:-45px}
+    section.fourth > img:nth-child(2) {top:17px}
+    section.fifth > img:nth-child(1) {left:-33px}
+    section.fifth .stages .round + p {font-size:13px}
+    section.sixth .images .smallimage {height:110px}
+    section.sixth .bigimage {height:180px}
+    h3 {font-size:16px}
+    .stages > ol > li:last-child {
+    margin-top: -190px;
+    top: 235px;
+}
+    section.eighth .buttons {margin-top:280px}
+    section.nineth h2 {font-size:25px}
+    section.nineth .frame > p:nth-child(2) {font-size:16px}
+    section.nineth .frame > p:nth-child(3) {font-size:14px}
+    section.nineth .frame > p:nth-child(4) {font-size:14px}
+    section.nineth .frame > p:nth-child(5) {font-size:15px}
+    section.nineth .buttons a {width:125px}
+    section.nineth .frame > img:nth-of-type(1) {
+    width: 416px;
+    margin-left: -219px;
+    top: -66px;
+}
+    footer {padding-bottom:20px}
+}
+// Адаптивная верстка //

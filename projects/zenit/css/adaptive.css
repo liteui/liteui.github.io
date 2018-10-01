@@ -1,0 +1,954 @@
+@media (max-width: 1180px) {
+  /* line 3, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .container {
+    width: 960px; }
+  /* line 4, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div p {
+    font-size: 16px; }
+  /* line 5, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div p span {
+    font-size: 20px; }
+  /* line 6, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions p.name {
+    font-size: 20px; }
+  /* line 7, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div ul:before {
+    width: 71%; }
+  /* line 8, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right {
+    padding: 68px 60px 33px; }
+  /* line 9, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right p.sum {
+    font-size: 40px; }
+  /* line 10, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right img {
+    height: 28px; }
+  /* line 11, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li p br {
+    display: none; }
+  /* line 12, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .blocks p br {
+    display: none; }
+  /* line 13, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .middle {
+    padding-top: 0; }
+  /* line 14, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .blocks p {
+    padding: 0 20px; }
+  /* line 15, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > * {
+    padding-left: 80px; }
+  /* line 16, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .left {
+    padding-left: 0; }
+  /* line 17, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div img {
+    width: 55px; }
+  /* line 18, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div {
+    padding-left: 70px;
+    padding-right: 30px; }
+  /* line 19, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom p.name {
+    font-size: 18px; } }
+
+@media (max-width: 1000px) {
+  /* line 25, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer.mobile {
+    min-height: 700px; }
+  /* line 26, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .container, .container.small {
+    width: 680px; }
+  /* line 27, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h2 {
+    font-size: 34px; }
+  /* line 28, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings .container {
+    width: 680px; }
+  /* line 29, D:/Servers/home/zenit/www/css/adaptive.scss */
+  nav.menu ul img {
+    margin-right: 7px; }
+  /* line 30, D:/Servers/home/zenit/www/css/adaptive.scss */
+  nav.menu ul a {
+    font-size: 12px; }
+  /* line 31, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .logo {
+    width: 100%;
+    height: 130px; }
+  /* line 32, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .button {
+    font-size: 16px; }
+  /* line 33, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings h1 {
+    font-size: 38px; }
+  /* line 34, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings p {
+    font-size: 18px; }
+  /* line 35, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div {
+    width: 48.685%; }
+  /* line 36, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div:nth-child(n+3) {
+    margin-top: 19px; }
+  /* line 37, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li {
+    width: 48.685%; }
+  /* line 38, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li:nth-child(n+3) {
+    margin-top: 20px; }
+  /* line 39, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left {
+    padding: 0 30px; }
+  /* line 40, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left p {
+    font-size: 18px; }
+  /* line 41, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div > p:first-child {
+    width: 100px; }
+  /* line 42, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div p.percents {
+    font-size: 28px; }
+  /* line 43, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div ul {
+    padding-right: 0; }
+  /* line 44, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div input {
+    width: 197px; }
+  /* line 45, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right {
+    padding: 40px 30px 33px; }
+  /* line 46, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right p.sum {
+    font-size: 32px; }
+  /* line 47, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right img {
+    height: 24px; }
+  /* line 48, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc p.mini br {
+    display: none; }
+  /* line 49, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li p {
+    margin-left: 17px;
+    padding-right: 10px;
+    font-size: 14px; }
+  /* line 50, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > * {
+    width: 48.685%; }
+  /* line 51, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > div:nth-child(n+3) {
+    margin-top: 60px; }
+  /* line 52, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps p.step {
+    font-size: 50px;
+    top: 50px; }
+  /* line 53, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps .image + p br {
+    display: none; }
+  /* line 54, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:not(.logo) .image {
+    left: 7px;
+    top: 25px; }
+  /* line 55, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:not(.logo) {
+    padding: 20px 15px 15px 80px; }
+  /* line 56, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products p.name {
+    font-size: 17px; }
+  /* line 57, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products p {
+    font-size: 13px; }
+  /* line 58, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(-n+2) {
+    width: 48.685%; }
+  /* line 59, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div.small {
+    align-self: auto; }
+  /* line 60, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(3) {
+    width: 100%;
+    margin-top: 27px; }
+  /* line 61, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div.logo img {
+    width: 100%; }
+  /* line 62, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div.logo {
+    bottom: 5px; }
+  /* line 63, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div {
+    width: 45%;
+    box-sizing: border-box; }
+  /* line 64, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  /* line 65, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div:nth-child(n+3) {
+    margin-top: 40px; } }
+
+@media (min-width: 720px) {
+  /* line 69, D:/Servers/home/zenit/www/css/adaptive.scss */
+  nav.mobile {
+    display: none; }
+  /* line 70, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .menubutton {
+    display: none; }
+  /* line 71, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h1 br {
+    display: none; }
+  /* line 72, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h2 svg, h3 svg {
+    display: none; }
+  /* line 73, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div:last-child {
+    padding-bottom: 22px; }
+  /* line 74, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden p br {
+    display: none; }
+  /* line 75, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .slider {
+    display: none; }
+  /* line 76, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .ui-selectmenu-button {
+    display: none !important; } }
+
+@media (max-width: 719px) {
+  /* line 80, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer.mobile {
+    min-height: 0; }
+  /* line 81, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .container, .container.small, section.offer .headings .container {
+    width: 600px; }
+  /* line 82, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h2, h3 {
+    width: 100%;
+    text-align: left; }
+  /* line 83, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h3 {
+    padding-right: 50px; }
+  /* line 84, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .button_rounded {
+    min-width: 290px;
+    display: block;
+    margin: auto; }
+  /* line 85, D:/Servers/home/zenit/www/css/adaptive.scss */
+  nav.menu {
+    display: none; }
+  /* line 86, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer {
+    padding-bottom: 39px;
+    min-height: auto; }
+  /* line 87, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .five-col {
+    display: none; }
+  /* line 88, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .four-col {
+    display: none; }
+  /* line 89, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .three-col {
+    width: 100%; }
+  /* line 90, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .bg {
+    display: block; }
+  /* line 91, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .logo {
+    background-color: transparent;
+    height: auto; }
+  /* line 92, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings {
+    background-color: transparent;
+    margin-top: 52px; }
+  /* line 93, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .logo img {
+    width: 151px;
+    height: 106px;
+    top: 0; }
+  /* line 94, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer > .container {
+    padding-top: 16px; }
+  /* line 95, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings .container {
+    padding: 0; }
+  /* line 96, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings p {
+    margin-top: 11px;
+    line-height: 1.5em; }
+  /* line 97, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings p br {
+    display: none; }
+  /* line 98, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .button_rounded {
+    margin-top: 36px;
+    width: 290px; }
+  /* line 99, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program h2 {
+    margin-top: 17px;
+    padding: 12px 0 18px; }
+  /* line 100, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions {
+    margin-top: 19px; }
+  /* line 101, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div {
+    min-height: 80px;
+    padding: 10px 10px 14px;
+    justify-content: center; }
+  /* line 102, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div:first-child {
+    margin-top: 0; }
+  /* line 103, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div img {
+    display: none; }
+  /* line 104, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div p {
+    line-height: 1.7em; }
+  /* line 105, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div p br:nth-child(2) {
+    display: none; }
+  /* line 106, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div p span {
+    font-size: 22px; }
+  /* line 107, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program h2 + div .hidden-inner {
+    padding-top: 26px; }
+  /* line 108, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden {
+    padding-top: 26px;
+    padding-bottom: 13px; }
+  /* line 109, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden p {
+    font-size: 14px;
+    line-height: 1.25em; }
+  /* line 110, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden li {
+    padding-left: 37px;
+    margin-top: 16px; }
+  /* line 111, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden ul {
+    margin-top: 14px; }
+  /* line 112, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden p.name {
+    margin-top: 39px; }
+  /* line 113, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden p.name {
+    margin-top: 35px; }
+  /* line 114, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden .button {
+    width: auto;
+    margin-top: 24px; }
+  /* line 115, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo {
+    margin-top: 26px; }
+  /* line 116, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo p.heading svg {
+    position: relative;
+    left: 8px;
+    top: -3px; }
+  /* line 117, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo p.mini {
+    text-align: left;
+    margin-top: 12px; }
+  /* line 118, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo p.mini br {
+    display: none; }
+  /* line 119, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits h2 {
+    margin-top: 27px;
+    padding: 13px 0px 17px; }
+  /* line 120, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li {
+    background-image: none !important;
+    box-shadow: none;
+    padding: 0; }
+  /* line 121, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits .hidden-inner {
+    padding-top: 39px;
+    padding-bottom: 19px; }
+  /* line 122, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions p {
+    margin-top: 7px; }
+  /* line 123, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions p.name {
+    margin-top: 14px; }
+  /* line 124, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions p br {
+    display: none; }
+  /* line 125, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li .image {
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+  /* line 126, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li.first {
+    margin-bottom: 20px; }
+  /* line 127, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li.second {
+    margin-bottom: 5px; }
+  /* line 128, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li.third, section.credits ul.conditions li.fourth {
+    margin-bottom: 0; }
+  /* line 129, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li.first img {
+    width: 49px;
+    height: 52px; }
+  /* line 130, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li.second img {
+    width: 33px;
+    height: 41px; }
+  /* line 131, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li.third img {
+    width: 53px;
+    height: 48px; }
+  /* line 132, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li.fourth img {
+    width: 41px;
+    height: 42px; }
+  /* line 133, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .container {
+    width: 100%; }
+  /* line 134, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc h2 {
+    text-align: center;
+    margin-top: 13px;
+    padding: 14px 15px 16px;
+    width: 600px; }
+  /* line 135, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .blocks {
+    flex-wrap: wrap;
+    margin-top: 19px; }
+  /* line 136, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left {
+    width: 100%;
+    padding: 0; }
+  /* line 137, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left p {
+    font-size: 20px; }
+  /* line 138, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div ul {
+    display: none; }
+  /* line 139, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div #timeselect {
+    display: inline-block; }
+  /* line 140, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div {
+    justify-content: space-between; }
+  /* line 141, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div {
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto; }
+  /* line 142, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div p.percents {
+    font-size: 30px; }
+  /* line 143, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div:first-child {
+    padding: 20px 0 3px; }
+  /* line 144, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div:nth-child(2) {
+    padding: 10px 0 19px; }
+  /* line 145, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div:last-child {
+    padding: 3px 0; }
+  /* line 146, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div form {
+    padding-left: 0;
+    margin-top: 10px;
+    width: 100%; }
+  /* line 147, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div input {
+    width: 100%; }
+  /* line 148, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div input + img {
+    display: none; }
+  /* line 149, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right {
+    width: 100%;
+    padding: 34px 0 26px; }
+  /* line 150, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right > * {
+    display: block;
+    width: 600px;
+    margin: auto; }
+  /* line 151, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right .button {
+    width: 600px; }
+  /* line 152, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right .button + p {
+    margin-top: 30px;
+    padding-bottom: 14px; }
+  /* line 153, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right p.sum {
+    font-size: 35px;
+    margin-top: 6px;
+    display: inline-block;
+    width: auto; }
+  /* line 154, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right img {
+    margin-left: 5px;
+    display: inline-block;
+    width: auto; }
+  /* line 155, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc p.mini {
+    margin-top: 18px;
+    padding: 0 15px;
+    line-height: 1.4em; }
+  /* line 156, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .button_rounded {
+    margin-top: 27px;
+    width: 290px; }
+  /* line 157, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages .bg {
+    background-color: #fff;
+    opacity: 1; }
+  /* line 158, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages h2 {
+    margin-top: 21px;
+    padding: 14px 0px 15px; }
+  /* line 159, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages .hidden-inner {
+    padding-top: 22px;
+    padding-bottom: 32px; }
+  /* line 160, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li .image {
+    width: 41px;
+    justify-content: flex-start; }
+  /* line 161, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li {
+    height: auto;
+    margin-bottom: 13px; }
+  /* line 162, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-left: 15px; }
+  /* line 163, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li {
+    width: 100%; }
+  /* line 164, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(1) {
+    order: 1; }
+  /* line 165, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(2) {
+    order: 5; }
+  /* line 166, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(3) {
+    order: 2; }
+  /* line 167, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(4) {
+    order: 6;
+    margin-bottom: 22px; }
+  /* line 168, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(5) {
+    order: 3;
+    margin-bottom: 20px; }
+  /* line 169, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(6) {
+    order: 7;
+    margin-bottom: 27px; }
+  /* line 170, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(7) {
+    order: 4;
+    margin-bottom: 22px; }
+  /* line 171, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(8) {
+    order: 8;
+    margin-bottom: 0; }
+  /* line 172, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(1) img {
+    width: 31px;
+    height: 35px; }
+  /* line 173, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(2) img {
+    width: 33px;
+    height: 33px; }
+  /* line 174, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(3) img {
+    width: 38px;
+    height: 35px; }
+  /* line 175, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(4) img {
+    width: 41px;
+    height: 33px; }
+  /* line 176, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(5) img {
+    width: 31px;
+    height: 28px; }
+  /* line 177, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(6) img {
+    width: 39px;
+    height: 39px; }
+  /* line 178, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(7) img {
+    width: 31px;
+    height: 31px; }
+  /* line 179, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.advantages ul li:nth-child(7) p {
+    line-height: 1.2em; }
+  /* line 180, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors {
+    padding-bottom: 16px; }
+  /* line 181, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .blocks {
+    display: none; }
+  /* line 182, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors h2 {
+    margin-top: 20px;
+    padding: 13px 50px 10px 0; }
+  /* line 183, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .hidden-inner {
+    padding-top: 20px; }
+  /* line 184, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .image {
+    height: 106px; }
+  /* line 185, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .image img {
+    max-height: 100%; }
+  /* line 186, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.honors .slider .slide p {
+    margin-top: 16px;
+    line-height: 1.45em; }
+  /* line 187, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps h2 {
+    margin-top: 20px;
+    padding: 16px 10px 14px 13px; }
+  /* line 188, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps .image {
+    width: 40px;
+    height: 43px; }
+  /* line 189, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > div:first-child img {
+    width: 31px;
+    height: 41px; }
+  /* line 190, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > div:nth-child(2) img {
+    width: 38px;
+    height: 36px; }
+  /* line 191, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > div:nth-child(3) img {
+    width: 28px;
+    height: 39px; }
+  /* line 192, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > div:last-child img {
+    width: 34px;
+    height: 33px; }
+  /* line 193, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps {
+    margin-top: 34px; }
+  /* line 194, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > * {
+    padding-left: 0; }
+  /* line 195, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps .image + p {
+    margin-top: -5px;
+    padding-left: 53px; }
+  /* line 196, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps p.step {
+    transform: rotate(0deg);
+    left: 53px;
+    top: -2px;
+    font-size: 22px; }
+  /* line 197, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > div:nth-child(n+2) {
+    margin-top: 30px !important; }
+  /* line 198, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps {
+    padding-bottom: 30px; }
+  /* line 199, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.four_steps .steps > * {
+    width: 100%; }
+  /* line 200, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products h3 {
+    margin-top: 22px;
+    line-height: 1.5em; }
+  /* line 201, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products {
+    padding-bottom: 22px; }
+  /* line 202, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div {
+    width: 100% !important;
+    border: none !important; }
+  /* line 203, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div.logo {
+    display: none; }
+  /* line 204, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(n+2) {
+    margin-top: 25px !important; }
+  /* line 205, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div .image {
+    width: 40px !important; }
+  /* line 206, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:not(.logo) {
+    padding: 0px 0px 0px 53px; }
+  /* line 207, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(1) img {
+    width: 37px;
+    height: 27px; }
+  /* line 208, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(2) img {
+    width: 32px;
+    height: 38px; }
+  /* line 209, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(3) img {
+    width: 30px;
+    height: 47px; }
+  /* line 210, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(4) svg {
+    width: 39px;
+    height: 39px; }
+  /* line 211, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(6) img {
+    width: 31px;
+    height: 31px; }
+  /* line 212, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products p.name {
+    font-size: 20px; }
+  /* line 213, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products p {
+    font-size: 14px;
+    line-height: 1.45em;
+    letter-spacing: -0.01em; }
+  /* line 214, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:nth-child(n+4) p br {
+    display: none; }
+  /* line 215, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .hidden-inner {
+    padding-top: 28px; }
+  /* line 216, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.other_products .products div:not(.logo) .image {
+    left: -2px;
+    top: 3px; }
+  /* line 217, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px 15px 15px; }
+  /* line 219, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top {
+    flex-wrap: wrap;
+    margin-top: 7px;
+    padding-bottom: 25px; }
+  /* line 220, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .left {
+    width: 100%;
+    text-align: center; }
+  /* line 221, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .right {
+    width: 100%;
+    text-align: center;
+    margin-top: 21px; }
+  /* line 222, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .left p.heading {
+    line-height: 1.2em;
+    margin-bottom: 17px; }
+  /* line 223, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .left p.heading + p {
+    padding: 0 25px;
+    line-height: 1.25em; }
+  /* line 224, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .right p.phone {
+    padding-left: 48px; }
+  /* line 225, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .right p.email {
+    padding-left: 0; }
+  /* line 226, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div img {
+    width: 38px;
+    top: -10px; }
+  /* line 227, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom p.name {
+    font-size: 20px; }
+  /* line 228, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom {
+    margin-top: 28px; }
+  /* line 229, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div {
+    padding-left: 55px;
+    padding-right: 15px; }
+  /* line 230, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div:nth-child(n+3) {
+    margin-top: 21px !important; }
+  /* line 231, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div {
+    width: 50%; }
+  /* line 232, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom p {
+    font-size: 14px; }
+  /* line 233, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .button_rounded {
+    margin-top: 30px;
+    width: 290px; }
+  /* line 234, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts {
+    padding-bottom: 58px; }
+  /* line 235, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .right p img {
+    left: 200px; }
+  /* line 236, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .container.fixed .toup {
+    width: 53px;
+    height: 31px; } }
+
+@media (max-width: 640px) {
+  /* line 240, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .container, .container.small, section.offer .headings .container {
+    width: 440px; }
+  /* line 241, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .popup {
+    width: 400px; }
+  /* line 242, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .popup .container {
+    width: 320px; }
+  /* line 243, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup .checkdiv {
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+    box-sizing: border-box; }
+  /* line 244, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #agreement h4 {
+    padding: 0 10px; }
+  /* line 245, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h2 {
+    font-size: 30px; }
+  /* line 247, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.credits ul.conditions li {
+    width: 100%; }
+  /* line 248, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc h2 {
+    width: 440px; }
+  /* line 249, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div {
+    width: 440px; }
+  /* line 250, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right > * {
+    width: 440px; }
+  /* line 251, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right .button {
+    width: 440px; }
+  /* line 252, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden .button {
+    font-size: 16px; }
+  /* line 253, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .right p img {
+    left: 120px; }
+  /* line 254, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div {
+    width: 100%; }
+  /* line 255, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .bottom div:nth-child(n+2) {
+    margin-top: 21px !important; } }
+
+@media (max-width: 480px) {
+  /* line 259, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .container, .container.small, section.offer .headings .container {
+    width: 290px; }
+  /* line 260, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .button {
+    font-size: 14px; }
+  /* line 261, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .popup {
+    width: 320px; }
+  /* line 262, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .popup .container {
+    width: 290px; }
+  /* line 263, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup p br {
+    display: none; }
+  /* line 264, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .fancybox-close {
+    right: 15px !important;
+    top: 15px !important; }
+  /* line 265, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .fancybox-opened {
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important; }
+  /* line 266, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .fancybox-opened .fancybox-skin {
+    padding: 0 !important; }
+  /* line 267, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h3 {
+    font-size: 16px; }
+  /* line 268, D:/Servers/home/zenit/www/css/adaptive.scss */
+  nav.mobile p.phone {
+    width: 100%; }
+  /* line 270, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings h1 {
+    font-size: 25px; }
+  /* line 271, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.offer .headings p {
+    font-size: 12px; }
+  /* line 272, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div {
+    width: 100%; }
+  /* line 273, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .conditions div:nth-child(n+2) {
+    margin-top: 19px; }
+  /* line 274, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo p.heading {
+    font-size: 14px;
+    text-align: left; }
+  /* line 275, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden .button {
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 25px; }
+  /* line 276, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.program .addinfo .hidden .button img {
+    right: 15px; }
+  /* line 277, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc h2 {
+    width: 290px; }
+  /* line 278, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .left > div {
+    width: 290px; }
+  /* line 279, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right > * {
+    width: 290px; }
+  /* line 280, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.calc .right .button {
+    width: 290px; }
+  /* line 281, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .left p.heading + p span {
+    display: none; }
+  /* line 282, D:/Servers/home/zenit/www/css/adaptive.scss */
+  section.contacts .top .right p img {
+    left: 46px; }
+  /* line 283, D:/Servers/home/zenit/www/css/adaptive.scss */
+  footer p {
+    font-size: 10px; } }
+
+@media (max-width: 370px) {
+  /* line 287, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .popup {
+    width: 270px; }
+  /* line 288, D:/Servers/home/zenit/www/css/adaptive.scss */
+  .popup .container {
+    width: 235px; }
+  /* line 289, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup .field, #success .field {
+    margin-top: 22px; }
+  /* line 290, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup .checkdiv, #success .checkdiv {
+    margin-top: 20px; }
+  /* line 291, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup button, #success button {
+    margin-top: 20px; }
+  /* line 292, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup, #success {
+    padding: 50px 0 20px; }
+  /* line 293, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup p, #success p {
+    font-size: 14px;
+    margin-top: 6px; }
+  /* line 294, D:/Servers/home/zenit/www/css/adaptive.scss */
+  h4 {
+    font-size: 20px; }
+  /* line 295, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup button, #success button {
+    min-width: 0;
+    width: 100%; }
+  /* line 296, D:/Servers/home/zenit/www/css/adaptive.scss */
+  #popup .fake-button, #success .fake-button {
+    width: 100%; } }
+
+/*# sourceMappingURL=adaptive.css.map */

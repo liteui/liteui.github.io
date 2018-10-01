@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.601732337">
+        <g id="Rectangle-5" transform="translate(-29.000000, -115.000000)">
+            <g id="download" transform="translate(29.000000, 115.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="21" width="24" height="2" rx="1"></rect>
+                <rect id="line" fill="#FFFFFF" transform="translate(1.000000, 16.500000) rotate(-90.000000) translate(-1.000000, -16.500000) " x="-5.5" y="15.5" width="13" height="2" rx="1"></rect>
+                <rect id="line-copy" fill="#FFFFFF" transform="translate(23.000000, 16.500000) rotate(-90.000000) translate(-23.000000, -16.500000) " x="16.5" y="15.5" width="13" height="2" rx="1"></rect>
+                <g id="Group-2" transform="translate(9.000000, 0.000000)">
+                    <rect id="line-copy-2" fill="#FFFFFF" transform="translate(3.000000, 7.000000) rotate(-90.000000) translate(-3.000000, -7.000000) " x="-4" y="6" width="14" height="2" rx="1"></rect>
+                    <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="0 11 3.04250637 14.0143081 6 11"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

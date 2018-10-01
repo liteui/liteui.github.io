@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Electrolux</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="assets/styles/app.min.css" rel="stylesheet">
+    <script src="assets/scripts/libs/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a class="header__logo" href="#">
+                <svg>
+                    <use xlink:href="assets/images/icon.svg#icon_logo"></use>
+                </svg>
+            </a>
+            <div class="header__menu">
+                <div class="header__burger js-burger">
+                    <div class="header__burger-inner"></div>
+                </div>
+                <ul class="header__menu-list" id="menu">
+                    <li class="header__menu-link header__menu-link_hassub">
+                        <a href="#">Коллекция
+                            <div class="header__burger header__burger_sub js-subburger">
+                                <div class="header__burger-inner"></div>
+                            </div>
+                        </a>
+                        <ul class="header__submenu">
+                            <li class="header__submenu-link">
+                                <a href="#">Газовая варочная поверхность</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Шкаф шоковой заморозки</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Комбинированный духовой шкаф</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Индукционная варочная поверхность</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Поверхность контактной жарки</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Кухонная машина</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Индукционный вок</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Вакуумный упаковщик</a>
+                            </li>
+                            <li class="header__submenu-link">
+                                <a href="#">Кухонная машина</a>
+                            </li>
+                        </ul>
+                        <div class="header__menu-arrow">
+                            <div class="header__menu-arrow-inner"></div>
+                        </div>
+                    </li>
+                    <li class="header__menu-link" data-menuanchor="show">
+                        <a href="#show">Шоу-рум</a>
+                    </li>
+                    <li class="header__menu-link">
+                        <a href="#">Архитекторам</a>
+                    </li>
+                    <li class="header__menu-link" data-menuanchor="about">
+                        <a href="#about">Пресса о нас</a>
+                    </li>
+                    <li class="header__menu-link" data-menuanchor="contacts">
+                        <a href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="index" id="pagepiling">
+        <div class="index__screen section pp-scrollable">
+            <div class="firstscreen">
+                <div class="firstscreen__wrapper">
+                    <div class="firstscreen__bg">
+                        <img src="assets/images/bg_1.jpg" />
+                    </div>
+                    <div class="firstscreen__video">
+                        <video id="video1" src="assets/images/video_1.mp4" muted="muted"></video>
+                    </div>
+                    <div class="firstscreen__content">
+                        <div class="container">
+                            <img class="firstscreen__logo" src="assets/images/logo_big.svg" alt="" role="presentation" />
+                            <div class="playbutton firstscreen__playbutton" data-video="video1"></div>
+                        </div>
+                    </div>
+                    <div class="arrow firstscreen__arrow">
+                        <div class="arrow__shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index__screen index__screen_second section pp-scrollable">
+            <div class="products">
+                <div class="products__main-slider js-slider">
+                    <div class="products__main-wrapper swiper-wrapper">
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video2" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Газовая варочная
+                                        <br />поверхность</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video3" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Шкаф шоковой
+                                        <br />заморозки</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video4" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Комбинированный
+                                        <br />духовой шкаф</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video4"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video5" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Индукционная
+                                        <br />варочная поверхность</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video6" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Поверхность
+                                        <br />контактной жарки</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video6"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video7" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Кухонная
+                                        <br />машина</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video7"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video8" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Индукционный
+                                        <br />вок</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video8"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video9" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Вакуумный
+                                        <br />упаковщик</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video9"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__main-slide swiper-slide swiper-no-swiping">
+                            <div class="products__slide-bg">
+                                <img src="assets/images/bg_2.jpg" />
+                            </div>
+                            <div class="products__slide-video">
+                                <video id="video10" src="assets/images/video_1.mp4" muted="muted"></video>
+                            </div>
+                            <div class="container">
+                                <div class="products__slide-content">
+                                    <h2 class="products__slide-heading">Кухонная
+                                        <br />машина</h2>
+                                    <p class="products__slide-desc">Шоковая заморозка поможет вам сохранить безупречный
+                                        вкус и внешний вид любых продуктов. Просто, быстро, идеально!</p>
+                                    <div class="products__slide-links">
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Где купить</span>
+                                        </a>
+                                        <a class="link products__slide-link" href="#">
+                                            <span class="link__line link__line_top"></span>
+                                            <span class="link__line link__line_right"></span>
+                                            <span class="link__line link__line_bottom"></span>
+                                            <span class="link__line link__line_left"></span>
+                                            <span class="link__text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                    <div class="playbutton products__playbutton" data-video="video10"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow products__main-slider-arrow products__main-slider-arrow_prev js-slider-prev">
+                        <div class="arrow__shape"></div>
+                    </div>
+                    <div class="arrow products__main-slider-arrow products__main-slider-arrow_next js-slider-next">
+                        <div class="arrow__shape"></div>
+                    </div>
+                </div>
+                <div class="products__bottom">
+                    <div class="container">
+                        <div class="products__nav-slider">
+                            <div class="js-navslider">
+                                <div class="products__nav-wrapper swiper-wrapper">
+                                    <div class="products__nav-slide swiper-slide active">
+                                        <span class="products__nav-item">Газовая варочная
+                                            <br />поверхность</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Шкаф шоковой
+                                            <br />заморозки</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Комбинированный
+                                            <br />духовой шкаф</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Индукционная
+                                            <br />варочная поверхность</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Поверхность
+                                            <br />контактной жарки</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Кухонная
+                                            <br />машина</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Индукционный
+                                            <br />вок</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Вакуумный
+                                            <br />упаковщик</span>
+                                    </div>
+                                    <div class="products__nav-slide swiper-slide">
+                                        <span class="products__nav-item">Кухонная
+                                            <br />машина</span>
+                                    </div>
+                                </div>
+                                <div class="products__nav-slider-arrow products__nav-slider-arrow_prev js-navslider-prev disabled">
+                                    <svg>
+                                        <use xlink:href="assets/images/icon.svg#icon_arrow"></use>
+                                    </svg>
+                                </div>
+                                <div class="products__nav-slider-arrow products__nav-slider-arrow_next js-navslider-next">
+                                    <svg>
+                                        <use xlink:href="assets/images/icon.svg#icon_arrow"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index__screen section pp-scrollable">
+            <div class="chef">
+                <div class="chef__img-block">
+                    <img src="assets/images/chef.jpg" />
+                </div>
+                <div class="chef__content-block">
+                    <div class="chef__content-block-wrapper">
+                        <div class="container">
+                            <h3 class="chef__heading">Проект chef's
+                                <br />table</h3>
+                            <p class="chef__text">Займите место в первом ряду и получите уникальный гастрономический
+                                опыт! White Rabbit Family и Grand Cuisine by Electrolux Professional представляют –
+                                ресторан в формате chef’s table. Один зал, один стол, один шеф. Только в
+                                Chef’s Table можно оказаться лицом к лицу с шефом и стать свидетелем того, как
+                                рождается авторская кухня. Посмотреть, как работает команда поваров, или просто
+                                расслабиться и наслаждаться едой и напитками. Гастрономические
+                                ужины, дегустации и частные мероприятия – в камерном пространстве, рассчитанном всего
+                                на 15 гостей, есть место для любых экспериментов. Ожидайте неожиданного!</p>
+                            <div class="chef__links">
+                                <a class="link chef__link" href="#">
+                                    <span class="link__line link__line_top"></span>
+                                    <span class="link__line link__line_right"></span>
+                                    <span class="link__line link__line_bottom"></span>
+                                    <span class="link__line link__line_left"></span>
+                                    <span class="link__text">Записаться</span>
+                                </a>
+                                <a class="link chef__link" href="#">
+                                    <span class="link__line link__line_top"></span>
+                                    <span class="link__line link__line_right"></span>
+                                    <span class="link__line link__line_bottom"></span>
+                                    <span class="link__line link__line_left"></span>
+                                    <span class="link__text">Подробнее</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index__screen section pp-scrollable" data-id="#show">
+            <div class="show">
+                <div class="show__wrapper">
+                    <div class="show__content-block">
+                        <div class="container">
+                            <h3 class="show__heading">ШОУ-рум</h3>
+                            <p class="show__text">Чтобы увидеть каждый из предметов кухонной техники, посетите наши
+                                магазины-салоны. Посещение возможно только по предварительному приглашению. Пожалуйста,
+                                обратитесь в компанию Electrolux Grand Cuisine, чтобы договориться о
+                                визите.</p>
+                        </div>
+                    </div>
+                    <div class="show__img-block">
+                        <div class="show__slider js-showslider">
+                            <div class="show__slide-wrapper swiper-wrapper">
+                                <div class="show__slide swiper-slide">
+                                    <img class="show__slide-img" src="assets/images/room_1.jpg" alt="" role="presentation" />
+                                </div>
+                                <div class="show__slide swiper-slide">
+                                    <img class="show__slide-img" src="assets/images/room_1.jpg" alt="" role="presentation" />
+                                </div>
+                                <div class="show__slide swiper-slide">
+                                    <img class="show__slide-img" src="assets/images/room_1.jpg" alt="" role="presentation" />
+                                </div>
+                                <div class="show__slide swiper-slide">
+                                    <img class="show__slide-img" src="assets/images/room_1.jpg" alt="" role="presentation" />
+                                </div>
+                                <div class="show__slide swiper-slide">
+                                    <img class="show__slide-img" src="assets/images/room_1.jpg" alt="" role="presentation" />
+                                </div>
+                                <div class="show__slide swiper-slide">
+                                    <img class="show__slide-img" src="assets/images/room_1.jpg" alt="" role="presentation" />
+                                </div>
+                                <div class="show__slide swiper-slide">
+                                    <img class="show__slide-img" src="assets/images/room_1.jpg" alt="" role="presentation" />
+                                </div>
+                            </div>
+                            <div class="arrow show__slider-arrow show__slider-arrow_prev js-showslider-prev">
+                                <div class="arrow__shape"></div>
+                            </div>
+                            <div class="arrow show__slider-arrow show__slider-arrow_next js-showslider-next">
+                                <div class="arrow__shape"></div>
+                            </div>
+                            <div class="show__slider-bullets"></div>
+                        </div>
+                    </div>
+                    <div class="show__map-block">
+                        <div class="container">
+                            <p class="show__text show__text_contacts">Санкт-Петербург, Проф. Попова ул., д. 23 (вход с
+                                пр. Медиков)
+                                <br />
+                                <a href="tel:88124484040">8 (812) 448-40-40</a>
+                            </p>
+                        </div>
+                        <div class="show__map" id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index__screen section pp-scrollable" data-id="#about">
+            <div class="about">
+                <div class="about__img-block">
+                    <img class="about__img" src="assets/images/room_2.jpg" alt="" role="presentation" />
+                    <div class="container">
+                        <h3 class="about__heading">Пресса
+                            <br />о нас</h3>
+                    </div>
+                </div>
+                <div class="about__slider js-aboutslider">
+                    <div class="about__slide-wrapper swiper-wrapper">
+                        <div class="about__slide swiper-slide">
+                            <div class="container">
+                                <h4 class="about__slide-heading">ПРАКТИЧЕСКАЯ
+                                    <br />МАГИЯ</h4>
+                                <p class="about__text">“&nbsp;Это потрясающее архитектурное пространство, наполненное
+                                    интригующим сочетанием роскошных материалов, текстурированных поверхностей и
+                                    передовых технологий, представляет собой совершенный образец вольного и роскошного
+                                    кухонного дизайна&nbsp;”</p>
+                                <p class="about__text-author">Фиона Барратт-Кэмпбелл</p>
+                                <div class="about__links">
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Подробнее</span>
+                                    </a>
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Читать все</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <div class="container">
+                                <h4 class="about__slide-heading">ПРАКТИЧЕСКАЯ
+                                    <br />МАГИЯ2</h4>
+                                <p class="about__text">“&nbsp;Это потрясающее архитектурное пространство, наполненное
+                                    интригующим сочетанием роскошных материалов, текстурированных поверхностей и
+                                    передовых технологий, представляет собой совершенный образец вольного и роскошного
+                                    кухонного дизайна&nbsp;”</p>
+                                <p class="about__text-author">Фиона Барратт-Кэмпбелл</p>
+                                <div class="about__links">
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Подробнее</span>
+                                    </a>
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Читать все</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <div class="container">
+                                <h4 class="about__slide-heading">ПРАКТИЧЕСКАЯ
+                                    <br />МАГИЯ3</h4>
+                                <p class="about__text">“&nbsp;Это потрясающее архитектурное пространство, наполненное
+                                    интригующим сочетанием роскошных материалов, текстурированных поверхностей и
+                                    передовых технологий, представляет собой совершенный образец вольного и роскошного
+                                    кухонного дизайна&nbsp;”</p>
+                                <p class="about__text-author">Фиона Барратт-Кэмпбелл</p>
+                                <div class="about__links">
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Подробнее</span>
+                                    </a>
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Читать все</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <div class="container">
+                                <h4 class="about__slide-heading">ПРАКТИЧЕСКАЯ
+                                    <br />МАГИЯ4</h4>
+                                <p class="about__text">“&nbsp;Это потрясающее архитектурное пространство, наполненное
+                                    интригующим сочетанием роскошных материалов, текстурированных поверхностей и
+                                    передовых технологий, представляет собой совершенный образец вольного и роскошного
+                                    кухонного дизайна&nbsp;”</p>
+                                <p class="about__text-author">Фиона Барратт-Кэмпбелл</p>
+                                <div class="about__links">
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Подробнее</span>
+                                    </a>
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Читать все</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <div class="container">
+                                <h4 class="about__slide-heading">ПРАКТИЧЕСКАЯ
+                                    <br />МАГИЯ5</h4>
+                                <p class="about__text">“&nbsp;Это потрясающее архитектурное пространство, наполненное
+                                    интригующим сочетанием роскошных материалов, текстурированных поверхностей и
+                                    передовых технологий, представляет собой совершенный образец вольного и роскошного
+                                    кухонного дизайна&nbsp;”</p>
+                                <p class="about__text-author">Фиона Барратт-Кэмпбелл</p>
+                                <div class="about__links">
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Подробнее</span>
+                                    </a>
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Читать все</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <div class="container">
+                                <h4 class="about__slide-heading">ПРАКТИЧЕСКАЯ
+                                    <br />МАГИЯ6</h4>
+                                <p class="about__text">“&nbsp;Это потрясающее архитектурное пространство, наполненное
+                                    интригующим сочетанием роскошных материалов, текстурированных поверхностей и
+                                    передовых технологий, представляет собой совершенный образец вольного и роскошного
+                                    кухонного дизайна&nbsp;”</p>
+                                <p class="about__text-author">Фиона Барратт-Кэмпбелл</p>
+                                <div class="about__links">
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Подробнее</span>
+                                    </a>
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Читать все</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__slide swiper-slide">
+                            <div class="container">
+                                <h4 class="about__slide-heading">ПРАКТИЧЕСКАЯ
+                                    <br />МАГИЯ7</h4>
+                                <p class="about__text">“&nbsp;Это потрясающее архитектурное пространство, наполненное
+                                    интригующим сочетанием роскошных материалов, текстурированных поверхностей и
+                                    передовых технологий, представляет собой совершенный образец вольного и роскошного
+                                    кухонного дизайна&nbsp;”</p>
+                                <p class="about__text-author">Фиона Барратт-Кэмпбелл</p>
+                                <div class="about__links">
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Подробнее</span>
+                                    </a>
+                                    <a class="link about__link" href="#">
+                                        <span class="link__line link__line_top"></span>
+                                        <span class="link__line link__line_right"></span>
+                                        <span class="link__line link__line_bottom"></span>
+                                        <span class="link__line link__line_left"></span>
+                                        <span class="link__text">Читать все</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow arrow_black about__slider-arrow about__slider-arrow_prev js-aboutslider-prev">
+                        <div class="arrow__shape"></div>
+                    </div>
+                    <div class="arrow arrow_black about__slider-arrow about__slider-arrow_next js-aboutslider-next">
+                        <div class="arrow__shape"></div>
+                    </div>
+                    <div class="about__slider-bullets"></div>
+                </div>
+            </div>
+        </div>
+        <div class="index__screen section pp-scrollable" data-id="#contacts">
+            <div class="contacts">
+                <div class="contacts__wrapper">
+                    <div class="contacts__form-block">
+                        <div class="container">
+                            <h3 class="contacts__heading">Контакты</h3>
+                            <p class="contacts__contacts">
+                                <a href="tel:+39071/2133895">+39 071/2133895</a>
+                            </p>
+                            <p class="contacts__contacts">
+                                <a href="mailto:service@grandcuisine.com">service@grandcuisine.com</a>
+                            </p>
+                            <form class="contacts__form" action="#" method="post">
+                                <h4 class="contacts__form-heading">Напишите нам</h4>
+                                <div class="contacts__fields">
+                                    <input class="contacts__field contacts__field_half" type="text" name="name"
+                                        placeholder="Представьтесь" />
+                                    <input class="contacts__field contacts__field_half" type="tel" name="tel"
+                                        placeholder="Укажите номер телефона" />
+                                    <textarea class="contacts__field contacts__field_textarea" name="question"
+                                        placeholder="Что Вас интересует?"></textarea>
+                                </div>
+                                <button class="link contacts__form-button js-form-button" type="submit">
+                                    <span class="link__line link__line_top"></span>
+                                    <span class="link__line link__line_right"></span>
+                                    <span class="link__line link__line_bottom"></span>
+                                    <span class="link__line link__line_left"></span>
+                                    <span class="link__text">Отправить</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="footer__menu">
+                                <div class="footer__menu-link">
+                                    <a href="#">Press</a>
+                                </div>
+                                <div class="footer__menu-link">
+                                    <a href="#">Условия</a>
+                                </div>
+                                <div class="footer__menu-link">
+                                    <a href="#">Вопросы и ответы</a>
+                                </div>
+                                <div class="footer__menu-link">
+                                    <a href="#">О кулинарной системе Grand Cuisine</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrow arrow_black footer__up-arrow">
+                            <div class="arrow__shape"></div>
+                        </div>
+                    </footer>
+                    <div class="contacts__img-block">
+                        <img class="contacts__img" src="assets/images/room_3.jpg" alt="" role="presentation" />
+                        <div class="container">
+                            <h3 class="contacts__mobile-heading">Контакты</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="success">
+        <h5 class="popup__heading">Сообщение отправлено</h5>
+        <p class="popup__text">Наш менеджер свяжется с Вами
+            <br />в ближайшее время</p>
+    </div>
+    <script src="assets/scripts/app.min.js"></script>
+</body>
+
+</html>

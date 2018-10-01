@@ -1,0 +1,2326 @@
+/* line 40, D:/Projects/home/ptt/www/css/basics.scss */
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  /* */
+  border: none; }
+
+/* line 48, D:/Projects/home/ptt/www/css/basics.scss */
+*:focus {
+  outline: none; }
+
+/* line 51, D:/Projects/home/ptt/www/css/basics.scss */
+::selection {
+  background: blue;
+  color: white; }
+
+/* line 52, D:/Projects/home/ptt/www/css/basics.scss */
+::-moz-selection {
+  background: blue;
+  color: white; }
+
+/* line 53, D:/Projects/home/ptt/www/css/basics.scss */
+::-webkit-selection {
+  background: blue;
+  color: white; }
+
+/* line 56, D:/Projects/home/ptt/www/css/basics.scss */
+::-webkit-input-placeholder {
+  color: #777; }
+
+/* line 57, D:/Projects/home/ptt/www/css/basics.scss */
+::-moz-placeholder {
+  color: #777; }
+
+/* line 58, D:/Projects/home/ptt/www/css/basics.scss */
+:-ms-input-placeholder {
+  color: #777; }
+
+/* line 59, D:/Projects/home/ptt/www/css/basics.scss */
+:-moz-placeholder {
+  color: #777; }
+
+/* line 62, D:/Projects/home/ptt/www/css/basics.scss */
+.noscroll {
+  position: fixed; }
+
+/* line 65, D:/Projects/home/ptt/www/css/basics.scss */
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important; }
+
+/* line 69, D:/Projects/home/ptt/www/css/basics.scss */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 50000000000s ease-in-out 0s !important; }
+
+/* line 87, D:/Projects/home/ptt/www/css/basics.scss */
+.one-col {
+  width: 5.95%; }
+
+/* line 88, D:/Projects/home/ptt/www/css/basics.scss */
+.two-col {
+  width: 14.5%; }
+
+/* line 89, D:/Projects/home/ptt/www/css/basics.scss */
+.three-col {
+  width: 23.05%; }
+
+/* line 90, D:/Projects/home/ptt/www/css/basics.scss */
+.four-col {
+  width: 31.6%; }
+
+/* line 91, D:/Projects/home/ptt/www/css/basics.scss */
+.five-col {
+  width: 40.15%; }
+
+/* line 92, D:/Projects/home/ptt/www/css/basics.scss */
+.six-col {
+  width: 48.7%; }
+
+/* line 93, D:/Projects/home/ptt/www/css/basics.scss */
+.seven-col {
+  width: 57.25%; }
+
+/* line 94, D:/Projects/home/ptt/www/css/basics.scss */
+.eight-col {
+  width: 65.8%; }
+
+/* line 95, D:/Projects/home/ptt/www/css/basics.scss */
+.nine-col {
+  width: 74.35%; }
+
+/* line 96, D:/Projects/home/ptt/www/css/basics.scss */
+.ten-col {
+  width: 82.9%; }
+
+/* line 97, D:/Projects/home/ptt/www/css/basics.scss */
+.eleven-col {
+  width: 91.45%; }
+
+/* line 98, D:/Projects/home/ptt/www/css/basics.scss */
+.twelve-col {
+  width: 100%; }
+
+/* line 101, D:/Projects/home/ptt/www/css/basics.scss */
+.cols {
+  text-align: justify;
+  text-justify: distribute; }
+  /* line 102, D:/Projects/home/ptt/www/css/basics.scss */
+  .cols:after {
+    content: "";
+    display: inline-block;
+    height: 0.0000000000001px;
+    width: 100%; }
+  /* line 103, D:/Projects/home/ptt/www/css/basics.scss */
+  .cols > * {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: top; }
+
+/* line 117, D:/Projects/home/ptt/www/css/basics.scss */
+html {
+  width: 100%;
+  height: 100%; }
+
+/* line 118, D:/Projects/home/ptt/www/css/basics.scss */
+body {
+  width: 100%;
+  min-height: 100%;
+  font-size: 0;
+  font-family: 'PF Din Text', Arial, sans-serif;
+  position: relative; }
+
+/* line 119, D:/Projects/home/ptt/www/css/basics.scss */
+html, body {
+  overflow-x: hidden; }
+
+/* line 121, D:/Projects/home/ptt/www/css/basics.scss */
+header, section, footer {
+  width: 100%;
+  float: left; }
+
+/* line 122, D:/Projects/home/ptt/www/css/basics.scss */
+section {
+  min-height: 100vh;
+  box-sizing: border-box; }
+
+/* line 134, D:/Projects/home/ptt/www/css/basics.scss */
+h1, h2, h3, h4, h5, h6, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+/* line 135, D:/Projects/home/ptt/www/css/basics.scss */
+ul {
+  list-style: none; }
+
+/* line 136, D:/Projects/home/ptt/www/css/basics.scss */
+span {
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: inherit; }
+
+/* line 138, D:/Projects/home/ptt/www/css/basics.scss */
+h1, h2, h3, h4, h5 {
+  line-height: 1.2em; }
+
+/* line 141, D:/Projects/home/ptt/www/css/basics.scss */
+h1 {
+  font-size: 70px;
+  line-height: 1em;
+  font-weight: 500; }
+
+/* line 142, D:/Projects/home/ptt/www/css/basics.scss */
+h2 {
+  font-size: 44px;
+  font-weight: 500; }
+
+/* line 143, D:/Projects/home/ptt/www/css/basics.scss */
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.04em; }
+
+/* line 146, D:/Projects/home/ptt/www/css/basics.scss */
+p {
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 1px; }
+
+/* line 147, D:/Projects/home/ptt/www/css/basics.scss */
+p.small {
+  font-size: 18px;
+  letter-spacing: normal; }
+
+/* line 148, D:/Projects/home/ptt/www/css/basics.scss */
+p.mini {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3C2054;
+  opacity: 0.4;
+  text-transform: uppercase; }
+
+/* line 149, D:/Projects/home/ptt/www/css/basics.scss */
+p.big {
+  font-size: 25px; }
+
+/* line 150, D:/Projects/home/ptt/www/css/basics.scss */
+p.huge {
+  font-size: 30px;
+  letter-spacing: normal; }
+
+/* line 162, D:/Projects/home/ptt/www/css/basics.scss */
+a, input, button, select, textarea {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/* line 163, D:/Projects/home/ptt/www/css/basics.scss */
+a {
+  text-decoration: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  transition: all 0.25s ease-in-out; }
+  /* line 164, D:/Projects/home/ptt/www/css/basics.scss */
+  a:hover {
+    opacity: 0.6; }
+
+/* line 167, D:/Projects/home/ptt/www/css/basics.scss */
+select, input, textarea {
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  display: inline-block; }
+
+/* line 169, D:/Projects/home/ptt/www/css/basics.scss */
+.button {
+  text-align: center;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  color: rgba(125, 39, 211, 0.5);
+  font-size: 25px;
+  line-height: 30px;
+  background-color: transparent; }
+  /* line 170, D:/Projects/home/ptt/www/css/basics.scss */
+  .button:hover {
+    opacity: 0.6; }
+
+/* line 4, D:/Projects/home/ptt/www/css/default.scss */
+header {
+  position: absolute;
+  top: 37px;
+  padding: 0 44px 0 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+  z-index: 15;
+  pointer-events: none; }
+  /* line 5, D:/Projects/home/ptt/www/css/default.scss */
+  header > * {
+    pointer-events: all; }
+  /* line 6, D:/Projects/home/ptt/www/css/default.scss */
+  header p {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 7, D:/Projects/home/ptt/www/css/default.scss */
+  header #logo1, header #logo2, header #logo3, header #text1, header #text2, header #text3 {
+    transition: all .25s ease-in-out; }
+  /* line 8, D:/Projects/home/ptt/www/css/default.scss */
+  header .logo {
+    transition: all .25s ease-in-out;
+    opacity: 1; }
+  /* line 10, D:/Projects/home/ptt/www/css/default.scss */
+  header .logo.white #logo1, header .logo.white #logo2, header .logo.white #logo3 {
+    fill: white; }
+  /* line 12, D:/Projects/home/ptt/www/css/default.scss */
+  header .logo.hidden {
+    opacity: 0; }
+  /* line 14, D:/Projects/home/ptt/www/css/default.scss */
+  header .logo.purpletext #text1, header .logo.purpletext #text2, header .logo.purpletext #text3 {
+    fill: #3c2054; }
+  /* line 16, D:/Projects/home/ptt/www/css/default.scss */
+  header .right {
+    position: relative;
+    top: -10px; }
+  /* line 17, D:/Projects/home/ptt/www/css/default.scss */
+  header p.small {
+    letter-spacing: 0.03em; }
+  /* line 18, D:/Projects/home/ptt/www/css/default.scss */
+  header .right p:last-child {
+    margin-left: 40px; }
+
+/*------------------------------------------------*/
+/* line 26, D:/Projects/home/ptt/www/css/default.scss */
+section.firstscreen {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 206px 0;
+  color: #fff;
+  margin-top: 0;
+  z-index: 5 !important; }
+  /* line 27, D:/Projects/home/ptt/www/css/default.scss */
+  section.firstscreen .container {
+    width: 1128px;
+    z-index: 2;
+    position: relative; }
+  /* line 28, D:/Projects/home/ptt/www/css/default.scss */
+  section.firstscreen p {
+    margin-top: 52px;
+    padding-left: 61px; }
+  /* line 29, D:/Projects/home/ptt/www/css/default.scss */
+  section.firstscreen p.big {
+    position: relative;
+    display: inline-block; }
+    /* line 30, D:/Projects/home/ptt/www/css/default.scss */
+    section.firstscreen p.big:before {
+      content: "";
+      display: inline-block;
+      width: 31px;
+      height: 3px;
+      border-radius: 1000px;
+      background-color: #643A8E;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transition: all 0.25s ease-in-out; }
+    /* line 32, D:/Projects/home/ptt/www/css/default.scss */
+    section.firstscreen p.big:hover a {
+      opacity: 1;
+      color: #643A8E; }
+    /* line 33, D:/Projects/home/ptt/www/css/default.scss */
+    section.firstscreen p.big:hover:before {
+      left: 10px; }
+
+/*------------------------------------------------*/
+/* line 41, D:/Projects/home/ptt/www/css/default.scss */
+section.services {
+  color: white;
+  display: flex;
+  z-index: 6 !important; }
+  /* line 42, D:/Projects/home/ptt/www/css/default.scss */
+  section.services > div {
+    flex: 1;
+    display: inline-flex;
+    align-items: flex-end;
+    transition: all 0.6s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    background-color: #643A8E; }
+    /* line 43, D:/Projects/home/ptt/www/css/default.scss */
+    section.services > div.active {
+      background-color: white;
+      height: auto; }
+      /* line 44, D:/Projects/home/ptt/www/css/default.scss */
+      section.services > div.active .bg {
+        z-index: 0;
+        min-width: 100%;
+        max-height: 400px; }
+      /* line 45, D:/Projects/home/ptt/www/css/default.scss */
+      section.services > div.active .service {
+        color: #3C2054; }
+        /* line 46, D:/Projects/home/ptt/www/css/default.scss */
+        section.services > div.active .service .hidden {
+          height: auto;
+          opacity: 1;
+          margin-top: 490px; }
+          /* line 47, D:/Projects/home/ptt/www/css/default.scss */
+          section.services > div.active .service .hidden p {
+            opacity: 1; }
+        /* line 49, D:/Projects/home/ptt/www/css/default.scss */
+        section.services > div.active .service .plus {
+          right: 30px;
+          top: 45px;
+          transform: rotate(45deg);
+          background-color: #3C2054; }
+          /* line 50, D:/Projects/home/ptt/www/css/default.scss */
+          section.services > div.active .service .plus:after {
+            background-color: #3C2054; }
+  /* line 56, D:/Projects/home/ptt/www/css/default.scss */
+  section.services .bg {
+    width: 102%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    left: -1%;
+    top: 0;
+    position: absolute;
+    transition: all 0.6s ease-in-out;
+    z-index: 0; }
+  /* line 57, D:/Projects/home/ptt/www/css/default.scss */
+  section.services .service {
+    padding: 35px 44px 198px;
+    transition: all 0.6s ease-in-out;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    min-height: 0;
+    position: relative; }
+    /* line 58, D:/Projects/home/ptt/www/css/default.scss */
+    section.services .service h3 {
+      white-space: nowrap;
+      position: relative; }
+    /* line 59, D:/Projects/home/ptt/www/css/default.scss */
+    section.services .service .hidden {
+      height: 0;
+      position: relative;
+      transition: all 0.6s ease-in-out;
+      margin-top: 16px; }
+    /* line 60, D:/Projects/home/ptt/www/css/default.scss */
+    section.services .service p {
+      font-weight: 300;
+      transition: all 0.3s ease-in-out;
+      opacity: 0;
+      position: relative;
+      top: -30px;
+      line-height: 1.6em; }
+    /* line 62, D:/Projects/home/ptt/www/css/default.scss */
+    section.services .service .plus {
+      width: 27px;
+      height: 3px;
+      border-radius: 1000px;
+      background-color: #643A8E;
+      bottom: 156px;
+      position: absolute;
+      transition: all 0.6s ease-in-out; }
+      /* line 63, D:/Projects/home/ptt/www/css/default.scss */
+      section.services .service .plus:after {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 27px;
+        border-radius: 1000px;
+        background-color: #643A8E;
+        position: absolute;
+        left: 12px;
+        top: -12px;
+        transition: all 0.6s ease-in-out; }
+    /* line 65, D:/Projects/home/ptt/www/css/default.scss */
+    section.services .service * {
+      z-index: 2; }
+    /* line 66, D:/Projects/home/ptt/www/css/default.scss */
+    section.services .service .bgcolor {
+      background-color: #643A8E;
+      background-image: url("../img/noise.png");
+      height: 0;
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      width: 100%;
+      transition: all .6s ease-in-out;
+      left: 0; }
+
+/*------------------------------------------------*/
+/* line 72, D:/Projects/home/ptt/www/css/default.scss */
+section.transhipment {
+  display: flex;
+  z-index: 7 !important; }
+  /* line 73, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment .map {
+    width: 33.3333%;
+    background-color: #3c2054;
+    position: relative; }
+    /* line 74, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment .map #googlemap {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1; }
+    /* line 75, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment .map .mapcontrols {
+      position: absolute;
+      bottom: 114px;
+      right: 24px;
+      z-index: 3; }
+      /* line 76, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment .map .mapcontrols > div {
+        width: 44px;
+        height: 44px;
+        border-radius: 100%;
+        background-color: #643a8e;
+        position: relative;
+        transition: all .25s ease-in-out; }
+        /* line 77, D:/Projects/home/ptt/www/css/default.scss */
+        section.transhipment .map .mapcontrols > div:hover {
+          opacity: .7;
+          cursor: pointer; }
+        /* line 78, D:/Projects/home/ptt/www/css/default.scss */
+        section.transhipment .map .mapcontrols > div img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto; }
+        /* line 79, D:/Projects/home/ptt/www/css/default.scss */
+        section.transhipment .map .mapcontrols > div + div {
+          margin-top: 12px; }
+    /* line 83, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment .map .close {
+      width: 70px;
+      height: 70px;
+      background-color: #643A8E;
+      position: absolute;
+      right: 24px;
+      top: 0;
+      transition: all 0.25s ease-in-out;
+      cursor: pointer;
+      display: none;
+      z-index: 2; }
+      /* line 84, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment .map .close:before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        background-color: #fff;
+        transform: rotate(45deg);
+        position: absolute;
+        left: 23px;
+        top: 34px; }
+      /* line 85, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment .map .close:after {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        background-color: #fff;
+        transform: rotate(-45deg);
+        position: absolute;
+        left: 23px;
+        top: 34px; }
+      /* line 86, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment .map .close:hover {
+        opacity: 0.6; }
+  /* line 89, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment .main {
+    width: 66.6666%;
+    display: flex;
+    justify-content: center;
+    padding-top: 77px;
+    background-color: #f7f7f7;
+    padding-bottom: 90px; }
+    /* line 90, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment .main .container {
+      width: 784px; }
+  /* line 92, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    content: "";
+    transition: all .25s ease-in-out;
+    opacity: 1;
+    pointer-events: none; }
+  /* line 94, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment.active:after {
+    opacity: 0; }
+  /* line 96, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment h2 {
+    color: #3C2054; }
+  /* line 97, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment .points {
+    margin-top: 38px;
+    display: flex;
+    align-items: center; }
+    /* line 98, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment .points p {
+      color: #3C2054;
+      opacity: 0.4;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+      transition: all .25s ease-in-out; }
+      /* line 99, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment .points p.active {
+        color: #643A8E;
+        opacity: 1; }
+    /* line 101, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment .points hr {
+      flex: 0 1 0;
+      border-bottom: none;
+      margin: 0 41px;
+      border-color: rgba(60, 32, 84, 0.1);
+      transition: all .25s ease-in-out; }
+      /* line 102, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment .points hr.active {
+        flex: 1; }
+  /* line 105, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment .list {
+    margin-top: 64px; }
+  /* line 107, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment ul.materials li {
+    display: inline-block;
+    padding: 12px 18px;
+    margin-right: 24px;
+    border-radius: 21.5px;
+    color: #3C2054;
+    cursor: pointer;
+    transition: all .25s ease-in-out; }
+    /* line 108, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment ul.materials li:last-child {
+      margin-right: 0; }
+    /* line 109, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment ul.materials li.active {
+      background-color: #643A8E;
+      color: white; }
+    /* line 110, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment ul.materials li p {
+      line-height: 1em; }
+  /* line 113, D:/Projects/home/ptt/www/css/default.scss */
+  section.transhipment table {
+    margin-top: 42px;
+    width: 100%;
+    display: none; }
+    /* line 114, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment table th, section.transhipment table td {
+      box-sizing: border-box; }
+    /* line 115, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment table tr {
+      border-bottom: 2px solid #f7f7f7; }
+    /* line 117, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment table th:nth-child(2), section.transhipment table td:nth-child(2) {
+      width: 19.5%; }
+    /* line 118, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment table th:nth-child(3), section.transhipment table td:nth-child(3) {
+      width: 13%; }
+      /* line 119, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment table th:nth-child(3) p.mini, section.transhipment table td:nth-child(3) p.mini {
+        letter-spacing: 0.11em; }
+    /* line 121, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment table th {
+      text-align: left;
+      padding-bottom: 17px; }
+      /* line 122, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment table th p.mini {
+        letter-spacing: 0.14em; }
+    /* line 124, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment table td {
+      background-color: #fff;
+      padding: 20px 24px 25px 0;
+      color: #3C2054; }
+      /* line 125, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment table td:first-child {
+        padding-left: 24px; }
+      /* line 126, D:/Projects/home/ptt/www/css/default.scss */
+      section.transhipment table td p.small {
+        letter-spacing: 0.04em; }
+    /* line 128, D:/Projects/home/ptt/www/css/default.scss */
+    section.transhipment table.visible {
+      display: table; }
+
+/*------------------------------------------------*/
+/* line 135, D:/Projects/home/ptt/www/css/default.scss */
+section.production {
+  display: flex;
+  z-index: 8 !important; }
+  /* line 136, D:/Projects/home/ptt/www/css/default.scss */
+  section.production:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    content: "";
+    transition: all .25s ease-in-out;
+    opacity: 1;
+    pointer-events: none; }
+  /* line 138, D:/Projects/home/ptt/www/css/default.scss */
+  section.production.active:after {
+    opacity: 0; }
+  /* line 140, D:/Projects/home/ptt/www/css/default.scss */
+  section.production > div {
+    flex-basis: 50%;
+    box-sizing: border-box; }
+  /* line 141, D:/Projects/home/ptt/www/css/default.scss */
+  section.production .left {
+    background-color: #643A8E;
+    color: white;
+    padding: 100px 0 170px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/noise.png");
+    background-position: center; }
+    /* line 142, D:/Projects/home/ptt/www/css/default.scss */
+    section.production .left div {
+      width: 440px;
+      position: relative; }
+    /* line 143, D:/Projects/home/ptt/www/css/default.scss */
+    section.production .left p {
+      margin-top: 38px; }
+  /* line 145, D:/Projects/home/ptt/www/css/default.scss */
+  section.production .right {
+    transition: all 0.6s ease-in-out;
+    display: flex;
+    flex-direction: column; }
+    /* line 147, D:/Projects/home/ptt/www/css/default.scss */
+    section.production .right:hover {
+      flex-basis: 64.11%; }
+    /* line 150, D:/Projects/home/ptt/www/css/default.scss */
+    section.production .right > div {
+      box-sizing: border-box; }
+    /* line 153, D:/Projects/home/ptt/www/css/default.scss */
+    section.production .right .top {
+      position: relative;
+      transition: all 0.6s ease-in-out;
+      flex: 1; }
+      /* line 154, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .top:hover {
+        flex: 1 0 56%; }
+        /* line 155, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .top:hover .noise.dark {
+          background-color: rgba(28, 25, 30, 0); }
+      /* line 157, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .top .playbutton {
+        left: -16px;
+        position: relative;
+        width: 66px;
+        height: 66px;
+        border-radius: 1000px;
+        background-color: #643A8E;
+        transition: all 0.25s ease-in-out;
+        display: inline-block; }
+        /* line 158, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .top .playbutton:hover {
+          opacity: .7;
+          cursor: pointer; }
+        /* line 159, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .top .playbutton:before {
+          content: "";
+          border-top: 12px solid transparent;
+          border-bottom: 12px solid transparent;
+          border-left: 22px solid white;
+          position: absolute;
+          left: 25px;
+          top: 21px; }
+        /* line 160, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .top .playbutton:after {
+          content: "";
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-left: 13px solid #7D27D3;
+          position: absolute;
+          left: 28px;
+          top: 26px; }
+      /* line 164, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .top .minicontainer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 43px; }
+    /* line 168, D:/Projects/home/ptt/www/css/default.scss */
+    section.production .right .bottom {
+      background-color: #F7F7F7;
+      padding: 79px 0 241px;
+      transition: all 0.6s ease-in-out;
+      position: relative;
+      flex: 0 1 50%; }
+      /* line 169, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .bottom:hover {
+        flex: 1;
+        padding-bottom: 213px; }
+        /* line 170, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .bottom:hover .hidden {
+          opacity: 1;
+          top: 0; }
+        /* line 171, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .bottom:hover .minicontainer.down {
+          bottom: 160px; }
+        /* line 172, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .bottom:hover div:after {
+          transform: rotate(90deg); }
+      /* line 174, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .bottom .minicontainer > p {
+        font-weight: 500;
+        color: #3C2054;
+        line-height: 1.6em; }
+      /* line 175, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .bottom .hidden {
+        height: 0;
+        opacity: 0;
+        transition: all 0.6s ease-in-out;
+        margin-top: 18px;
+        position: relative;
+        top: -40px;
+        overflow: hidden; }
+      /* line 176, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .bottom ul {
+        overflow: hidden; }
+        /* line 177, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .bottom ul li {
+          position: relative;
+          padding-left: 30px; }
+          /* line 178, D:/Projects/home/ptt/www/css/default.scss */
+          section.production .right .bottom ul li:before {
+            content: "";
+            width: 5px;
+            display: block;
+            height: 5px;
+            position: absolute;
+            border-radius: 1000px;
+            background-color: #3C2054;
+            left: 10px;
+            top: 14px; }
+          /* line 179, D:/Projects/home/ptt/www/css/default.scss */
+          section.production .right .bottom ul li p {
+            font-weight: 300;
+            color: #3C2054;
+            line-height: 1.6em; }
+      /* line 182, D:/Projects/home/ptt/www/css/default.scss */
+      section.production .right .bottom div.plus {
+        width: 27px;
+        height: 3px;
+        border-radius: 1000px;
+        background-color: #643A8E;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+        /* line 183, D:/Projects/home/ptt/www/css/default.scss */
+        section.production .right .bottom div.plus:after {
+          content: "";
+          display: inline-block;
+          width: 3px;
+          height: 27px;
+          border-radius: 1000px;
+          background-color: #643A8E;
+          position: absolute;
+          left: 12px;
+          top: -12px;
+          transition: all 0.25s ease-in-out; }
+  /* line 188, D:/Projects/home/ptt/www/css/default.scss */
+  section.production .minicontainer {
+    width: 560px;
+    margin: 0 auto;
+    position: relative; }
+    /* line 189, D:/Projects/home/ptt/www/css/default.scss */
+    section.production .minicontainer.down {
+      height: 3px;
+      position: absolute;
+      transition: all 0.6s ease-in-out;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 200px; }
+
+/*------------------------------------------------*/
+/* line 196, D:/Projects/home/ptt/www/css/default.scss */
+section.about {
+  background-color: #19151b;
+  color: white;
+  z-index: 9 !important;
+  background-image: url("../img/noise.png"); }
+  /* line 197, D:/Projects/home/ptt/www/css/default.scss */
+  section.about .container {
+    width: 1130px;
+    margin: 0 auto;
+    padding: 161px 0 178px;
+    position: relative; }
+    /* line 198, D:/Projects/home/ptt/www/css/default.scss */
+    section.about .container > p.big {
+      position: relative;
+      display: inline-block;
+      padding-left: 61px; }
+      /* line 199, D:/Projects/home/ptt/www/css/default.scss */
+      section.about .container > p.big:before {
+        content: "";
+        display: inline-block;
+        width: 31px;
+        height: 3px;
+        border-radius: 1000px;
+        background-color: #7D27D3;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transition: all 0.25s ease-in-out; }
+  /* line 202, D:/Projects/home/ptt/www/css/default.scss */
+  section.about ul.info {
+    margin-top: 75px;
+    width: 100%;
+    transition: all 0.25s ease-in-out; }
+    /* line 203, D:/Projects/home/ptt/www/css/default.scss */
+    section.about ul.info > li {
+      display: flex;
+      margin-bottom: 52px; }
+      /* line 204, D:/Projects/home/ptt/www/css/default.scss */
+      section.about ul.info > li:last-child {
+        margin-bottom: 0; }
+        /* line 205, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info > li:last-child p.signature {
+          margin-top: 52px; }
+      /* line 207, D:/Projects/home/ptt/www/css/default.scss */
+      section.about ul.info > li p.mini {
+        letter-spacing: 0.15em; }
+      /* line 208, D:/Projects/home/ptt/www/css/default.scss */
+      section.about ul.info > li > * {
+        box-sizing: border-box; }
+      /* line 209, D:/Projects/home/ptt/www/css/default.scss */
+      section.about ul.info > li > p:first-child {
+        width: 25.49%;
+        padding-right: 20px;
+        color: #fff; }
+      /* line 210, D:/Projects/home/ptt/www/css/default.scss */
+      section.about ul.info > li > div {
+        width: 57.25%; }
+        /* line 211, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info > li > div p:not(.huge) {
+          font-weight: 300;
+          line-height: 1.5em; }
+        /* line 212, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info > li > div ul {
+          margin-top: 5px; }
+        /* line 213, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info > li > div li {
+          position: relative;
+          padding-left: 30px; }
+          /* line 214, D:/Projects/home/ptt/www/css/default.scss */
+          section.about ul.info > li > div li:before {
+            content: "\2014";
+            font-size: 20px;
+            position: absolute;
+            top: 0;
+            left: 0; }
+      /* line 217, D:/Projects/home/ptt/www/css/default.scss */
+      section.about ul.info > li > p:last-child {
+        width: 17.26%;
+        text-align: right;
+        padding-left: 20px;
+        color: #643A8E;
+        opacity: 1; }
+    /* line 220, D:/Projects/home/ptt/www/css/default.scss */
+    section.about ul.info li.partners ul + p {
+      margin-top: 30px; }
+    /* line 221, D:/Projects/home/ptt/www/css/default.scss */
+    section.about ul.info li.partners .quarry + p {
+      margin-top: 30px; }
+    /* line 222, D:/Projects/home/ptt/www/css/default.scss */
+    section.about ul.info li.partners .quarry {
+      margin-top: 24px; }
+      /* line 223, D:/Projects/home/ptt/www/css/default.scss */
+      section.about ul.info li.partners .quarry a {
+        display: inline-block;
+        vertical-align: middle;
+        width: 168px;
+        height: 168px;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        margin-right: 24px;
+        box-sizing: border-box;
+        padding: 19px 12px 28px 22px;
+        position: relative;
+        transition: all 0.25s ease-in-out; }
+        /* line 224, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info li.partners .quarry a:hover {
+          opacity: 1;
+          background-color: #643a8e; }
+          /* line 225, D:/Projects/home/ptt/www/css/default.scss */
+          section.about ul.info li.partners .quarry a:hover img {
+            opacity: 1; }
+        /* line 228, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info li.partners .quarry a:last-child {
+          margin-right: 0; }
+        /* line 229, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info li.partners .quarry a p {
+          line-height: 25px;
+          font-weight: 300; }
+        /* line 230, D:/Projects/home/ptt/www/css/default.scss */
+        section.about ul.info li.partners .quarry a img {
+          width: 24px;
+          height: 23px;
+          position: absolute;
+          bottom: 30px;
+          left: 24px;
+          opacity: 0;
+          transition: all .25s ease-in-out; }
+
+/*------------------------------------------------*/
+/* line 239, D:/Projects/home/ptt/www/css/default.scss */
+section.contacts {
+  display: flex;
+  z-index: 10 !important;
+  background-color: #f7f7f7; }
+  /* line 240, D:/Projects/home/ptt/www/css/default.scss */
+  section.contacts:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    content: "";
+    transition: all .25s ease-in-out;
+    opacity: 1;
+    pointer-events: none; }
+  /* line 242, D:/Projects/home/ptt/www/css/default.scss */
+  section.contacts.active:after {
+    opacity: 0; }
+  /* line 244, D:/Projects/home/ptt/www/css/default.scss */
+  section.contacts > div {
+    width: 50%;
+    box-sizing: border-box; }
+  /* line 245, D:/Projects/home/ptt/www/css/default.scss */
+  section.contacts .left {
+    background-color: #f7f7f7;
+    padding: 108px 0 160px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    /* line 246, D:/Projects/home/ptt/www/css/default.scss */
+    section.contacts .left .container {
+      width: 488px; }
+    /* line 247, D:/Projects/home/ptt/www/css/default.scss */
+    section.contacts .left h2 {
+      color: #3C2054; }
+    /* line 248, D:/Projects/home/ptt/www/css/default.scss */
+    section.contacts .left .address {
+      margin-top: 54px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(60, 32, 84, 0.1); }
+      /* line 249, D:/Projects/home/ptt/www/css/default.scss */
+      section.contacts .left .address p.big {
+        margin-top: 18px;
+        color: #3C2054;
+        line-height: 1.4em; }
+    /* line 251, D:/Projects/home/ptt/www/css/default.scss */
+    section.contacts .left .phone {
+      margin-top: 40px; }
+      /* line 252, D:/Projects/home/ptt/www/css/default.scss */
+      section.contacts .left .phone p.phone {
+        color: #3C2054;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 49px;
+        line-height: 1em;
+        letter-spacing: normal; }
+      /* line 253, D:/Projects/home/ptt/www/css/default.scss */
+      section.contacts .left .phone p.big {
+        margin-top: 47px;
+        color: #7D27D3; }
+  /* line 256, D:/Projects/home/ptt/www/css/default.scss */
+  section.contacts .right {
+    position: relative;
+    z-index: 2; }
+  /* line 258, D:/Projects/home/ptt/www/css/default.scss */
+  section.contacts .videocontainer video {
+    display: none; }
+  /* line 259, D:/Projects/home/ptt/www/css/default.scss */
+  section.contacts .videocontainer img {
+    display: block !important; }
+
+/*------------------------------------------------*/
+/* line 265, D:/Projects/home/ptt/www/css/default.scss */
+#pagepiling {
+  float: left;
+  width: 100%; }
+
+/* line 266, D:/Projects/home/ptt/www/css/default.scss */
+section {
+  position: relative; }
+
+/* line 267, D:/Projects/home/ptt/www/css/default.scss */
+html.mobile, body.mobile {
+  overflow: auto; }
+  /* line 268, D:/Projects/home/ptt/www/css/default.scss */
+  html.mobile section.transhipment:after, html.mobile section.production:after, html.mobile section.contacts:after, body.mobile section.transhipment:after, body.mobile section.production:after, body.mobile section.contacts:after {
+    display: none; }
+  /* line 270, D:/Projects/home/ptt/www/css/default.scss */
+  html.mobile section, html.mobile section.about, html.mobile section.firstscreen, html.mobile section.services, html.mobile section.transhipment, html.mobile section.production, html.mobile section.contacts, body.mobile section, body.mobile section.about, body.mobile section.firstscreen, body.mobile section.services, body.mobile section.transhipment, body.mobile section.production, body.mobile section.contacts {
+    z-index: initial !important; }
+
+/* line 275, D:/Projects/home/ptt/www/css/default.scss */
+.contacts_logo {
+  position: absolute;
+  top: 37px;
+  right: 44px; }
+
+/* line 277, D:/Projects/home/ptt/www/css/default.scss */
+section.mobile {
+  min-height: 0; }
+
+/* line 279, D:/Projects/home/ptt/www/css/default.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 90px;
+  color: white;
+  padding: 0 44px;
+  box-sizing: border-box;
+  z-index: 1000; }
+  /* line 280, D:/Projects/home/ptt/www/css/default.scss */
+  footer.mobile {
+    display: none; }
+  /* line 281, D:/Projects/home/ptt/www/css/default.scss */
+  footer .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 34px; }
+    /* line 282, D:/Projects/home/ptt/www/css/default.scss */
+    footer .container > * {
+      pointer-events: all; }
+  /* line 284, D:/Projects/home/ptt/www/css/default.scss */
+  footer p.small {
+    width: 30%;
+    letter-spacing: 0.02em; }
+  /* line 286, D:/Projects/home/ptt/www/css/default.scss */
+  footer .mid {
+    transition: all .25s ease-in-out;
+    opacity: 1; }
+  /* line 287, D:/Projects/home/ptt/www/css/default.scss */
+  footer .mid.active {
+    opacity: 0;
+    pointer-events: none; }
+  /* line 289, D:/Projects/home/ptt/www/css/default.scss */
+  footer .mid.first .bottom {
+    opacity: 1; }
+  /* line 293, D:/Projects/home/ptt/www/css/default.scss */
+  footer .mid.last .top {
+    opacity: 1; }
+  /* line 296, D:/Projects/home/ptt/www/css/default.scss */
+  footer .mid > * {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 297, D:/Projects/home/ptt/www/css/default.scss */
+  footer .mid p {
+    font-size: 15px;
+    font-weight: 400; }
+  /* line 298, D:/Projects/home/ptt/www/css/default.scss */
+  footer .mouse {
+    width: 18px;
+    height: 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 13.5px;
+    position: relative;
+    margin-right: 22px; }
+    /* line 299, D:/Projects/home/ptt/www/css/default.scss */
+    footer .mouse:after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 6px;
+      left: 8px;
+      width: 2px;
+      height: 7px;
+      background-color: #fff; }
+  /* line 301, D:/Projects/home/ptt/www/css/default.scss */
+  footer .keyboard {
+    margin-left: 14px;
+    width: 46px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    position: relative;
+    top: 8px; }
+    /* line 302, D:/Projects/home/ptt/www/css/default.scss */
+    footer .keyboard > * {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid #FFFFFF;
+      border-radius: 3px;
+      position: absolute;
+      left: 14px;
+      opacity: 0.3;
+      transition: all .25s ease-in-out; }
+      /* line 303, D:/Projects/home/ptt/www/css/default.scss */
+      footer .keyboard > *:after {
+        background-image: url("../img/arrow_up_white.svg");
+        background-size: 6px;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        content: "";
+        display: block; }
+    /* line 305, D:/Projects/home/ptt/www/css/default.scss */
+    footer .keyboard .top {
+      top: -18px; }
+    /* line 306, D:/Projects/home/ptt/www/css/default.scss */
+    footer .keyboard .bottom {
+      bottom: -2px; }
+      /* line 307, D:/Projects/home/ptt/www/css/default.scss */
+      footer .keyboard .bottom:after {
+        background-image: url("../img/arrow_down_white.svg"); }
+  /* line 310, D:/Projects/home/ptt/www/css/default.scss */
+  footer p.pagenumber {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    width: 30%;
+    text-align: right; }
+    /* line 311, D:/Projects/home/ptt/www/css/default.scss */
+    footer p.pagenumber > span {
+      display: inline-block;
+      text-align: center;
+      width: 20px;
+      margin-right: -6px; }
+  /* line 314, D:/Projects/home/ptt/www/css/default.scss */
+  footer [onclick] {
+    cursor: pointer; }
+  /* line 316, D:/Projects/home/ptt/www/css/default.scss */
+  footer:after {
+    content: "";
+    display: block;
+    margin-top: 0;
+    top: 100%;
+    width: 100%;
+    height: 500px;
+    background-color: #643a8e;
+    background-image: url("../img/noise.png");
+    z-index: -1;
+    transform: translate3d(0px, 0px, 0px) scale(0.938) !important;
+    transform-origin: center top;
+    box-shadow: 0 -10px 96px 0 rgba(20, 21, 23, 0.3);
+    left: 0;
+    position: absolute;
+    -webkit-transition: all 1000ms cubic-bezier(0.55, 0.085, 0, 0.99);
+    -moz-transition: all 1000ms cubic-bezier(0.55, 0.085, 0, 0.99);
+    -o-transition: all 1000ms cubic-bezier(0.55, 0.085, 0, 0.99);
+    transition: all 1000ms cubic-bezier(0.55, 0.085, 0, 0.99);
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.085, 0, 0.99);
+    -moz-transition-timing-function: cubic-bezier(0.55, 0.085, 0, 0.99);
+    -o-transition-timing-function: cubic-bezier(0.55, 0.085, 0, 0.99);
+    transition-timing-function: cubic-bezier(0.55, 0.085, 0, 0.99); }
+  /* line 328, D:/Projects/home/ptt/www/css/default.scss */
+  footer.lastslide:after {
+    margin-top: -90px; }
+
+@media (min-width: 1600px) {
+  /* line 333, D:/Projects/home/ptt/www/css/default.scss */
+  footer:after {
+    transform: translate3d(0px, 0px, 0px) scale(0.95) !important; } }
+
+/* line 341, D:/Projects/home/ptt/www/css/default.scss */
+.ymaps-2-1-47-ground-pane {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); }
+
+/* line 352, D:/Projects/home/ptt/www/css/default.scss */
+#googlemap ymaps-2-1-47-copyright__wrap, #googlemap .controller {
+  display: none; }
+
+/* line 355, D:/Projects/home/ptt/www/css/default.scss */
+a[href^="tel"]:hover {
+  cursor: default;
+  opacity: inherit; }
+
+/* line 356, D:/Projects/home/ptt/www/css/default.scss */
+a[href^="tel"] {
+  cursor: default; }
+
+/* line 359, D:/Projects/home/ptt/www/css/default.scss */
+section.transhipment #mCSB_1 {
+  width: 100%; }
+
+/* line 360, D:/Projects/home/ptt/www/css/default.scss */
+section.transhipment .main .container {
+  margin: 0 auto; }
+
+/* line 363, D:/Projects/home/ptt/www/css/default.scss */
+.marker {
+  display: inline-block;
+  background-color: #643a8e;
+  border-radius: 1000px;
+  margin-top: -45px;
+  box-sizing: border-box;
+  height: 45px;
+  cursor: pointer;
+  padding: 11px 17px 11px 51px;
+  position: relative;
+  transform: translateX(-50%); }
+  /* line 364, D:/Projects/home/ptt/www/css/default.scss */
+  .marker:before {
+    content: "";
+    border: solid;
+    border-width: 12px 5px;
+    border-color: #643a8e transparent transparent transparent;
+    position: absolute;
+    bottom: -23px;
+    left: 50%;
+    margin-left: -3px; }
+  /* line 365, D:/Projects/home/ptt/www/css/default.scss */
+  .marker svg {
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    bottom: 0;
+    margin: auto; }
+  /* line 366, D:/Projects/home/ptt/www/css/default.scss */
+  .marker p {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    letter-spacing: -0.03em;
+    font-weight: 400; }
+
+/* line 371, D:/Projects/home/ptt/www/css/default.scss */
+.dots {
+  position: fixed;
+  top: 50%;
+  right: 37px;
+  margin-top: -68px; }
+  /* line 372, D:/Projects/home/ptt/www/css/default.scss */
+  .dots .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 1000px;
+    background-color: #fff;
+    margin-bottom: 20px; }
+    /* line 373, D:/Projects/home/ptt/www/css/default.scss */
+    .dots .dot:last-child {
+      margin-bottom: 0; }
+    /* line 374, D:/Projects/home/ptt/www/css/default.scss */
+    .dots .dot.active {
+      background-color: #7D27D3; }
+
+/* line 378, D:/Projects/home/ptt/www/css/default.scss */
+.noise {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/noise.png");
+  transition: all .6s ease-in-out; }
+  /* line 379, D:/Projects/home/ptt/www/css/default.scss */
+  .noise.dark {
+    background-color: rgba(28, 25, 30, 0.4); }
+
+/* line 382, D:/Projects/home/ptt/www/css/default.scss */
+.videocontainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  overflow: hidden; }
+  /* line 383, D:/Projects/home/ptt/www/css/default.scss */
+  .videocontainer video, .videocontainer img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 16px;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover; }
+  /* line 384, D:/Projects/home/ptt/www/css/default.scss */
+  .videocontainer img {
+    z-index: 1;
+    display: none; }
+  /* line 385, D:/Projects/home/ptt/www/css/default.scss */
+  .videocontainer video {
+    z-index: 2; }
+  /* line 386, D:/Projects/home/ptt/www/css/default.scss */
+  .videocontainer .noise {
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+    z-index: 3; }
+
+/* line 390, D:/Projects/home/ptt/www/css/default.scss */
+.videocontainer.mobile video {
+  display: none; }
+
+/* line 391, D:/Projects/home/ptt/www/css/default.scss */
+.videocontainer.mobile img {
+  display: block; }
+
+/* line 396, D:/Projects/home/ptt/www/css/default.scss */
+.videocontainer {
+  background-size: cover;
+  background-position: center; }
+
+/* line 398, D:/Projects/home/ptt/www/css/default.scss */
+section.services .railway .videocontainer {
+  background-image: url("../img/service1.jpg"); }
+
+/* line 399, D:/Projects/home/ptt/www/css/default.scss */
+section.services .pickup .videocontainer, section.production .videocontainer {
+  background-image: url("../img/service2.jpg"); }
+
+/* line 400, D:/Projects/home/ptt/www/css/default.scss */
+section.services .delivery .videocontainer {
+  background-image: url("../img/service3.jpg"); }
+
+/* line 402, D:/Projects/home/ptt/www/css/default.scss */
+.popup {
+  display: none; }
+
+/* line 404, D:/Projects/home/ptt/www/css/default.scss */
+.adaptiveshowmap {
+  display: none;
+  position: fixed;
+  height: 60px;
+  left: 0;
+  width: 100%;
+  bottom: -60px;
+  background-color: #643a8e;
+  background-image: url("../img/noise.png");
+  background-position: center;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  z-index: 20;
+  transition: all .25s ease-in-out;
+  opacity: 0;
+  cursor: pointer; }
+  /* line 405, D:/Projects/home/ptt/www/css/default.scss */
+  .adaptiveshowmap.active {
+    bottom: 0;
+    opacity: 1; }
+
+/* line 409, D:/Projects/home/ptt/www/css/default.scss */
+#popup {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  transition: all 0.25s ease-in-out;
+  z-index: 1110;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform: scale(0.9); }
+  /* line 410, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .invisible {
+    opacity: 0;
+    pointer-events: none; }
+  /* line 411, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .close {
+    width: 70px;
+    height: 70px;
+    background-color: #643A8E;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    z-index: 2; }
+    /* line 412, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .close:before {
+      content: "";
+      display: inline-block;
+      width: 25px;
+      height: 2px;
+      background-color: #fff;
+      transform: rotate(45deg);
+      position: absolute;
+      left: 23px;
+      top: 34px; }
+    /* line 413, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .close:after {
+      content: "";
+      display: inline-block;
+      width: 25px;
+      height: 2px;
+      background-color: #fff;
+      transform: rotate(-45deg);
+      position: absolute;
+      left: 23px;
+      top: 34px; }
+    /* line 414, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .close:hover {
+      opacity: 0.6; }
+  /* line 416, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .container {
+    width: 1130px;
+    min-height: 100%;
+    padding: 100px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+  /* line 417, D:/Projects/home/ptt/www/css/default.scss */
+  #popup h2 {
+    color: #3C2054;
+    display: block;
+    width: 100%; }
+  /* line 418, D:/Projects/home/ptt/www/css/default.scss */
+  #popup div {
+    position: relative; }
+  /* line 419, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .six-col.active label, #popup .nine-col.active label {
+    top: -26px; }
+    /* line 420, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .six-col.active label p, #popup .nine-col.active label p {
+      font-weight: 500;
+      color: rgba(60, 32, 84, 0.4);
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em; }
+  /* line 422, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .six-col {
+    margin-top: 79px; }
+    /* line 423, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .six-col.error ~ .messages p.infotext.error {
+      opacity: 1;
+      top: 0; }
+  /* line 425, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .nine-col {
+    margin-top: 60px; }
+    /* line 426, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .nine-col.error ~ .messages p.infotext.error {
+      opacity: 1;
+      top: 0; }
+  /* line 428, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .three-col {
+    display: inline-flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 77px; }
+    /* line 429, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .three-col p {
+      display: inline-block;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: normal;
+      color: #3C2054; }
+      /* line 430, D:/Projects/home/ptt/www/css/default.scss */
+      #popup .three-col p:first-child {
+        margin-top: 3px; }
+      /* line 431, D:/Projects/home/ptt/www/css/default.scss */
+      #popup .three-col p:last-child {
+        width: 72.7%; }
+    /* line 433, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .three-col hr {
+      width: 31px;
+      border-bottom: none;
+      border-color: rgba(60, 32, 84, 0.1);
+      flex: 1;
+      margin: 9px 18px 0 10px; }
+  /* line 435, D:/Projects/home/ptt/www/css/default.scss */
+  #popup label {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out;
+    left: 2px; }
+    /* line 436, D:/Projects/home/ptt/www/css/default.scss */
+    #popup label p {
+      font-size: 22px;
+      font-weight: 300;
+      color: #3C2054;
+      letter-spacing: 0px; }
+  /* line 438, D:/Projects/home/ptt/www/css/default.scss */
+  #popup input, #popup textarea {
+    border-bottom: 1px solid #E3E0E5;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #3C2054;
+    padding-bottom: 22px; }
+  /* line 439, D:/Projects/home/ptt/www/css/default.scss */
+  #popup textarea {
+    resize: none;
+    height: 56px; }
+  /* line 440, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .fake-button {
+    max-width: 100%;
+    margin-top: 64px;
+    padding-left: 63px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block; }
+    /* line 441, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .fake-button.success + .messages p.infotext.success {
+      opacity: 1;
+      top: 0; }
+    /* line 442, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .fake-button button {
+      pointer-events: none;
+      letter-spacing: 0.04em; }
+    /* line 443, D:/Projects/home/ptt/www/css/default.scss */
+    #popup .fake-button button:before {
+      content: "";
+      display: inline-block;
+      width: 31px;
+      height: 3px;
+      border-radius: 1000px;
+      background-color: #7D27D3;
+      position: absolute;
+      left: 0;
+      top: 50%; }
+  /* line 446, D:/Projects/home/ptt/www/css/default.scss */
+  #popup p.infotext {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 1000px;
+    text-align: center;
+    padding: 15px 22px;
+    font-size: 20px;
+    line-height: 1em;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    left: 217px;
+    top: 10px; }
+  /* line 447, D:/Projects/home/ptt/www/css/default.scss */
+  #popup p.infotext.success {
+    background-color: rgba(125, 39, 211, 0.06);
+    color: #7D27D3; }
+  /* line 448, D:/Projects/home/ptt/www/css/default.scss */
+  #popup p.infotext.error {
+    background-color: rgba(200, 14, 109, 0.06);
+    color: #C80F6D; }
+  /* line 449, D:/Projects/home/ptt/www/css/default.scss */
+  #popup .messages {
+    width: 100%;
+    display: block;
+    margin-top: -78px; }
+
+/* line 452, D:/Projects/home/ptt/www/css/default.scss */
+#videopopup {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  transition: all 0.25s ease-in-out;
+  z-index: 1110;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform: scale(0.9); }
+  /* line 453, D:/Projects/home/ptt/www/css/default.scss */
+  #videopopup .close {
+    width: 70px;
+    height: 70px;
+    background-color: #643A8E;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    pointer-events: all; }
+    /* line 454, D:/Projects/home/ptt/www/css/default.scss */
+    #videopopup .close:before {
+      content: "";
+      display: inline-block;
+      width: 25px;
+      height: 2px;
+      background-color: #fff;
+      transform: rotate(45deg);
+      position: absolute;
+      left: 23px;
+      top: 34px; }
+    /* line 455, D:/Projects/home/ptt/www/css/default.scss */
+    #videopopup .close:after {
+      content: "";
+      display: inline-block;
+      width: 25px;
+      height: 2px;
+      background-color: #fff;
+      transform: rotate(-45deg);
+      position: absolute;
+      left: 23px;
+      top: 34px; }
+    /* line 456, D:/Projects/home/ptt/www/css/default.scss */
+    #videopopup .close:hover {
+      opacity: 0.6; }
+  /* line 458, D:/Projects/home/ptt/www/css/default.scss */
+  #videopopup iframe, #videopopup video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1; }
+  /* line 459, D:/Projects/home/ptt/www/css/default.scss */
+  #videopopup .container {
+    width: 1130px;
+    min-height: 100%;
+    padding: 100px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 5;
+    pointer-events: none; }
+
+@media (min-width: 1001px) {
+  /* line 4, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover {
+    flex: 0 1 66.6666%; }
+  /* line 5, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .bg {
+    height: 50%; }
+    /* line 6, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div:hover .bg .noise {
+      background-color: rgba(28, 25, 30, 0); }
+  /* line 8, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service {
+    min-height: 50% !important; }
+    /* line 9, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div:hover .service .bgcolor {
+      height: 100%; }
+  /* line 11, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service .hidden {
+    margin-top: 25px; }
+  /* line 12, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service .hidden p {
+    opacity: 1;
+    top: 0; }
+  /* line 13, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service .plus:after {
+    transform: rotate(90deg);
+    background-color: white; }
+  /* line 14, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container > p.big {
+    display: none; }
+  /* line 15, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table {
+    margin-bottom: 75px; }
+  /* line 16, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main {
+    padding-top: 52px; }
+  /* line 17, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment h2 {
+    margin-top: 25px; } }
+
+@media (max-width: 1400px), (max-height: 760px) {
+  /* line 21, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen .container {
+    width: 830px; }
+  /* line 22, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 60px; }
+  /* line 23, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen p {
+    margin-top: 38px; }
+  /* line 24, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service h3 {
+    font-size: 21px; }
+  /* line 25, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service {
+    padding: 44px 25px 198px; }
+  /* line 26, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover {
+    flex: 0 1 60%; }
+  /* line 27, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service h3 {
+    font-size: 26px; }
+  /* line 28, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service p {
+    font-size: 18px; }
+  /* line 29, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main .container {
+    width: 600px; }
+  /* line 30, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .left div {
+    width: 355px; }
+  /* line 31, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    width: 900px; }
+  /* line 32, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a {
+    width: 158px;
+    height: 158px;
+    margin-right: 20px; }
+  /* line 33, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a p {
+    font-size: 18px; }
+  /* line 34, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .container {
+    width: 400px; }
+  /* line 36, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.big {
+    font-size: 22px; }
+  /* line 37, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.huge {
+    font-size: 26px; }
+  /* line 38, D:/Projects/home/ptt/www/css/adaptive.scss */
+  h2 {
+    font-size: 40px; }
+  /* line 39, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p {
+    font-size: 18px; }
+  /* line 41, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    margin-top: 30px; }
+  /* line 42, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    padding-bottom: 30px; }
+  /* line 43, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone {
+    margin-top: 34px; }
+  /* line 44, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.phone {
+    font-size: 26px;
+    margin-top: 30px;
+    line-height: .8em; }
+  /* line 45, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.big {
+    margin-top: 35px; }
+  /* line 46, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    padding-top: 140px; }
+  /* line 48, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .minicontainer {
+    width: 460px; }
+  /* line 49, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .right .bottom {
+    padding-top: 48px; }
+  /* line 50, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .minicontainer.down {
+    bottom: 155px; }
+  /* line 51, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .right .bottom:hover .minicontainer.down {
+    bottom: 130px; }
+  /* line 52, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .right .bottom:hover {
+    padding-bottom: 170px; }
+  /* line 54, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .container, #videopopup .container {
+    width: 830px; }
+  /* line 55, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .three-col p {
+    font-size: 17px; }
+  /* line 57, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 50px; }
+  /* line 58, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.big {
+    font-size: 20px; }
+  /* line 59, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service p {
+    font-size: 16px; }
+  /* line 60, D:/Projects/home/ptt/www/css/adaptive.scss */
+  h2 {
+    font-size: 36px; }
+  /* line 61, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.small {
+    font-size: 16px; }
+  /* line 62, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table td {
+    padding: 20px 24px 20px 0; }
+  /* line 63, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p {
+    font-size: 16px; }
+  /* line 65, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.huge {
+    font-size: 23px; }
+  /* line 66, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a p {
+    font-size: 16px; }
+  /* line 67, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    padding-bottom: 118px; } }
+
+@media (max-width: 1000px) {
+  /* line 77, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .adaptiveshowmap {
+    display: block; }
+  /* line 78, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .container, section.firstscreen .container, section.transhipment .main .container, section.contacts .left .container {
+    width: 83%; }
+  /* line 79, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section, section.about, section.firstscreen, section.services, section.transhipment, section.production, section.contacts {
+    z-index: initial !important; }
+  /* line 81, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .videocontainer video {
+    display: none; }
+  /* line 82, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .videocontainer img {
+    display: block; }
+  /* line 85, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .videocontainer .noise {
+    display: none; }
+  /* line 87, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .map {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out; }
+    /* line 88, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.transhipment .map.active {
+      opacity: 1;
+      pointer-events: all; }
+  /* line 91, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .contacts_logo {
+    display: none; }
+  /* line 93, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .map .close {
+    display: block; }
+  /* line 94, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .map .mapcontrols {
+    bottom: 24px; }
+  /* line 97, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #logo {
+    width: 87px;
+    height: 42px; }
+  /* line 98, D:/Projects/home/ptt/www/css/adaptive.scss */
+  header .right, section.transhipment:after {
+    display: none; }
+  /* line 99, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section {
+    min-height: 0;
+    position: relative; }
+  /* line 100, D:/Projects/home/ptt/www/css/adaptive.scss */
+  header {
+    top: 28px;
+    padding: 0 8.5%; }
+  /* line 103, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen .container {
+    z-index: 20; }
+  /* line 104, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 33px; }
+    /* line 105, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.firstscreen h1 br {
+      display: none; }
+  /* line 107, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen {
+    padding: 299px 0 44px;
+    position: relative; }
+  /* line 108, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen p {
+    margin-top: 36px;
+    padding-left: 50px; }
+  /* line 111, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.big {
+    font-size: 20px; }
+  /* line 112, D:/Projects/home/ptt/www/css/adaptive.scss */
+  h2 {
+    font-size: 33px; }
+  /* line 115, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .bg {
+    display: none;
+    height: 200px;
+    position: absolute;
+    min-height: 0;
+    min-width: 0;
+    top: 80px;
+    transition: all 0 ease-in-out; }
+  /* line 116, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services {
+    display: block; }
+    /* line 117, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services h3, section.services .hidden {
+      width: 100%;
+      padding-left: 8.5%;
+      padding-right: 8.5%;
+      box-sizing: border-box; }
+  /* line 119, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div {
+    background-color: white;
+    display: block; }
+  /* line 120, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service h3 {
+    font-size: 20px;
+    padding-top: 27px;
+    padding-bottom: 29px;
+    cursor: pointer; }
+    /* line 121, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div .service h3 br {
+      display: none; }
+  /* line 123, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .plus {
+    background-color: white;
+    bottom: auto;
+    top: 39px !important;
+    width: 18px;
+    right: 8.5% !important;
+    height: 2px;
+    transform-origin: center; }
+  /* line 124, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .plus:after {
+    background-color: white;
+    width: 2px;
+    top: -8px;
+    left: 8px;
+    height: 18px; }
+  /* line 125, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service {
+    padding: 0; }
+  /* line 126, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .hidden {
+    margin-top: 0 !important;
+    padding-top: 257px !important;
+    height: auto !important;
+    display: none;
+    transition: all 0 ease-in-out; }
+  /* line 127, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .bgcolor {
+    height: 100%; }
+  /* line 128, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service p {
+    line-height: 30px; }
+  /* line 130, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active .bgcolor {
+    opacity: 0; }
+  /* line 131, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active h3 {
+    color: #3c2054; }
+  /* line 132, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active .plus {
+    background-color: #3c2054;
+    transform: rotate(45deg); }
+    /* line 133, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div.active .plus:after {
+      background-color: #3c2054; }
+  /* line 135, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active .service p {
+    color: #3c2054;
+    font-weight: 300;
+    width: auto !important; }
+  /* line 140, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 38px 0; }
+  /* line 141, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points hr {
+    display: none; }
+  /* line 142, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points {
+    justify-content: space-between; }
+  /* line 143, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points p:last-child {
+    margin-left: 0; }
+  /* line 144, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main .container {
+    margin: 0 auto; }
+  /* line 145, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .list {
+    margin-top: 42px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 18px;
+    margin-left: -18px; }
+  /* line 146, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials {
+    white-space: nowrap;
+    margin-left: -18px; }
+  /* line 147, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials li {
+    padding: 11px 18px 15px;
+    margin-right: 2px; }
+  /* line 148, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials li p {
+    letter-spacing: 0.09em; }
+  /* line 149, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table {
+    margin-top: 40px;
+    width: 152%; }
+  /* line 150, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table th:nth-child(2), section.transhipment table td:nth-child(2), section.transhipment table th:nth-child(3), section.transhipment table td:nth-child(3) {
+    width: auto; }
+  /* line 153, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    width: 83%; }
+  /* line 154, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info {
+    height: auto !important; }
+  /* line 157, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    padding-top: 38px;
+    padding-bottom: 43px; }
+  /* line 158, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li p.mini {
+    display: none; }
+  /* line 159, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li > div {
+    width: 100%; }
+  /* line 160, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li > div p {
+    font-size: 18px !important;
+    line-height: 30px !important; }
+  /* line 161, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info {
+    margin-top: 42px; }
+  /* line 162, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li {
+    margin-bottom: 35px; }
+    /* line 163, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.about ul.info > li.hidden {
+      display: none; }
+    /* line 164, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.about ul.info > li .hiddentext {
+      font-size: 0; }
+      /* line 165, D:/Projects/home/ptt/www/css/adaptive.scss */
+      section.about ul.info > li .hiddentext:before {
+        content: "[...]";
+        font-size: 18px; }
+  /* line 168, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container > p.big {
+    padding-left: 50px;
+    padding-top: 5px; }
+  /* line 169, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a {
+    margin-top: 20px; }
+  /* line 170, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a p {
+    line-height: 25px !important; }
+  /* line 173, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production {
+    display: none; }
+  /* line 175, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts {
+    display: block;
+    width: 100%; }
+    /* line 176, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.contacts:after {
+      display: none; }
+  /* line 178, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts > div {
+    width: 100%; }
+  /* line 179, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .right {
+    height: 200px; }
+  /* line 180, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left {
+    padding-top: 38px;
+    padding-bottom: 46px;
+    margin-bottom: 0; }
+  /* line 181, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    margin-top: 43px; }
+  /* line 182, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address p.big {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 23px; }
+  /* line 183, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    padding-bottom: 41px; }
+  /* line 184, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone {
+    margin-top: 44px; }
+  /* line 185, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.phone {
+    font-size: 23px;
+    margin-top: 32px;
+    line-height: 1em; }
+  /* line 186, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.big {
+    margin-top: 31px; }
+  /* line 189, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .container {
+    width: 83%; }
+  /* line 190, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .six-col, #popup .nine-col {
+    width: 100%; }
+  /* line 191, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .six-col {
+    margin-top: 60px; }
+  /* line 192, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup textarea {
+    height: 41px; }
+  /* line 193, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .three-col {
+    width: 100%;
+    margin-top: 34px; }
+  /* line 194, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .fake-button {
+    margin-top: 50px; }
+  /* line 195, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup label p {
+    font-size: 18px; }
+  /* line 196, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup input, #popup textarea {
+    font-size: 18px;
+    padding-bottom: 10px; }
+  /* line 197, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .fake-button button {
+    font-size: 21px; }
+  /* line 198, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .messages {
+    margin-top: 20px; }
+  /* line 199, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup p.infotext {
+    left: 0;
+    max-width: 100%; }
+  /* line 200, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup p.infotext {
+    font-size: 16px;
+    white-space: inherit; }
+  /* line 203, D:/Projects/home/ptt/www/css/adaptive.scss */
+  footer {
+    display: none; }
+  /* line 204, D:/Projects/home/ptt/www/css/adaptive.scss */
+  header {
+    position: absolute; } }
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  /* line 211, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 45px; }
+  /* line 212, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .hidden {
+    padding-top: 357px !important; }
+  /* line 213, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .bg {
+    height: 300px; }
+  /* line 214, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points hr {
+    display: block;
+    width: 30%;
+    flex: 1;
+    margin: 0 20px; }
+  /* line 215, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table {
+    width: 100%; }
+  /* line 216, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .list {
+    overflow: auto !important; }
+  /* line 217, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials li:first-child {
+    margin-right: 18px; } }
+
+@media (min-width: 1001px) {
+  /* line 221, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .videocontainer video {
+    display: none; }
+  /* line 222, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen .videocontainer video {
+    display: block; }
+  /* line 223, D:/Projects/home/ptt/www/css/adaptive.scss */
+  footer {
+    display: none; }
+  /* line 225, D:/Projects/home/ptt/www/css/adaptive.scss */
+  body.mobile, html.mobile {
+    overflow: auto; }
+    /* line 226, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.transhipment:after, body.mobile section.production:after, body.mobile section.contacts:after, html.mobile section.transhipment:after, html.mobile section.production:after, html.mobile section.contacts:after {
+      display: none; }
+    /* line 227, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section, body.mobile section.about, body.mobile section.firstscreen, body.mobile section.services, body.mobile section.transhipment, body.mobile section.production, body.mobile section.contacts, html.mobile section, html.mobile section.about, html.mobile section.firstscreen, html.mobile section.services, html.mobile section.transhipment, html.mobile section.production, html.mobile section.contacts {
+      z-index: initial !important; }
+    /* line 228, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.firstscreen, html.mobile section.firstscreen {
+      padding-bottom: 110px; }
+    /* line 229, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.services .service .plus, html.mobile section.services .service .plus {
+      bottom: 50px; }
+    /* line 230, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.services > div .service, html.mobile section.services > div .service {
+      padding-bottom: 108px;
+      padding-top: 30px; }
+    /* line 231, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .left, html.mobile section.production .left {
+      padding-bottom: 100px; }
+    /* line 232, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .minicontainer.down, html.mobile section.production .minicontainer.down {
+      bottom: 65px; }
+    /* line 233, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .right .bottom, html.mobile section.production .right .bottom {
+      padding-bottom: 110px; }
+    /* line 234, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .right .bottom:hover .minicontainer.down, html.mobile section.production .right .bottom:hover .minicontainer.down {
+      bottom: 65px; }
+    /* line 235, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.about .container, html.mobile section.about .container {
+      padding-bottom: 108px; }
+    /* line 236, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.about, html.mobile section.about {
+      height: auto !important; }
+    /* line 237, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.contacts .left, html.mobile section.contacts .left {
+      padding: 108px 0; }
+  /* line 240, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production {
+    overflow: hidden; } }
+
+/*# sourceMappingURL=default.css.map */

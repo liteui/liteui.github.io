@@ -1,0 +1,295 @@
+@import "basics.scss";
+
+// Секции, header, footer и т.д. //
+
+header {padding: 33px 0px; position: absolute; z-index: 10; width: inherit;
+    .container>*, .buttons >* {display: inline-block; vertical-align: middle;}
+    .container {display:flex; justify-content: space-between}
+    p {margin-right: 29px; font-weight: 600;
+		a:hover {color: $green;}
+	}
+	.fixed-buttonblock {width: 100%; background-color: #fff; position: fixed; padding: 10px 0; top: -60px; opacity: 0; pointer-events: none; transition: all 0.25s ease-in-out; box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.08); z-index: 110; display: none; text-align: center;
+		&.active {top: 0; opacity: 1; pointer-events: all;}
+	}
+}
+
+
+/*------------------------------------------------------*/
+ 
+section.firstscreen {padding-top: 248px; padding-bottom: 230px; position: relative; overflow:hidden;
+	.envelopes {position:absolute; left:50%; width:1px; top:0; height:100%;
+        img {position: absolute; pointer-events: none; z-index: -1;
+		    &:nth-child(1) {top: 64px; left: -754px;}
+			&:nth-child(2) {top: 14px; right: -804px;}
+			&:nth-child(3) {top: 498px; right: -368px;}
+		    &:nth-child(4) {top: 440px; left: -714px;}
+		    &:nth-child(5) {bottom: -51px; left: -436px;}
+		    &:nth-child(6) {top: 270px; right: -214px;}
+		    &:nth-child(7) {top: -25px; right: 10px;}
+		    &:nth-child(8) {top: 430px; right: -569px;}
+		    &:nth-child(9) {top: 220px; left: -354px;}
+	    }
+    }
+	.preheader {color: #959595;}
+	h1 {margin-top: 12px;}
+	.button {margin-top: 77px; box-shadow: 0px 10px 46px 0px rgba(black, .19);}
+}
+
+/*------------------------------------------------------*/
+
+section.advantages {background-color: $green; position: relative; padding: 76px 0 73px;
+	ul {width: 1090px; margin: 0 auto;
+		li {text-align: center; width: 33.3333%; display:inline-block; box-sizing: border-box; vertical-align: top;
+			div {height: 100px; width:100%; display: flex; justify-content: center; align-items: center;
+                svg {display:inline-block;}
+            }
+			p {color: white; font-weight: 500; padding: 14px 20px 0;}
+		}
+	}
+    
+    /*--------*/
+    
+    img[src="img/adv2.svg"] {margin-top:6px;}
+    
+    /*--------*/
+    
+    .arrow {position: absolute; width: 65px; height: 65px; border-radius: 100%; top: -32px; left: 50%; margin-left:-32px; background-color: white; z-index:2;
+        svg {transition:top 0.25s ease-in-out; display:inline-block; position:absolute; left:0; right:0; top:33px; margin:auto;
+            path {fill:#1cc252; transition:fill 0.25s ease-in-out;}
+        }
+        &:hover svg {top:28px;
+            path {fill:#46db68}
+        }
+    }
+}
+
+/*------------------------------------------------------*/
+
+section.second {padding: 126px 0 161px; position: relative; overflow:hidden;
+	.preheader {color: #959595;}
+	h2 {margin-top: 21px;}
+    h2+p {margin-top: 25px;}
+    .bg {background-image:url('../img/thirdbg.jpg'); background-repeat:no-repeat; background-position:center top; width:100%; height:100%; top:0; left:0; position:absolute;}
+    .container {position: relative; z-index:2;}
+    
+    /*--------*/
+    
+	.percents {position: relative; margin: 46px auto 0; width: 752px; 
+		>* {color: $green; display: inline-block;
+            &.five, &.twenty {position: absolute;}
+            &:hover div {transform: scale(1.1)}
+            div {transition:all 0.25s ease-in-out; background-color: white; border-radius: 100%; box-shadow: 0 4px 38px 0 rgba(0, 0, 0, 0.1); box-sizing: border-box;}
+            div+p {text-transform: uppercase; font-weight: 600; z-index:2; position: relative}
+            p.number {font-size: 110px; font-weight: 900; line-height:1em; letter-spacing: -0.02em;}
+			span {font-size: 50px; position: relative;
+                &:last-child {top: -23px;}
+            }
+		}
+        
+        /*--------*/
+        
+        .five {left: 42px; top: 53px; width:192px;
+            div {width:192px; height:192px; padding-top:43px;}
+            div+p {margin: -15px auto 0; max-width: 160px;}
+            p.number {padding-left:1px;}
+        }
+        
+        /*--------*/
+        
+		.ten {width: 299px; z-index:2; position:relative;
+            div {width: 299px; height: 299px; box-shadow: 0 5px 57px 0 rgba(0,0,0,.14); padding-top: 65px;}
+            div+p {max-width: 200px; margin: -69px auto 0;}
+			p.number {font-size: 150px; letter-spacing: -0.06em; padding-right:5px;}
+            span {margin-left: 9px; font-size: 58px; top: -26px !important;}
+		}
+        
+        /*--------*/
+        
+        .twenty {width: 236px; top: 30px; right:0;
+            div {width: 236px; height: 236px; padding-top:61px;}
+            div+p {margin-top: -36px;}
+            span:first-child {font-size: 24px; margin-right: -5px; top: -32px;}
+            span:last-child {margin-left: 1px;}
+        }
+	}
+}
+
+/*------------------------------------------------------*/
+
+section.third {background-color: #f9f9f9; text-align: left; position:relative; overflow: hidden;
+    h2 {text-indent: -3px;}
+    .wrapper {width:200%; position:relative; transform:translate3d(0,0,0); transition: left 0.5s ease-in-out; left:0; z-index:2;}
+    .bg {height:100%; width:400%; position:absolute; left:-150%; top:0; background: url("../img/calcbg.jpg") repeat-x center top; transition:left 1s ease-out; transform:translate3d(0,0,0);}
+    
+    /*--------*/
+    
+    &.active {
+        .wrapper {left:-100%}
+        .bg {left:-265%}
+    }
+    
+    /*--------*/
+    
+	.controls {padding-top:130px; width:100%; position:absolute; left:0; top:0; z-index:3;
+        ul {display: inline-block; border: 2px solid #cdcdcd; border-radius: 1000px; padding: 3px; transition: all 0.25s ease-in-out; position: relative;
+            &:hover {border-color: $green;}
+        }
+		li {display: inline-block; color: $green; border-radius: 1000px; font-weight: 500; cursor: pointer; font-size:14px; padding: 10px 21px 8px; transition: all 0.25s ease-in-out; z-index:2; position: relative; line-height:1em; margin-right:11px;
+			&:last-child {margin-right: 0; padding-left:24px; padding-right:24px;}
+            &.navbar {width:182px; position:absolute; left:3px; top:3px; padding: 10px 0 8px; height:14px; background-color: $green;}
+			&.active {color: white;}
+		}
+	}
+    
+    /*--------*/
+    
+	.slide {padding: 221px 0 141px; width:50%; display:inline-block;
+		h2 + p {margin-top: 25px;}
+        &.second .calculator >* {width:auto !important;}
+	}
+    
+    /*--------*/
+    
+    .calculator {margin-top: 62px; padding-right: 10px; display:flex; justify-content: space-between; align-items: flex-end;
+        >* {vertical-align: bottom; display: inline-block; padding-bottom:5px;
+            &:last-child {margin-right:0;}
+            &:first-child {padding-left: 3px; padding-bottom:0;
+                p:first-child {padding-left: 24px;}
+            }
+            &:nth-of-type(3) {width:95px;}
+            &:nth-of-type(2) {width:162px;}
+        }
+        .rangeblock {background-color:white; border-radius:6px 6px 0 0; padding: 7px 22px 7px; margin:6px 2px 0 0; width: 152px; font-size:34px; box-sizing:content-box; border-top:2px solid white; border-left:2px solid white; border-right:2px solid white; transition:all .25s ease-in-out;}
+        .rangecol:hover .rangeblock {border-color:$green}
+        .range {height:5px; width:100%; background-color:$green;}
+        p {text-transform: uppercase;}
+        p.number {font-size: 34px; margin-top: 1px;}
+    }
+}
+
+/*------------------------------------------------------*/
+
+section.fourth {color: white; padding: 130px 0; position:relative; overflow:hidden; background-color:#1cc252;
+    .bg {background-image: url('../img/bggreenenvelope.jpg'); background-position:center top; background-repeat:no-repeat; width:100%; height:150%; top:0; left:0; position:absolute;}
+	.preheader:after {border-color:#6ddb92}
+	h2 {margin-top: 21px;}
+    h2+p {margin-top: 25px;}
+    .container {position: relative; z-index:2;}
+    
+    /*--------*/
+    
+	form {margin:71px auto 0; width:716px;} 
+}
+
+/*------------------------------------------------------*/
+
+section.share {padding: 116px 0 144px;
+	.socials {margin-top: 68px;
+		div {width: 175px; background-color: #000; border-radius: 1000px; padding-top:16px; position: relative; margin-right:27px; display:inline-block; vertical-align: top; box-sizing:border-box; height:60px; color: white; transition:all 0.25s ease-in-out; cursor:pointer;
+            &:last-child {margin-right:0;}
+			>* {display: inline-block; vertical-align: middle; text-align: center; box-sizing:border-box;}
+			span:first-child {width: 42.5%;}
+			span:last-child {width: 57.5%; font-weight: 500; border-left: 1px solid rgba(255, 255, 255, 0.35); padding: 6px 15px 4px 0; font-size:16px; line-height:1.3em;}
+            
+            &.facebook span.title {height:30px; background:url("../img/facebook.svg") no-repeat 34px 3px;}
+            
+            &.vk span.title {height:22px; background:url("../img/vk.svg") no-repeat 30px 4px;}
+            
+            &.twitter {padding-left: 74px; background-image: url(../img/twitter.svg); background-repeat: no-repeat; background-position: 32px 21px;
+                span {width:100%}
+            }
+            
+			&.facebook {background-color: #3a508f;
+				&:hover {background-color: #5267a9;}
+			}
+            
+			&.vk {background-color: #58789e;
+				&:hover {background-color: #6b8bb2;}
+			}
+            
+			&.twitter {background-color: #5ac4f3;
+				&:hover {background-color: #6bd3ff;}
+			}
+		}
+	}
+}
+
+/*------------------------------------------------------*/
+
+section.contacts {border-top: 1px solid #dbdbdb;
+	a {font-weight: 600;
+		&:hover {color: #46db68;}
+	}
+    p {position: relative; z-index: 2;}
+	.phone {color: #0c0c0c; font-size: 22px; font-weight: 600; margin-top: 7px;}
+    .container {padding: 38px 0 35px; position:relative;}
+    img {z-index:1; position: relative}
+    img:not(.bottom-img)+p {margin-top:20px;}
+    .bottom-img {position:absolute; top:-52px; left:0; right:0; margin:auto; z-index:0; pointer-events:none;}
+}
+
+/*------------------------------------------------------*/
+
+footer {text-align: center; position: relative; z-index: 2; background-color: $green; padding: 25px 0 21px; color:white; text-align: center;
+    a {color: #c0f0d0; margin-left: 2px; border-bottom: 1px solid; display: inline-block; line-height: 1em;
+        &:hover {border-color:transparent}
+    }
+    p {text-indent: -2px;}
+}
+
+// Секции, header, footer и т.д. //
+
+
+
+
+
+
+
+
+
+// Всплывающие окна и другие элементы сайта //
+.popup {width: 534px; padding: 69px 95px 81px; box-sizing: border-box; text-align: center; background-color: #fff; display:none; position:relative;
+	h2+p {margin-top: 30px;}
+}
+
+/*------------------------------------------------------*/
+
+.callpopup {width: 534px; padding: 69px 95px 81px; box-sizing: border-box; text-align: center; background-color: $green; display:none; color:white; position:relative;
+    h2+p {margin-top: 25px;}
+    form>div {width:100%}
+    form .fake-button {margin-top:40px}
+    form {margin-top:50px}
+}
+
+/*------------------------------------------------------*/
+
+.closepopup {position:absolute; top:12px; right:13px; z-index:10; cursor:pointer;}
+
+/*------------------------------------------------------*/
+
+.preheader {text-transform: uppercase; font-weight: 500; letter-spacing: 0.06em; text-align: center;
+    &:after {content:""; display: block; margin:24px auto 0; width: 36px; border-bottom: 2px solid $green;}
+}
+
+/*------------------------------------------------------*/
+
+.phonebutton {position: fixed; bottom: 30px; right: 30px; width: 102px; height: 102px; border: 7px solid white; border-radius: 1000px; background-color: #1cc252; z-index: 100; box-shadow: 0 6px 46px 0 rgba(0,0,0,.19);
+    img {position: absolute; left:0; top:0; right:0; bottom:0; margin:auto;}
+    &:hover {background-color:#46db68}
+}
+
+/*------------------------------------------------------*/
+
+.ui-slider-horizontal .ui-slider-handle {top: -13px; margin-left: -14px; box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.3); width: 28px; height: 28px; background-color: white; border-radius: 100%; cursor:pointer;
+    &:after {width:12px; height:12px; border-radius:100%; content:""; top:0; right:0; bottom:0; left:0; margin:auto; position:absolute; display:block; background-color:$green; transition:all 0.25s ease-in-out;}
+    &:hover:after {background-color:#46db68}
+}
+
+.bottomsection {overflow:hidden; float:left; width:100%;}
+
+
+
+
+
+
+@import "adaptive.scss";

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bizone ICC</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="assets/styles/app.min.css" rel="stylesheet">
+    <script src="assets/scripts/libs/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="index">
+        <div class="index__wrapper">
+            <div class="screen scalable" data-screen="scr1">
+                <!--+e.IMG.bg(src='assets/images/bitmap.jpg' srcset='assets/images/bitmap@2x.jpg 2x, assets/images/bitmap@3x.jpg 3x' alt='@@')-->
+                <video class="screen__video" id="main-video" src="assets/images/preview.mp4" autoplay="autoplay" loop="loop"
+                    muted="muted"></video>
+                <div class="screen__head">
+                    <div class="container">
+                        <div class="load-heading" id="heading-container">
+                            <h1 class="screen__heading" id="heading-main">Interface Name</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="screen__content">
+                    <div class="container">
+                        <div class="preloader"></div>
+                        <div class="load-content" id="content-container">
+                            <div class="grid screen__main-grid" id="content-main">
+                                <div class="grid__col grid__col_xl_4 grid__col_lg_12 grid__col_fdc">
+                                    <p class="screen__category is-anim" data-anim="true">Company</p>
+                                    <div class="card card_desc screen__card screen__card_desc js-load-fancybox is-anim"
+                                        data-type="ajax" data-src="scr1.html #popup-about" data-anim="true" data-delay="100">
+                                        <div class="card__logo">
+                                            <img src="assets/images/cardlogo_1.svg" />
+                                        </div>
+                                        <p class="card__desc">BI.ZONE is disrupting the cybersecurity industry with its
+                                            visionary approach to protecting client systems, conducting investigations
+                                            and gathering relevant threat intelligence. Headquartered in Moscow,
+                                            BI.ZONE currently
+                                            employs 200 experts and has unique competencies in Russian cyberspace and
+                                            other territories.</p>
+                                    </div>
+                                </div>
+                                <div class="grid__col grid__col_xl_4 grid__col_lg_6 grid__col_sm_12 grid__col_fdc">
+                                    <p class="screen__category is-anim" data-anim="true">Services</p>
+                                    <div class="grid">
+                                        <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="200">
+                                            <div class="card screen__card" data-src="#digital" data-target="scr2">
+                                                <div class="card__logo">
+                                                    <img src="assets/images/cardlogo_2.svg" />
+                                                </div>
+                                                <p class="card__title">Digital Forensics</p>
+                                            </div>
+                                        </div>
+                                        <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="300">
+                                            <div class="card screen__card" data-src="#penetration" data-target="scr2">
+                                                <div class="card__logo">
+                                                    <img src="assets/images/cardlogo_2.svg" />
+                                                </div>
+                                                <p class="card__title">Penetration testing services</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__col grid__col_xl_4 grid__col_lg_6 grid__col_sm_12 grid__col_fdc">
+                                    <p class="screen__category is-anim" data-anim="true">Products</p>
+                                    <div class="grid">
+                                        <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="200">
+                                            <div class="card screen__card" data-src="#threat" data-target="scr2">
+                                                <div class="card__logo">
+                                                    <img src="assets/images/cardlogo_2.svg" />
+                                                </div>
+                                                <p class="card__title">Threat Intelligence</p>
+                                            </div>
+                                        </div>
+                                        <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="300">
+                                            <div class="card screen__card" data-src="#fraud" data-target="scr2">
+                                                <div class="card__logo">
+                                                    <img src="assets/images/cardlogo_2.svg" />
+                                                </div>
+                                                <p class="card__title">Fraud Monitoring
+                                                    <br> as a Service</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav screen__nav">
+                    <div class="nav__left">
+                        <span class="nav__link nav__link_back is-inactive" data-src="#main" data-target="scr1"
+                            data-screen="scr2">
+                            <svg class="nav__icon nav__icon_back">
+                                <use xlink:href="assets/images/icon.svg#icon_arrow-left-w"></use>
+                            </svg>
+                            <span class="nav__text nav__text_back">BACK</span>
+                        </span>
+                        <span class="nav__link nav__link_home is-inactive" data-src="#main" data-target="scr1"
+                            data-screen="scr3">
+                            <svg class="nav__icon nav__icon_home">
+                                <use xlink:href="assets/images/icon.svg#icon_home-outline-w"></use>
+                            </svg>
+                            <span class="nav__text nav__text_home">HOME</span>
+                        </span>
+                    </div>
+                    <span class="nav__logo js-fancybox is-inactive" data-src="#mainpopup" data-screen="scr2">
+                        <img src="assets/images/logo.svg" />
+                    </span>
+                    <div class="nav__right">
+                        <span class="nav__link nav__link_demo js-load-fancybox is-inactive" data-type="ajax" data-src="src"
+                            id="demolink-offline">
+                            <svg class="nav__icon nav__icon_demo">
+                                <use xlink:href="assets/images/icon.svg#icon_window-restore-w"></use>
+                            </svg>
+                            <span class="nav__text nav__text_demo">DEMO</span>
+                        </span>
+                        <span class="nav__link nav__link_demo is-inactive" data-demo="demo" id="demolink-online">
+                            <svg class="nav__icon nav__icon_demo">
+                                <use xlink:href="assets/images/icon.svg#icon_window-restore-w"></use>
+                            </svg>
+                            <span class="nav__text nav__text_demo">DEMO</span>
+                        </span>
+                        <span class="nav__link nav__link_language" data-screen="scr1">
+                            <span class="nav__text nav__text_language">РУС</span>
+                        </span>
+                        <span class="nav__link nav__link_burger js-fancybox" data-src="#menupopup" data-screen="scr1">
+                            <svg class="nav__icon nav__icon_burger">
+                                <use xlink:href="assets/images/icon.svg#icon_menu-w"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="demo screen__demo scalable-fh">
+                    <div class="demo__frame-wrapper">
+                        <iframe class="demo__frame" src="https://www.bi.zone/"></iframe>
+                    </div>
+                    <div class="demo__nav">
+                        <div class="demo__left">
+                            <span class="demo__link">
+                                <svg class="demo__icon">
+                                    <use xlink:href="assets/images/icon.svg#icon_arrow-left-w"></use>
+                                </svg>
+                                <span class="demo__text">Back to presentation</span>
+                            </span>
+                        </div>
+                        <div class="demo__logo">
+                            <img src="assets/images/logo.svg" />
+                        </div>
+                        <div class="demo__right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup popup_menu scalable scalable-fh" id="menupopup">
+                <div class="popup__close">
+                    <svg class="popup__close-icon">
+                        <use xlink:href="assets/images/icon.svg#icon_close-w"></use>
+                    </svg>
+                </div>
+                <div class="popup__wrapper js-scrollbar">
+                    <div class="popup__container">
+                        <div class="menu popup__menu">
+                            <p class="menu__category menu__category_left">Services</p>
+                            <p class="menu__category menu__category_right">Products</p>
+                            <div class="menu__col menu__col_left">
+                                <span class="menu__head" data-src="#digital" data-target="scr2">
+                                    <span class="menu__logo">
+                                        <img src="assets/images/cardlogo_2.svg" />
+                                    </span>
+                                    <span class="menu__title">Digital Forensics</span>
+                                </span>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#digital1" data-target="scr3">Incident
+                                            response</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#digital2" data-target="scr3">Malware
+                                            analysis</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#digital3" data-target="scr3">Forensic &
+                                            investigation</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu__col menu__col_right">
+                                <span class="menu__head" data-src="#threat" data-target="scr2">
+                                    <span class="menu__logo">
+                                        <img src="assets/images/cardlogo_2.svg" />
+                                    </span>
+                                    <span class="menu__title">Threat Intelligence</span>
+                                </span>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#threat1" data-target="scr3">Item name</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#threat2" data-target="scr3">Item name</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#threat3" data-target="scr3">Item name</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu__col menu__col_left">
+                                <span class="menu__head" data-src="#penetration" data-target="scr2">
+                                    <span class="menu__logo">
+                                        <img src="assets/images/cardlogo_2.svg" />
+                                    </span>
+                                    <span class="menu__title">Penetration testing services</span>
+                                </span>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#penetration1" data-target="scr3">External
+                                            and Internal Infrastructure Analysis</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#penetration2" data-target="scr3">Application
+                                            Security</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#penetration3" data-target="scr3">DDOS and
+                                            Load Testing</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu__col menu__col_right">
+                                <span class="menu__head" data-src="#fraud" data-target="scr2">
+                                    <span class="menu__logo">
+                                        <img src="assets/images/cardlogo_2.svg" />
+                                    </span>
+                                    <span class="menu__title">Fraud Monitoring as a Service</span>
+                                </span>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#fraud1" data-target="scr3">Item name</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#fraud2" data-target="scr3">Item name</span>
+                                    </li>
+                                    <li class="menu__item">
+                                        <span class="menu__link" data-src="#fraud3" data-target="scr3">Item name</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="popup__brand js-fancybox" data-src="#mainpopup">
+                            <img src="assets/images/logo.svg" />
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="popup scalable scalable-fh" id="mainpopup">
+                <div class="popup__close">
+                    <svg class="popup__close-icon">
+                        <use xlink:href="assets/images/icon.svg#icon_close-w"></use>
+                    </svg>
+                </div>
+                <div class="popup__wrapper js-scrollbar">
+                    <div class="popup__container">
+                        <div class="popup__logo">
+                            <img src="assets/images/cardlogo_1.svg" />
+                        </div>
+                        <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="popup__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.</p>
+                        <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="popup__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.</p>
+                        <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        <p class="popup__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                    </div>
+                </div>
+            </div>
+            <!--+screensaver()-->
+        </div>
+    </div>
+    <script src="assets/scripts/app.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

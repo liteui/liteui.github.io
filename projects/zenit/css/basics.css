@@ -1,0 +1,308 @@
+/* line 45, D:/Servers/home/zenit/www/css/basics.scss */
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  /* */
+  border: none; }
+
+/* line 48, D:/Servers/home/zenit/www/css/basics.scss */
+*:focus {
+  outline: none; }
+
+/* line 51, D:/Servers/home/zenit/www/css/basics.scss */
+::selection {
+  background: #004f5f;
+  color: white; }
+
+/* line 52, D:/Servers/home/zenit/www/css/basics.scss */
+::-moz-selection {
+  background: #004f5f;
+  color: white; }
+
+/* line 53, D:/Servers/home/zenit/www/css/basics.scss */
+::-webkit-selection {
+  background: #004f5f;
+  color: white; }
+
+/* line 56, D:/Servers/home/zenit/www/css/basics.scss */
+::-webkit-input-placeholder {
+  color: #777; }
+
+/* line 57, D:/Servers/home/zenit/www/css/basics.scss */
+::-moz-placeholder {
+  color: #777; }
+
+/* line 58, D:/Servers/home/zenit/www/css/basics.scss */
+:-ms-input-placeholder {
+  color: #777; }
+
+/* line 59, D:/Servers/home/zenit/www/css/basics.scss */
+:-moz-placeholder {
+  color: #777; }
+
+/* line 62, D:/Servers/home/zenit/www/css/basics.scss */
+.noscroll {
+  position: fixed; }
+
+/* line 65, D:/Servers/home/zenit/www/css/basics.scss */
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important; }
+
+/* line 72, D:/Servers/home/zenit/www/css/basics.scss */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 50000000000s ease-in-out 0s !important; }
+
+/* line 87, D:/Servers/home/zenit/www/css/basics.scss */
+.one-col {
+  width: 5.9225%; }
+
+/* line 88, D:/Servers/home/zenit/www/css/basics.scss */
+.two-col {
+  width: 14.475%; }
+
+/* line 89, D:/Servers/home/zenit/www/css/basics.scss */
+.three-col {
+  width: 23.0275%; }
+
+/* line 90, D:/Servers/home/zenit/www/css/basics.scss */
+.four-col {
+  width: 31.58%; }
+
+/* line 91, D:/Servers/home/zenit/www/css/basics.scss */
+.five-col {
+  width: 40.1325%; }
+
+/* line 92, D:/Servers/home/zenit/www/css/basics.scss */
+.six-col {
+  width: 48.685%; }
+
+/* line 93, D:/Servers/home/zenit/www/css/basics.scss */
+.seven-col {
+  width: 57.2375%; }
+
+/* line 94, D:/Servers/home/zenit/www/css/basics.scss */
+.eight-col {
+  width: 65.79%; }
+
+/* line 95, D:/Servers/home/zenit/www/css/basics.scss */
+.nine-col {
+  width: 74.3425%; }
+
+/* line 96, D:/Servers/home/zenit/www/css/basics.scss */
+.ten-col {
+  width: 82.895%; }
+
+/* line 97, D:/Servers/home/zenit/www/css/basics.scss */
+.eleven-col {
+  width: 91.4475%; }
+
+/* line 98, D:/Servers/home/zenit/www/css/basics.scss */
+.twelve-col {
+  width: 100%; }
+
+/* line 101, D:/Servers/home/zenit/www/css/basics.scss */
+.cols {
+  text-align: justify;
+  text-justify: distribute; }
+  /* line 102, D:/Servers/home/zenit/www/css/basics.scss */
+  .cols:after {
+    content: "";
+    display: inline-block;
+    height: 0.0000000000001px;
+    width: 100%; }
+  /* line 103, D:/Servers/home/zenit/www/css/basics.scss */
+  .cols > * {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: top; }
+
+/* line 117, D:/Servers/home/zenit/www/css/basics.scss */
+html {
+  width: 100%;
+  height: 100%; }
+
+/* line 118, D:/Servers/home/zenit/www/css/basics.scss */
+body {
+  width: 100%;
+  min-height: 100%;
+  font-size: 0;
+  font-family: 'Gotham Pro', Arial, sans-serif;
+  position: relative; }
+
+/* line 119, D:/Servers/home/zenit/www/css/basics.scss */
+html, body {
+  overflow-x: hidden; }
+
+/* line 121, D:/Servers/home/zenit/www/css/basics.scss */
+header, section, footer {
+  width: 100%;
+  float: left; }
+
+/* line 122, D:/Servers/home/zenit/www/css/basics.scss */
+section {
+  text-align: center; }
+
+/* line 123, D:/Servers/home/zenit/www/css/basics.scss */
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+  /* line 124, D:/Servers/home/zenit/www/css/basics.scss */
+  .container.small {
+    width: 750px; }
+
+/* line 137, D:/Servers/home/zenit/www/css/basics.scss */
+h1, h2, h3, h4, h5, h6, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+/* line 138, D:/Servers/home/zenit/www/css/basics.scss */
+ul {
+  list-style: none; }
+
+/* line 139, D:/Servers/home/zenit/www/css/basics.scss */
+span {
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: inherit; }
+
+/* line 141, D:/Servers/home/zenit/www/css/basics.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Merriweather';
+  font-weight: 600; }
+
+/* line 144, D:/Servers/home/zenit/www/css/basics.scss */
+h1 {
+  font-size: 54px;
+  line-height: 1.2em; }
+
+/* line 145, D:/Servers/home/zenit/www/css/basics.scss */
+h2 {
+  font-size: 40px;
+  line-height: 1.2em;
+  color: #004f5f;
+  border-top: 3px solid rgba(13, 136, 149, 0.2);
+  border-bottom: 3px solid rgba(13, 136, 149, 0.2);
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative; }
+
+/* line 146, D:/Servers/home/zenit/www/css/basics.scss */
+h3 {
+  font-size: 30px;
+  line-height: 1.2em;
+  box-sizing: border-box;
+  position: relative; }
+
+/* line 147, D:/Servers/home/zenit/www/css/basics.scss */
+h4 {
+  font-size: 26px;
+  line-height: 1.2em;
+  color: #004f5f; }
+
+/* line 149, D:/Servers/home/zenit/www/css/basics.scss */
+p {
+  font-size: 14px;
+  line-height: 1.57143em; }
+
+/* line 150, D:/Servers/home/zenit/www/css/basics.scss */
+p.small {
+  font-size: 12px; }
+
+/* line 151, D:/Servers/home/zenit/www/css/basics.scss */
+p.big {
+  font-size: 16px; }
+
+/* line 152, D:/Servers/home/zenit/www/css/basics.scss */
+p.huge {
+  font-size: 18px; }
+
+/* line 164, D:/Servers/home/zenit/www/css/basics.scss */
+a, input, button, select, textarea {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/* line 165, D:/Servers/home/zenit/www/css/basics.scss */
+a {
+  text-decoration: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  transition: all 0.25s ease-in-out; }
+
+/* line 167, D:/Servers/home/zenit/www/css/basics.scss */
+select, input, textarea {
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  display: inline-block; }
+
+/* line 168, D:/Servers/home/zenit/www/css/basics.scss */
+input, textarea {
+  border-radius: 0; }
+
+/* line 170, D:/Servers/home/zenit/www/css/basics.scss */
+input[type="checkbox"]:not(old), input[type="radio"]:not(old) {
+  width: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto; }
+
+/* line 172, D:/Servers/home/zenit/www/css/basics.scss */
+.button {
+  text-align: center;
+  border: 0;
+  padding: 0 15px;
+  line-height: 52px;
+  height: 54px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  background-color: #007073;
+  text-transform: uppercase; }
+  /* line 173, D:/Servers/home/zenit/www/css/basics.scss */
+  .button:hover {
+    background-color: #f8972e; }
+
+/* line 176, D:/Servers/home/zenit/www/css/basics.scss */
+.button_rounded {
+  border-radius: 1000px;
+  border: 4px solid #bdbcbd;
+  height: 62px;
+  line-height: 52px;
+  min-width: 324px; }
+
+/* line 178, D:/Servers/home/zenit/www/css/basics.scss */
+.button_orange {
+  background-color: #f8972e; }
+  /* line 179, D:/Servers/home/zenit/www/css/basics.scss */
+  .button_orange:hover {
+    background-color: #fff;
+    color: #f8972e; }
+
+/*# sourceMappingURL=basics.css.map */

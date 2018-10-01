@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Versta Project Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="assets/styles/app.min.css" rel="stylesheet">
+    <script src="assets/scripts/libs/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="index">
+        <div class="screen">
+            <!--+e.IMG.bg(src='assets/images/bitmap.jpg' srcset='assets/images/bitmap@2x.jpg 2x, assets/images/bitmap@3x.jpg 3x' alt='@@')-->
+            <video class="screen__video" id="main-video" src="assets/images/preview.mp4" autoplay="autoplay" loop="loop"
+                muted="muted"></video>
+            <div class="screen__head">
+                <div class="container">
+                    <div class="load-heading" id="heading-container">
+                        <h1 class="screen__heading" id="heading-main">Interface Name</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="screen__content">
+                <div class="container">
+                    <div class="preloader"></div>
+                    <div class="load-content" id="content-container">
+                        <div class="grid screen__main-grid" id="content-main">
+                            <div class="grid__col grid__col_xl_4 grid__col_lg_12 grid__col_fdc">
+                                <p class="screen__category is-anim" data-anim="true">Company</p>
+                                <div class="card card_desc screen__card screen__card_desc js-load-fancybox is-anim"
+                                    data-type="ajax" data-src="scr1.html #popup-about" data-anim="true" data-delay="100">
+                                    <div class="card__logo">
+                                        <img src="assets/images/cardlogo_1.svg" />
+                                    </div>
+                                    <p class="card__desc">BI.ZONE is disrupting the cybersecurity industry with its
+                                        visionary approach to protecting client systems, conducting investigations and
+                                        gathering relevant threat intelligence. Headquartered in Moscow, BI.ZONE
+                                        currently
+                                        employs 200 experts and has unique competencies in Russian cyberspace and other
+                                        territories.</p>
+                                </div>
+                            </div>
+                            <div class="grid__col grid__col_xl_4 grid__col_lg_6 grid__col_sm_12 grid__col_fdc">
+                                <p class="screen__category is-anim" data-anim="true">Services</p>
+                                <div class="grid">
+                                    <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="200">
+                                        <div class="card screen__card" data-src="#digital" data-target="scr2">
+                                            <div class="card__logo">
+                                                <img src="assets/images/cardlogo_2.svg" />
+                                            </div>
+                                            <p class="card__title">Digital Forensics</p>
+                                        </div>
+                                    </div>
+                                    <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="300">
+                                        <div class="card screen__card" data-src="#penetration" data-target="scr2">
+                                            <div class="card__logo">
+                                                <img src="assets/images/cardlogo_2.svg" />
+                                            </div>
+                                            <p class="card__title">Penetration testing services</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col grid__col_xl_4 grid__col_lg_6 grid__col_sm_12 grid__col_fdc">
+                                <p class="screen__category is-anim" data-anim="true">Products</p>
+                                <div class="grid">
+                                    <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="200">
+                                        <div class="card screen__card" data-src="#threat" data-target="scr2">
+                                            <div class="card__logo">
+                                                <img src="assets/images/cardlogo_2.svg" />
+                                            </div>
+                                            <p class="card__title">Threat Intelligence</p>
+                                        </div>
+                                    </div>
+                                    <div class="grid__col grid__col_xl_12 is-anim" data-anim="true" data-delay="300">
+                                        <div class="card screen__card" data-src="#fraud" data-target="scr2">
+                                            <div class="card__logo">
+                                                <img src="assets/images/cardlogo_2.svg" />
+                                            </div>
+                                            <p class="card__title">Fraud Monitoring
+                                                <br> as a Service</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup_load scalable scalable-fh" id="popup-about">
+            <div class="popup__close">
+                <svg class="popup__close-icon">
+                    <use xlink:href="assets/images/icon.svg#icon_close-w"></use>
+                </svg>
+            </div>
+            <div class="popup__wrapper js-scrollbar">
+                <div class="popup__container">
+                    <div class="popup__logo">
+                        <img src="assets/images/cardlogo_1.svg" />
+                    </div>
+                    <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="popup__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                    <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="popup__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                    <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="popup__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Ut enim
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/scripts/app.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

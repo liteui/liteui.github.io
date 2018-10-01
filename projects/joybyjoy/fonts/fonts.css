@@ -1,0 +1,101 @@
+@font-face {
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 300;
+src: url('GothaProLig.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: italic;
+font-weight: 300;
+src: url('GothaProLigIta.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+src: url('GothaProReg.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: italic;
+font-weight: 400;
+src: url('GothaProIta.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 500;
+src: url('GothaProMed.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: italic;
+font-weight: 500;
+src: url('GothaProMedita.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 700;
+src: url('GothaProBol.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: italic;
+font-weight: 700;
+src: url('GothaProBolIta.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 900;
+src: url('GothaProBla.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+font-style: italic;
+font-weight: 900;
+src: url('GothaProBlaIta.otf') format('opentype');
+}
+
+/*----------------------------------------------*/
+
+@font-face {
+font-family: 'Gotham Pro Nar';
+font-style: normal;
+font-weight: 500;
+src: url('GothaProNarMed.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Gotham Pro Nar';
+font-style: normal;
+font-weight: 700;
+src: url('GothaProNarBol.otf') format('opentype');
+}
+
+/*-----------------------------------------------*/
+
+@font-face {
+font-family: 'Amperserif';
+font-style: normal;
+font-weight: 400;
+src: url('HMAmperserifDisp.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Amperserif';
+font-style: italic;
+font-weight: 400;
+src: url('HMAmperserifDispItalic.otf') format('opentype');
+}

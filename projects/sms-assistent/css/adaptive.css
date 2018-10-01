@@ -1,0 +1,587 @@
+@media (max-width: 1440px) {
+  /* line 4, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .container {
+    width: 1320px; }
+  /* line 5, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen {
+    padding-top: 189px;
+    padding-bottom: 109px; }
+  /* line 6, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(1) {
+    top: -88px;
+    left: -754px; }
+  /* line 7, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(2) {
+    top: 36px;
+    right: -804px; }
+  /* line 8, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(3) {
+    top: 423px;
+    right: -368px; }
+  /* line 9, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(4) {
+    top: 338px;
+    left: -714px; }
+  /* line 10, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(5) {
+    top: 507px;
+    left: -436px; }
+  /* line 11, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(6) {
+    top: 194px;
+    left: -50px; }
+  /* line 12, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(7) {
+    top: -19px;
+    left: -169px; }
+  /* line 13, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(8) {
+    top: 358px;
+    right: -569px; }
+  /* line 14, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(9) {
+    top: 174px;
+    left: -354px; }
+  /* line 15, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth {
+    background-size: 133%; } }
+
+@media (max-width: 1366px) {
+  /* line 19, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .container {
+    width: 1160px; }
+  /* line 20, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen {
+    padding-top: 113px;
+    padding-bottom: 85px; }
+  /* line 21, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul {
+    width: 966px; }
+  /* line 22, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(1) {
+    top: -88px;
+    left: -674px; }
+  /* line 23, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(2) {
+    top: 28px;
+    right: -728px; }
+  /* line 24, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(3) {
+    top: 373px;
+    right: -334px; }
+  /* line 25, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(4) {
+    top: 230px;
+    left: -642px; }
+  /* line 26, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(5) {
+    top: 403px;
+    left: -392px; }
+  /* line 27, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(6) {
+    top: 127px;
+    left: -52px; }
+  /* line 28, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(7) {
+    top: -19px;
+    left: -215px; }
+  /* line 29, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(8) {
+    top: 288px;
+    right: -513px; }
+  /* line 30, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(9) {
+    top: 130px;
+    left: -314px; }
+  /* line 31, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth {
+    background-size: 150%; } }
+
+@media (max-width: 1200px) {
+  /* line 35, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .container {
+    width: 904px; }
+  /* line 36, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen {
+    padding-top: 117px;
+    padding-bottom: 78px; }
+  /* line 37, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .button {
+    margin-top: 48px; }
+  /* line 38, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul {
+    width: 766px; }
+  /* line 39, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul li p br {
+    display: none; }
+  /* line 40, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(1) {
+    top: -106px;
+    left: -555px; }
+  /* line 41, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(2) {
+    top: 3px;
+    right: -632px; }
+  /* line 42, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(3) {
+    top: 327px;
+    right: -263px; }
+  /* line 43, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(4) {
+    top: 204px;
+    left: -573px; }
+  /* line 44, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(5) {
+    top: 395px;
+    left: -387px; }
+  /* line 45, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(6) {
+    top: 90px;
+    left: -4px; }
+  /* line 46, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(7) {
+    top: -23px;
+    left: -157px; }
+  /* line 47, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(8) {
+    top: 250px;
+    right: -439px; }
+  /* line 48, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(9) {
+    top: 143px;
+    left: -256px; }
+  /* line 49, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second {
+    padding: 158px 0 161px;
+    background-position: center -36px; }
+  /* line 50, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .bg {
+    top: -35px; }
+  /* line 51, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth .bg {
+    top: -135px; }
+  /* line 52, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth {
+    background-size: 187%; } }
+
+@media (max-width: 950px) {
+  /* line 56, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .container, .container.small {
+    width: 708px; }
+  /* line 57, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen {
+    padding-top: 180px;
+    padding-bottom: 131px; }
+  /* line 58, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .button {
+    margin-top: 68px; }
+  /* line 59, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages {
+    padding: 77px 0 192px; }
+  /* line 60, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul {
+    width: 100%; }
+  /* line 61, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul li p {
+    padding: 14px 17px 0; }
+  /* line 62, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(1) {
+    top: -92px;
+    left: -599px; }
+  /* line 63, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(2) {
+    top: 19px;
+    right: -553px; }
+  /* line 64, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(3) {
+    top: 435px;
+    right: -204px; }
+  /* line 65, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(4) {
+    top: 219px;
+    left: -617px; }
+  /* line 66, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(5) {
+    top: 351px;
+    left: -474px; }
+  /* line 67, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(6) {
+    top: 137px;
+    left: -71px; }
+  /* line 68, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(7) {
+    top: 9px;
+    left: -159px; }
+  /* line 69, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(8) {
+    top: 326px;
+    right: -377px; }
+  /* line 70, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(9) {
+    top: 185px;
+    left: -300px; }
+  /* line 71, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second {
+    padding: 160px 0 161px; }
+  /* line 72, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents {
+    width: auto; }
+  /* line 73, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents .five {
+    left: 0; }
+  /* line 74, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents .ten {
+    left: -22px; }
+  /* line 75, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .bg {
+    left: -149%; }
+  /* line 76, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator {
+    padding-right: 0; }
+  /* line 77, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth {
+    background-size: 250%; }
+  /* line 78, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .phonebutton {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: inline-block;
+    z-index: 1; } }
+
+@media (max-width: 750px) {
+  /* line 82, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .container, .container.small {
+    width: 600px; }
+  /* line 83, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  h1 br, h2 br {
+    display: none; }
+  /* line 84, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents > * {
+    display: inline-block; }
+  /* line 85, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents > *.five, section.second .percents > *.twenty {
+    position: static;
+    text-align: center;
+    width: 100%; }
+  /* line 86, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents .five div, section.second .percents .twenty div {
+    display: inline-block; }
+  /* line 87, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents {
+    margin: 62px auto 0; }
+  /* line 88, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents .ten {
+    margin-top: 41px;
+    left: 0; }
+  /* line 89, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents .twenty {
+    margin-top: 74px; }
+  /* line 90, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents .twenty div + p {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 91, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third {
+    text-align: center; }
+  /* line 92, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .bg {
+    background-size: auto 100%; }
+  /* line 93, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; }
+  /* line 94, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator > * {
+    text-align: center; }
+  /* line 95, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator > *:first-child {
+    box-sizing: border-box;
+    margin-bottom: 46px; }
+  /* line 96, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator > *:first-child p:first-child {
+    padding: 0; }
+  /* line 97, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator .rangeblock {
+    text-align: center; }
+  /* line 98, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator > *:nth-of-type(2) {
+    margin-bottom: 23px; }
+  /* line 99, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator > *:nth-of-type(3) {
+    margin-bottom: 26px; }
+  /* line 100, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .slide {
+    vertical-align: top; }
+  /* line 101, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth form {
+    width: auto; }
+  /* line 102, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  form .ui-selectmenu-button {
+    width: 100%; } }
+
+@media (max-width: 640px) {
+  /* line 106, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .container, .container.small {
+    width: auto;
+    margin: 0 20px;
+    min-width: 280px; }
+  /* line 107, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages .cols {
+    width: auto;
+    margin: 0 20px; }
+  /* line 108, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul li {
+    width: 50%;
+    margin-bottom: 20px; }
+  /* line 109, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.share .socials div {
+    display: block;
+    margin: 0 auto 30px; }
+  /* line 110, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.share .socials div:last-child {
+    margin-right: auto;
+    margin-bottom: 0; }
+  /* line 111, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .popup, .callpopup {
+    width: 400px;
+    padding: 69px; }
+  /* line 112, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .callpopup form .button {
+    padding: 17px 0;
+    width: 100%;
+    min-width: auto; }
+  /* line 113, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .callpopup h2 + p br {
+    display: none; } }
+
+@media (max-width: 600px) {
+  /* line 117, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  header .buttons .button {
+    display: none; }
+  /* line 118, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  header .fixed-buttonblock {
+    display: block; }
+  /* line 119, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  header .container {
+    align-items: center; }
+  /* line 120, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  header p {
+    margin-right: 0;
+    text-align: right;
+    margin-left: 20px; }
+  /* line 121, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul {
+    width: 100%; }
+  /* line 122, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul li {
+    width: 100%; }
+  /* line 123, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second h2 + p br {
+    display: none; }
+  /* line 124, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth h2 + p br {
+    display: none; }
+  /* line 125, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth form .half {
+    width: 100%;
+    margin-left: 0; }
+  /* line 126, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth form p.small.half {
+    margin-left: 0; } }
+
+@media (max-width: 480px) {
+  /* line 130, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  header p {
+    line-height: 1.4em; }
+  /* line 131, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  header .cols .buttons p {
+    text-align: right;
+    width: 123px; }
+  /* line 132, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen {
+    padding-top: 137px;
+    padding-bottom: 200px; }
+  /* line 133, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .preheader:after {
+    margin-top: 20px; }
+  /* line 134, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 38px;
+    margin-top: 5px; }
+  /* line 135, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .button {
+    margin-top: 21px;
+    padding: 17px 22px; }
+  /* line 136, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages .arrow {
+    display: none; }
+  /* line 137, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .phonebutton {
+    top: -160px; }
+  /* line 138, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages {
+    padding: 77px 0 58px; }
+  /* line 139, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul li {
+    margin-bottom: 49px; }
+  /* line 140, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul li:last-child {
+    margin-bottom: 0; }
+  /* line 141, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.advantages ul li p {
+    padding: 14px 52px 0; }
+  /* line 142, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second {
+    padding: 102px 0 73px; }
+  /* line 143, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .controls {
+    padding-top: 105px; }
+  /* line 144, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .controls li.navbar {
+    width: 155px;
+    padding: 10px 1px 8px; }
+  /* line 145, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .controls li {
+    padding: 10px 10px 8px;
+    margin-right: 0; }
+  /* line 146, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .controls li:last-child {
+    padding: 0 10px; }
+  /* line 147, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .slide {
+    padding: 179px 0 69px; }
+  /* line 148, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .slide h2 + p {
+    margin-top: 27px; }
+  /* line 149, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .slide h2 + p br {
+    display: none; }
+  /* line 150, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.third .calculator {
+    margin-top: 49px; }
+  /* line 151, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth {
+    padding: 102px 0 119px; }
+  /* line 152, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth h2 + p {
+    margin-top: 30px; }
+  /* line 153, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth form {
+    margin-top: 63px; }
+  /* line 154, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth form select {
+    padding: 18px 15px; }
+  /* line 155, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth form input {
+    padding: 19px; }
+  /* line 156, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.fourth form p.small.half {
+    padding: 5px 0;
+    padding-left: 3px; }
+  /* line 157, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  form .ui-selectmenu-button {
+    padding-left: 19px;
+    padding-right: 19px;
+    background: #00b646 url("../img/selectarrow.svg") no-repeat right 19px bottom 22px; }
+  /* line 159, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  #00b646 url("../img/selectarrow.svg") no-repeat right 19px bottom 22px
+form .fake-button {
+    margin-top: 79px; }
+  /* line 160, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(1) {
+    display: none; }
+  /* line 161, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(2) {
+    display: none; }
+  /* line 162, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(3) {
+    top: 435px;
+    right: -262px; }
+  /* line 163, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(4) {
+    display: none; }
+  /* line 164, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(5) {
+    display: none; }
+  /* line 165, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(6) {
+    top: 137px;
+    left: -14px; }
+  /* line 166, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(7) {
+    top: 9px;
+    left: -102px; }
+  /* line 167, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(8) {
+    display: none; }
+  /* line 168, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.firstscreen .envelopes img:nth-child(9) {
+    top: 185px;
+    left: -243px; }
+  /* line 169, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.share {
+    padding: 96px 0 115px; }
+  /* line 170, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.share .socials {
+    margin-top: 49px; }
+  /* line 171, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.contacts .bottom-img {
+    left: 50%;
+    right: auto;
+    margin-left: -212px; }
+  /* line 172, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .form {
+    width: 250px;
+    padding: 50px 20px; }
+  /* line 173, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  form input {
+    padding: 19px; }
+  /* line 174, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  form p.type {
+    left: 22px; }
+  /* line 175, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  form > div.active input {
+    padding: 26px 19px 12px; }
+  /* line 176, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  form > div.active .ui-selectmenu-button {
+    padding: 26px 19px 12px; }
+  /* line 177, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .form h2 {
+    font-size: 28px; }
+  /* line 178, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .popup, .callpopup {
+    width: 260px;
+    padding: 69px 20px 20px; }
+  /* line 179, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .callpopup h2 + p br {
+    display: none; }
+  /* line 180, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .popup h2, .callpopup h2 {
+    font-size: 28px; }
+  /* line 181, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .popup h2 + p {
+    margin-top: 15px; }
+  /* line 182, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .callpopup h2 + p {
+    margin-top: 20px; }
+  /* line 183, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .callpopup form {
+    margin-top: 30px; }
+  /* line 184, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  .callpopup form .fake-button {
+    margin-top: 55px; }
+  /* line 185, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  form .fake-button, section.firstscreen button {
+    max-width: 100%; } }
+
+@media (max-width: 330px) {
+  /* line 189, C:/wamp64/www/sms-assistent/css/adaptive.scss */
+  section.second .percents .ten {
+    left: -11px; } }
+
+/*# sourceMappingURL=adaptive.css.map */

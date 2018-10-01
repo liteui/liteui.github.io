@@ -1,0 +1,425 @@
+@import "basics.scss";
+
+body {position:relative;}
+
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+// Секции, header, footer и т.д. //
+header {position: absolute; top: 39px; left:0; z-index: 100; pointer-events:none;
+    .container {width:90%;
+        /*
+        >div:first-child {}
+        >div:last-child {text-align: right;}*/
+        * {pointer-events:all;}
+    }
+	.container>* {display: inline-block; vertical-align: top !important;}
+    /*
+	.start {font-size: 16px; text-transform: uppercase; letter-spacing: 0.1em; width: 350px; position:absolute; top:0px; left:0px;
+		span {font-size: 21px; letter-spacing: 0.46em; font-weight: 500;}
+        &+img {position:relative; top:0; transition:top 0.5s ease-in-out, opacity 0.5s ease-in-out; margin-top:6px;}
+	}*/
+    .logo {margin-top:6px;}
+	.button {display: inline-block; vertical-align: middle; font-size: 16px;}/*
+    div+img, .start {opacity:0; pointer-events:none !important; top:-30px; transition:top 0.5s ease-in-out, opacity 0.5s ease-in-out;}
+    div+img {position:relative; top:-30px; margin-top:6px;}
+    
+    &.active {
+        div+img, .start {opacity:1; pointer-events:all; top:0;}
+        .start+img {top:-30px; opacity:0;}
+    }*/
+}
+
+/* ================================= */
+
+.topblock {background-image: url('../img/inks1.jpg'); background-size: 100% 100%; background-position:center top; float:left; width:100%;}
+
+main {background-image: url('../img/bg.jpg'); background-size: 100% 100%; background-position:center top; float:left; clear:left; width:100%;}
+
+section.first {    
+    .tv {position: absolute; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; overflow: hidden; opacity: .4; pointer-events: none !important;
+        .screen {position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; margin: auto; opacity: 0; transition: opacity .5s ease-in-out;
+        &.active {
+          opacity: .4;
+        }
+      }
+    }
+    
+    
+    .container {z-index:2;}
+    >img:nth-child(1) {left:0; top:0;}
+    >img:nth-child(2) {right:0; top:0;}
+    .texts {
+    	h2 {letter-spacing: 0.35em; margin-top: 40px;}
+    	hr {border: 0; border-top: 1px solid black; width: 490px;
+            &.small {width: 230px;}
+        }
+    	p {text-transform: uppercase;
+    		&.heading {font-size: 16px; letter-spacing: 0.35em; font-weight: 500;}
+    		&:nth-child(3) {font-size: 27px; letter-spacing: 0.335em; font-weight: 600; margin-top: 11px; margin-bottom: 20px;}
+    		&:nth-child(5) {font-size: 26px; letter-spacing: 0.21em; margin-top: 21px;}
+    		&:nth-child(6) {font-size: 34px; letter-spacing: 0.26em; font-style: italic;}
+    		&:nth-child(7) {font-size: 21px; letter-spacing: 0.225em; margin-bottom: 22px;}
+    		&:nth-child(9) {font-size: 16px; letter-spacing: 0.215em; margin-top: 23px; font-weight: 500;}
+    		&:nth-child(10) {font-size: 24px; letter-spacing: 0.2em; margin-top: 6px;}
+    	}
+    }
+    .buttons {margin-bottom: 42px;}
+    
+    a.nav {position:relative; top:0;
+        &:hover {top:10px;}
+    }
+}
+
+/* ================================= */
+
+section.second {
+	> img {position: absolute; pointer-events: none;
+			&:first-child {left: 0; top: 70px;}
+			&:nth-child(2) {right: -41px; top: 95px;}
+			&:nth-child(3) {left: 0px; top: 430px;}
+			&:nth-child(4) {right: 0px; top: 510px;}
+            &:nth-child(5) {left:0; bottom:0;}
+            &:nth-child(6) {right:0; bottom:0;}
+	}
+	.container {
+		> div {
+			span {font-weight: 500;}
+			> p {
+				&:nth-child(2) {margin-top: 40px;}
+				&:nth-child(3) {margin-top: 27px;}
+				&:nth-child(4) {margin-top: 27px;}
+			}
+			.buttons {margin-top: 81px;}
+		}
+	}
+}
+
+/* ================================= */
+
+section.prizes {background-size: cover;
+	p b {font-weight: 500;}
+}
+
+/* ================================= */
+
+section.third {background-image: url('../img/rome_bg.jpg');
+	>img {
+		&:nth-child(1) {right: 26px; top: 174px;}
+		&:nth-child(2) {left: 52px; top: 508px;}
+	}
+	p {margin-top: 40px;}
+	.buttons {margin-top: 77px;}
+}
+
+/* ================================= */
+
+section.fourth {background-image: url('../img/confetti_bg.jpg');
+	>img {
+		&:first-child {left: 35px; top: 180px;}
+		&:nth-child(2) {right: 63px; top: 280px;}
+	}
+	p {
+		&:nth-child(2) {margin-top: 38px;}
+		&:nth-child(3) {margin-top: 27px;}
+	}
+	.buttons {margin-top: 81px;}
+}
+
+/* ================================= */
+
+section.fifth {min-height:0; padding:0;
+	>img {z-index: 1;
+		&:nth-child(1) {left: 47px; top: 46px;}
+		&:nth-child(2) {right: 5%; top: 444px;}
+	}
+	.container {
+		.line {margin: 21px 238px 0; border-bottom: 2px solid black; padding-bottom:2px;
+            p:first-child {position: relative; right: 25px;}
+			p:last-child {position: relative; left: 25px;}
+        }
+		.numbers {margin: -8px 0px 33px; padding: 0 61px;
+			> div {width: 353px; text-align: center;}
+            .round {margin: auto; margin-bottom:23px;}
+            p {text-transform: uppercase; letter-spacing: 0.2em;}
+		}
+		.numbers.bottom {margin: -8px 0px 0; position: relative; z-index: 2;}
+	}
+    .stages {display:none;}
+}
+
+/* ================================= */
+
+section.sixth {
+	.bigimage {position: absolute; pointer-events: none; left:0; top:0;
+		img {position: absolute; pointer-events: none; top: -45px; left: -62px;}
+	}
+    .slide {width:100%; padding-top: 85px;
+        .container {box-sizing:border-box; padding-left:650px;}
+    }
+    .slider {width:100%;}
+    
+	.name {font-size: 36px; letter-spacing: 0.225em; text-transform: uppercase; font-weight: 500;}
+    
+	.round.big {width: 140px; height: 140px; border-radius: 1000px; border: 2px solid black; background-color: transparent; margin: 25px auto; display:inline-block; margin-bottom:30px;
+        &:hover {opacity:.4}
+		.triangle {margin: 45px 55px; width: 0; height: 0; border-top: 24px solid transparent; border-bottom: 24px solid transparent; border-left: 40px solid black; position: relative;
+			&:after {content:""; margin: 0; border-top: 20px solid transparent; border-bottom: 20px solid transparent; border-left: 34px solid white; position: absolute; left: -38px; top: -20px;}
+		}
+        &+p a {border-bottom:1px solid rgba(214, 214, 214, 0.84);
+            &:hover {color:#777}
+        }
+	}
+    
+	.images {margin: 73px auto 0; width:360px;
+		>div {width: 50%; vertical-align: top; cursor:pointer;
+            &:hover {
+                .smallimage {opacity:.8}
+                &:first-child p img {left:-10px;}
+                &:last-child p img {right:-10px;}
+            }
+            &:first-child {text-align: left;
+                p img {margin-right:16px; left:0;}
+                .smallimage img {left:-30px}
+            }
+            &:last-child {text-align: right;
+                p img {margin-left:16px; right:0;}
+                .smallimage img {right:-30px}
+            }
+        }
+        .smallimage {height:167px; width:100%; position:relative; transition:all 0.25s ease-in-out;
+            img {position:absolute; top:0;}
+        }
+        p img {position:relative; transition:all 0.25s ease-in-out;}
+		p, p img {display: inline-block; vertical-align: middle;}
+	}
+	.arrows {margin-top: 15px;
+		> * {vertical-align: middle;}
+	}
+    
+    .owl-item {transition:opacity 0.5s ease-in-out; opacity:0;
+        &.active {opacity:1}
+    }
+}
+
+/* ================================= */
+
+section.seventh {
+	>img {
+		&:first-child {right: 10px; top: 140px;}
+		&:nth-child(2) {left: -47px; top: 1221px;}
+		&:nth-child(3) {left: -108px; top: 1852px;}
+		&:nth-child(4) {right: -34px; top: 2186px;}
+	}
+	h1 {display: inline-block; position: relative; width:100%; margin-bottom: -30px;}
+    .columns {text-align: center; width:100%;
+        &:after {display:none}
+        >div, >a {vertical-align: top; width: 28%; position: relative; margin-left:8%; display:inline-block; vertical-align: top; margin-top: 95px;
+            &:nth-of-type(3n+1) {margin-left:0;}
+        }
+        >a:hover {opacity:.6 !important}
+    }
+	.amper {font-family: "Amperserif"; font-size: 24px;}
+    .buttons {margin-top: 80px;}
+    .photo {width:100%; height:200px; position:relative;
+        img {top:10px; left:50%; transform: translateX(-50%); position: absolute;}
+    }
+    
+	.bloggers {
+		.columns >* {text-align: left;}
+        .photo {margin-bottom:17px;}
+        p {display: inline-block; vertical-align: top;}
+		.number.small {position: relative; padding-left:64px; top: 4px; margin-right: 14px; line-height: 1em; padding-top: 11px;}
+	}
+	.jury {margin-top: 77px;
+        p.amper {margin-top: 24px;}
+    }
+}
+
+/* ================================= */
+
+section.eighth {
+	>img {
+		&:nth-child(1) {left: 103px; top: 122px;}
+		&:nth-child(2) {right: 130px; top: 195px;}
+		&:nth-child(3) {right: -35px; top: 1274px;}
+		&:nth-child(4) {right: 0px; top: 2150px;}
+	}
+	.container {
+		>p {margin-top: 40px;
+            b {font-weight: 500;}
+            &.smaller {font-size: 14px; margin-top: 30px;}
+        }
+	}
+    .buttons {margin-top: 210px;}
+}
+
+.stages {text-align: left; padding-left: 80px; margin-top: 92px;
+	>ol {padding-left: 48px; border-left: 2px solid black; display:block;
+		>li {position: relative;
+            &:first-child {top:-10px;
+                &+li {margin-top:100px;}
+            }
+            &:last-child {margin-top: -32px; top:118px}
+            &+li {margin-top:110px;}
+        }
+	}
+    .round.small {position: absolute; left: -56px; top: 8px;}
+    p {
+        &.number {position: absolute; top: -60px; left: -152px; margin: 0 !important; width: 81px;}
+        &+p {margin-top:26px}
+        a {font-weight: 600; border-bottom: 1px solid rgba(214, 214, 214, 0.84)}
+        &.grayc {font-style: italic; color: #6b6b6b;}
+        b {font-weight: 600;}
+    }
+    h3+p {margin-top:43px}
+    .subheading {text-transform: uppercase; font-weight: 600; letter-spacing: 0.2em; color: #191919; font-style: normal;}
+}
+
+/* ================================= */
+ 
+section.nineth {padding-bottom:0; align-content: flex-end; min-height:0; padding-top: 190px; overflow:hidden;
+	h2 {font-size: 65px; letter-spacing: 0.275em; margin-top: 130px;}
+	.frame {border: 10px solid #ebdff1; position: relative; z-index: 2; padding-bottom:135px; box-sizing: border-box;
+        > img {position: absolute; z-index: 4; pointer-events: none;
+            &:nth-of-type(1) {top: -183px; left: 50%; margin-left: -374px; z-index: 1;}
+            &:nth-of-type(2) {left: -156px; top: 42px;}
+		    &:nth-of-type(3) {right: -100px; top: -70px;}
+		    &:nth-of-type(4) {left: -56px; bottom:-51px;}
+		    &:nth-of-type(5) {right: -58px; bottom: 49px;}
+        }
+        > * {position: relative; z-index: 3;}
+		> p:nth-child(2) {font-weight: 300; font-size: 26px; letter-spacing: 0.245em; text-transform: uppercase; margin-top: 26px;}
+		> p:nth-child(3) {font-weight: 600; font-size: 34px; font-style: italic; letter-spacing: 0.34em; text-transform: uppercase; margin-top: -5px;}
+		> p:nth-child(4) {font-size: 23px; letter-spacing: 0.445em; text-transform: uppercase; margin-top: -2px; margin-bottom: 3px;}
+		> p:nth-child(5) {font-weight: 600; font-size: 20px; letter-spacing: 0.24em; text-transform: uppercase;}
+	}
+	.buttons {margin-top: 82px;}
+}
+
+/* ================================= */
+
+footer {position: relative; z-index: 5; padding:36px 0;
+    .cols {
+        > * {vertical-align: middle;}
+        >p {text-transform: uppercase;}
+        div {
+		    p {color: #8d8d8d}
+            img {vertical-align: middle;}
+            a:hover {opacity:.4}
+        }
+    }
+}
+// Секции, header, footer и т.д. //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Всплывающие окна и другие элементы сайта //
+.buttons {width: 490px; margin: 42px auto 0; text-transform: uppercase;
+	a {width: 230px; font-size: 12px; font-weight: 600; letter-spacing: 0.24em; border: 2px solid black; height:47px; line-height:44px;}
+	.vote {
+        &:hover {opacity:.6}
+    }
+	.join {background-color: #000; color: white; position: relative;
+		img {position: relative; vertical-align: middle; top:-1px; margin-left:20px; transition:all 0.25s ease-in-out;}
+        &:hover {opacity:.8;
+            img {margin-left:25px;}
+        }
+	}
+}
+
+/* ================================= */
+
+.number {font-size: 72px; font-family: "Amperserif"; width: 50px; text-align: center;
+    &.small {font-size: 48px;}
+}
+
+/* ================================= */
+
+.round {width: 14px; height: 14px; border-radius: 1000px; background-color: black;}
+
+/* ================================= */
+
+h1 i, h3 i {text-transform: none}
+
+/* ====================================== */
+
+.popup {display:none;}
+
+/* ====================================== */
+
+.card {width: 1270px; background-color: white; padding-bottom: 57px;
+	.cols {padding-left:50%;
+		.leftside {text-align: center; position:absolute; left:0; top:0; width:50%;
+			.order {font-family: 'Amperserif'; font-size: 36px; padding-left:120px; padding-top: 50px; text-align: left;
+				span {font-size: 80px;}
+			}
+            .photo {height:338px; width:100%; position:relative;
+                &+p {font-family: 'Amperserif'; font-size: 24px; position: relative;}
+                img {position: absolute; top: 0; left: 0; right:0; margin:auto; bottom:0; pointer-events: none;}
+            }
+		}
+        
+		.rightside {padding-top: 81px; padding-left: 13px; width:100%; box-sizing: border-box;
+			p.heading {font-family: 'Amperserif'; font-size: 24px;
+				span {border-bottom: 2px solid black; padding-bottom: 12px;}
+                &+p {font-size: 14px; line-height: (21/14)*1em; margin-top: 84px; padding-right: 140px; text-align: left; min-height: 210px;}
+			}
+		}
+	}
+    .social {text-align: left; width:100%; margin-top: 23px;
+        p {font-size: 14px; font-weight: 500; margin-bottom: 14px;}
+		a {margin-right: 11px; display:inline-block;
+			&:last-child {margin-right: 0;}
+            &:hover {opacity:.6}
+		}
+	}
+	.arrows {margin-top: 113px; text-align: center;
+		* {display: inline-block; vertical-align: middle;}
+        img {position:relative; transition:all 0.25s ease-in-out;}
+        a {
+            &:hover {opacity:.5;}
+            &:first-child {
+                img {right:0;}
+                &:hover img {right:10px;}
+            }
+            &:last-child {
+                img {left:0;}
+                &:hover img {left:10px;}
+            }
+        }
+		p {margin: 0 18px;}
+	}
+}
+// Всплывающие окна и другие элементы сайта //
+
+
+
+
+
+
+
+
+/* SAFARI HACKS =========================== */
+
+_::-webkit-:host:not(:root:root), .button.account img {margin-top: 0}
+_::-webkit-:host:not(:root:root), .button.login img {margin-top: 4px;}
+_::-webkit-:host:not(:root:root), .button.login {height:48px; padding-top:1px;}
+_::-webkit-:host:not(:root:root), .buttons a {height:47px; padding-top:1px}
+_::-webkit-:host:not(:root:root), .buttons .join img {margin-top:2px;}
+
+
+@import "adaptive.scss";

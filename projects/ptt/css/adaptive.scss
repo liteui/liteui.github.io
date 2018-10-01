@@ -1,0 +1,243 @@
+// Адаптивная верстка //
+
+@media (min-width:1001px) {
+	section.services > div:hover {flex: 0 1 66.6666%;}
+	section.services > div:hover .bg {height: 50%;
+        .noise {background-color:rgba(#1c191e,0);}
+    }
+	section.services > div:hover .service {min-height: 50% !important;
+        .bgcolor {height:100%;}
+    }
+    section.services > div:hover .service .hidden {margin-top:25px}
+	section.services > div:hover .service .hidden p {opacity:1; top:0;}
+	section.services > div:hover .service .plus:after {transform: rotate(90deg); background-color: white;}
+	section.about .container > p.big {display: none;}
+    section.transhipment table {margin-bottom:75px}
+    section.transhipment .main {padding-top:52px;}
+    section.transhipment h2 {margin-top:25px;}
+}
+
+@media (max-width:1400px), (max-height:760px) {
+	section.firstscreen .container {width: 830px;}
+	section.firstscreen h1 {font-size: 60px;}
+	section.firstscreen p {margin-top: 38px;}
+	section.services > div .service h3 {font-size: 21px;}
+    section.services > div .service {padding: 44px 25px 198px;}
+    section.services > div:hover {flex: 0 1 60%;}
+	section.services > div .service h3 {font-size: 26px;}
+	section.services .service p {font-size: 18px;}
+	section.transhipment .main .container {width: 600px;}
+	section.production .left div {width: 355px;}
+	section.about .container {width: 900px;}
+	section.about ul.info li.partners .quarry a {width: 158px; height: 158px; margin-right: 20px;}
+	section.about ul.info li.partners .quarry a p {font-size: 18px;}
+	section.contacts .left .container {width: 400px;}
+    
+    p.big {font-size:22px;}
+    p.huge {font-size:26px}
+    h2 {font-size:40px;}
+    p {font-size:18px}
+    
+    section.contacts .left .address {margin-top:30px}
+    section.contacts .left .address {padding-bottom:30px;}
+    section.contacts .left .phone {margin-top:34px}
+    section.contacts .left .phone p.phone {font-size:26px; margin-top:30px; line-height:.8em}
+    section.contacts .left .phone p.big {margin-top:35px;}
+    section.about .container {padding-top:140px}
+    
+    section.production .minicontainer {width:460px;}
+    section.production .right .bottom {padding-top:48px;}
+    section.production .minicontainer.down {bottom:155px;}
+    section.production .right .bottom:hover .minicontainer.down {bottom:130px;}
+    section.production .right .bottom:hover {padding-bottom:170px;}
+	
+	#popup .container, #videopopup .container {width: 830px;}
+	#popup .three-col p {font-size: 17px;}
+    
+    section.firstscreen h1 {font-size:50px;}
+    p.big {font-size:20px}
+    section.services .service p {font-size:16px}
+    h2 {font-size:36px}
+    p.small {font-size:16px;}
+    section.transhipment table td {padding: 20px 24px 20px 0;}
+    p {font-size:16px}
+    
+    p.huge {font-size:23px}
+    section.about ul.info li.partners .quarry a p {font-size:16px}
+    section.about .container {padding-bottom:118px;}
+    
+}
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .adaptiveshowmap {display:block;}
+    .container, section.firstscreen .container, section.transhipment .main .container, section.contacts .left .container {width:83%}
+    section, section.about, section.firstscreen, section.services, section.transhipment, section.production, section.contacts {z-index:initial !important}
+    .videocontainer {
+        video {display:none}
+        img {display:block}
+    }
+    
+    section.services .videocontainer .noise {display:none}
+    
+    section.transhipment .map {display: block; opacity:0; pointer-events:none; z-index:10000; position: fixed; top:0; left:0; width:100%; height:100%; transition:all .5s ease-in-out;
+        &.active {opacity:1; pointer-events:all;}
+    }
+    
+    .contacts_logo {display:none}
+    
+    section.transhipment .map .close {display:block;}
+    section.transhipment .map .mapcontrols {bottom:24px;}
+    
+    
+    #logo {width:87px; height:42px;}
+    header .right, section.transhipment:after {display:none}
+    section {min-height:0; position: relative}
+    header {top:28px; padding:0 8.5%;}
+    
+    
+    section.firstscreen .container {z-index:20;}
+    section.firstscreen h1 {font-size:33px;
+        br {display:none}
+    }
+    section.firstscreen {padding: 299px 0 44px; position: relative;}
+    section.firstscreen p {margin-top:36px; padding-left:50px;}
+    
+    
+    p.big {font-size:20px;}
+    h2 {font-size:33px;}
+    
+    
+    section.services .bg {display:none; height:200px; position: absolute; min-height:0; min-width:0; top:80px; transition:all 0 ease-in-out;}
+    section.services {display:block;
+        h3, .hidden {width:100%; padding-left:8.5%; padding-right:8.5%; box-sizing: border-box;}
+    }
+    section.services > div {background-color:white;  display:block;}
+    section.services > div .service h3 {font-size:20px; padding-top: 27px; padding-bottom: 29px; cursor:pointer;
+        br {display:none}
+    }
+    section.services .service .plus {background-color: white; bottom: auto; top: 39px !important; width: 18px; right: 8.5% !important; height: 2px; transform-origin: center;}
+    section.services .service .plus:after {background-color: white; width: 2px; top: -8px; left: 8px; height: 18px;}
+    section.services > div .service {padding:0;}
+    section.services .service .hidden {margin-top:0 !important; padding-top:257px !important; height:auto !important; display:none; transition:all 0 ease-in-out;}
+    section.services .service .bgcolor {height:100%}
+    section.services .service p {line-height:30px;}
+    section.services > div.active {
+        .bgcolor {opacity:0;}
+        h3 {color:#3c2054;}
+        .plus {background-color:#3c2054; transform:rotate(45deg);
+            &:after {background-color:#3c2054}
+        }
+        .service p {color:#3c2054; font-weight:300; width:auto !important;}
+    }
+    
+    
+
+    section.transhipment .main {width:100%; display:block; box-sizing:border-box; padding: 38px 0;}
+    section.transhipment .points hr {display:none}
+    section.transhipment .points {justify-content: space-between}
+    section.transhipment .points p:last-child {margin-left:0}
+    section.transhipment .main .container {margin:0 auto}
+    section.transhipment .list {margin-top:42px; overflow-x:scroll; overflow-y:hidden; padding-left:18px; margin-left:-18px;}
+    section.transhipment ul.materials {white-space: nowrap; margin-left:-18px;}
+    section.transhipment ul.materials li {padding:11px 18px 15px; margin-right:2px;}
+    section.transhipment ul.materials li p {letter-spacing: 0.09em;}
+    section.transhipment table {margin-top:40px; width:152%}
+    section.transhipment table th:nth-child(2), section.transhipment table td:nth-child(2), section.transhipment table th:nth-child(3), section.transhipment table td:nth-child(3) {width:auto}
+    
+    
+    section.about .container {width:83%}
+    section.about ul.info {height:auto !important}
+    
+    
+    section.about .container {padding-top:38px; padding-bottom:43px;}
+    section.about ul.info > li p.mini {display:none}
+    section.about ul.info > li > div {width:100%;}
+    section.about ul.info > li > div p {font-size: 18px !important; line-height: 30px !important;}
+    section.about ul.info {margin-top:42px;}
+    section.about ul.info > li {margin-bottom:35px;
+        &.hidden {display:none}
+        .hiddentext {font-size:0;
+            &:before {content:"[...]"; font-size:18px;}
+        }
+    }
+    section.about .container > p.big {padding-left:50px; padding-top:5px;}
+    section.about ul.info li.partners .quarry a {margin-top:20px;}
+    section.about ul.info li.partners .quarry a p {line-height:25px !important}
+    
+    
+    section.production {display:none}
+    
+    section.contacts {display:block; width:100%;
+        &:after {display:none}
+    }
+    section.contacts > div {width:100%}
+    section.contacts .right {height:200px;}
+    section.contacts .left {padding-top:38px; padding-bottom:46px; margin-bottom:0;}
+    section.contacts .left .address {margin-top:43px;}
+    section.contacts .left .address p.big {font-size:18px; line-height:30px; margin-top:23px;}
+    section.contacts .left .address {padding-bottom:41px;}
+    section.contacts .left .phone {margin-top:44px;}
+    section.contacts .left .phone p.phone {font-size:23px; margin-top:32px; line-height:1em;}
+    section.contacts .left .phone p.big {margin-top:31px;}
+    
+    
+    #popup .container {width:83%}
+    #popup .six-col, #popup .nine-col {width:100%;}
+    #popup .six-col {margin-top:60px;}
+    #popup textarea {height:41px;}
+    #popup .three-col {width:100%; margin-top:34px;}
+    #popup .fake-button {margin-top:50px;}
+    #popup label p {font-size:18px;}
+    #popup input, #popup textarea {font-size:18px; padding-bottom:10px;}
+    #popup .fake-button button {font-size:21px;}
+    #popup .messages {margin-top:20px;}
+    #popup p.infotext {left:0; max-width:100%;}
+    #popup p.infotext {font-size:16px; white-space: inherit}
+    
+    
+    footer {display:none}
+    header {position:absolute}
+}
+
+
+
+@media (min-width:600px) and (max-width:1000px) {
+    
+    section.firstscreen h1 {font-size:45px;}
+    section.services .service .hidden {padding-top:357px !important;}
+    section.services .bg {height:300px;}
+    section.transhipment .points hr {display: block; width: 30%; flex: 1; margin: 0 20px;}
+    section.transhipment table {width:100%;}
+    section.transhipment .list {overflow:auto !important}
+    section.transhipment ul.materials li:first-child {margin-right:18px}
+}
+
+@media (min-width:1001px) {
+    .videocontainer video {display:none}
+    section.firstscreen .videocontainer video {display:block}
+    footer {display:none}
+    
+    body.mobile, html.mobile {overflow:auto;
+        section.transhipment:after, section.production:after, section.contacts:after {display:none}
+        section, section.about, section.firstscreen, section.services, section.transhipment, section.production, section.contacts {z-index: initial !important;}
+        section.firstscreen {padding-bottom:110px;}
+        section.services .service .plus {bottom:50px;}
+        section.services > div .service {padding-bottom:108px; padding-top:30px;}
+        section.production .left {padding-bottom:100px}
+        section.production .minicontainer.down {bottom:65px;}
+        section.production .right .bottom {padding-bottom:110px}
+        section.production .right .bottom:hover .minicontainer.down {bottom:65px;}
+        section.about .container {padding-bottom:108px}
+        section.about {height:auto !important}
+        section.contacts .left {padding:108px 0}
+    }
+    
+    section.production {overflow:hidden}
+}
+
+// Адаптивная верстка //

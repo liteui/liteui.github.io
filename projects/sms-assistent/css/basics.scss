@@ -1,0 +1,170 @@
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+@mixin box-sizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {/* */
+border: none;
+}
+*:focus {outline: none;}
+
+$green: #1cc252;
+
+// Цвет выделения текста
+::selection {background: $green;color:white;}
+::-moz-selection {background: $green;color:white;}
+::-webkit-selection {background: $green;color:white;}
+
+// Цвет плейсхолдера //
+::-webkit-input-placeholder {color:#b9f9ce}
+::-moz-placeholder {color:#b9f9ce}
+:-ms-input-placeholder {color:#b9f9ce}
+:-moz-placeholder {color:#b9f9ce}
+
+// Фиксирование для body (при кастомных модальных окнах)
+.noscroll {position: fixed;}
+
+// Настройки для автозаполнения Chrome
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important; // Поменять цвет на аналогичный цвету input'а
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 50000000000s ease-in-out 0s !important;
+}
+
+
+
+
+
+
+
+
+
+// Основы //
+html {width:100%; min-height:100%}
+body {width:100%; min-height:100%; font-size:0; font-family: 'Open Sans', Arial, sans-serif; color: #1a1a1a;}
+html, body {overflow-x: hidden; min-width: 319px;}
+
+header, section, footer {width:100%; float:left; clear:both;}
+section {text-align: center;}
+
+.container {width:1320px; margin:0 auto;}
+.container.small {width:720px;}
+// Основы //
+
+
+
+
+
+
+
+
+
+// Типографика //
+h1,h2,h3,h4,h5,h6,p,span,ul,li {margin:0; padding:0}
+ul {list-style:none}
+span {font-style: inherit; font-family: inherit; font-weight: inherit;}
+
+// Стили заголовков (удалить лишнее)
+h1 {font-size:44px; font-weight:600; line-height:(56/44)*1em;}
+h2 {font-size:34px; font-weight:600; line-height:(42/34)*1em;}
+h3 {font-size:24px; font-weight:600; line-height:1.2em;}
+h4 {font-size:20px; font-weight:600; line-height:1.2em;}
+h5 {font-size:18px; font-weight:600; line-height:1.2em;}
+
+// Стили абзацев (удалить лишнее)
+p {font-size:14px; line-height:1.3em;}
+p.small {font-size:12px;}
+p.big {font-size:16px;}
+p.huge {font-size:18px;}
+
+.green {color: $green;}
+// Типографика //
+
+
+
+
+
+
+
+
+
+// Формы, кнопки, поля ввода //
+a,input,button,select,textarea,.ui-selectmenu-button {@include transition(all, 0.25s, ease-in-out); @include box-sizing;}
+a {text-decoration: inherit; font-weight: inherit; line-height:inherit; color:inherit;}
+
+select, input, textarea, .ui-selectmenu-button {padding: 10px; text-align: left; margin: 0; padding:0; border: 0; font-size: 14px; display:inline-block;}
+
+form {
+	.ui-selectmenu-button {width: 100% !important;}
+    select, input, .ui-selectmenu-button {-webkit-appearance: none; -moz-appearance: none; appearance: none; width: 100%; border: 2px solid white; border-radius: 6px; font-size: 18px; color: #b9f9ce; font-weight: 500; padding: 19px 33px; vertical-align: middle;}
+    select, .ui-selectmenu-button {background: #00b646 url("../img/selectarrow.svg") no-repeat right 36px bottom 22px;}
+    input {background-color: $green;
+        &:focus {background-color: #00b646;}
+    }
+    
+    /*--------*/
+    
+    p.infotext {position:absolute; top:70px; left:5px; line-height:1.5em; font-size:12px; text-align: left;}
+    p.type {position: absolute; font-size: 12px; top: 12px; left: 35px; color: #b9f9ce; transition: all 0.25s ease-in-out; opacity:0; z-index:3;}
+    
+    /*--------*/
+    
+	.half {width: 49.2%;
+        &.right {margin-left: 1.6%}
+	}
+    
+    /*--------*/
+
+	.button {background-color: #fff; color: $green; min-width:275px; box-shadow: 0px 10px 46px 0px rgba(0, 0, 0, 0.19); padding-bottom:18px;
+		&:hover {background-color: #d7fbdd;}
+        &[disabled] {pointer-events:none;}
+	}
+    
+    .fake-button {margin:0; width:auto; margin-top: 92px; cursor:pointer !important; display:inline-block; position:relative;
+        &:hover .button {background-color: #d7fbdd;}
+    }
+    
+    /*--------*/
+    
+    >div {margin-top: 30px; vertical-align: top; position: relative; display: inline-block; width: 100%;
+        &:first-child {margin-top:0}
+        &.active {
+            p.type {opacity: 1;}
+            select, input, .ui-selectmenu-button {padding: 26px 33px 12px; color: white;}
+        }
+        &.error {
+            .ui-selectmenu-button, select, input {border-color:#ffc07b}
+            .errortext {opacity:1; pointer-events:all;}
+        }
+    }
+    .errortext {opacity:0; pointer-events:none; transition: all 0.25s ease-in-out;}
+    
+    .yurlico {display:inline-block}
+    .fizlico {display:none}
+}
+
+.button {text-align:center; border:0; padding: 17px 37px;; display:inline-block; color:white; font-size:18px; font-weight: 600; background-color: $green; border-radius: 1000px;
+    &:hover {background-color: #46db68;}
+    &.small {color: $green; background-color: transparent; border: 2px solid $green; font-size: 14px; padding: 10px 22px 9px;
+        &:hover {color: white; background-color: $green;}
+    }
+}
+// Формы, кнопки, поля ввода //

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bizone</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="assets/styles/app.min.css" rel="stylesheet">
+    <script src="assets/scripts/libs/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__main">
+            <div class="header__container container"><a class="header__logo" href="/"><img src="assets/images/logo.svg"
+                        alt="" role="presentation" /></a>
+                <div class="header__menu">
+                    <div class="header__item"><a class="header__link" href="#">Услуги</a></div>
+                    <div class="header__item"><a class="header__link" href="#">Продукты</a></div>
+                    <div class="header__item"><a class="header__link" href="#">Новости</a></div>
+                    <div class="header__item"><a class="header__link" href="#">О компании</a></div>
+                    <div class="header__item"><a class="header__link" href="#">Контакты</a></div>
+                    <div class="header__separator"></div>
+                    <div class="header__item"><a class="header__link" href="#">Сообщить об инциденте</a></div>
+                </div>
+                <div class="header__side"><a class="header__icon-block" href="#"><svg class="header__icon">
+                            <use xlink:href="assets/images/icon.svg#icon_eng"></use>
+                        </svg></a><a class="header__icon-block show-md" href="#"><svg class="header__icon">
+                            <use xlink:href="assets/images/icon.svg#icon_comment"></use>
+                        </svg></a>
+                    <a class="header__icon-block" href="#"><svg class="header__icon">
+                            <use xlink:href="assets/images/icon.svg#icon_search"></use>
+                        </svg></a><a class="header__icon-block show-md" href="#"><svg class="header__icon">
+                            <use xlink:href="assets/images/icon.svg#icon_menu"></use>
+                        </svg></a></div>
+            </div>
+        </div>
+        <div class="header__sub">
+            <div class="header__container container container_small">
+                <div class="header__submenu swiper-container js-menuslider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="header__subitem is-active"><a class="header__sublink" href="#">FMaaS</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="header__subitem"><a class="header__sublink" href="#">Технологии</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="header__subitem"><a class="header__sublink" href="#">Возможности</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="header__subitem"><a class="header__sublink" href="#">Экспертная поддержка</a></div>
+                        </div>
+                    </div>
+                    <div class="header__submenu-arrow header__submenu-arrow_prev header__submenu-arrow_inactive"></div>
+                    <div class="header__submenu-arrow header__submenu-arrow_next header__submenu-arrow_inactive"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="vs-section">
+        <div class="prod-page">
+            <div class="lead"><img class="lead__bg" src="assets/images/bitmap.jpg" srcset="assets/images/bitmap@2x.jpg 2x, assets/images/bitmap@3x.jpg 3x"
+                    alt="" role="presentation" />
+                <div class="lead__container container">
+                    <div class="lead__content">
+                        <h1 class="lead__heading">FMaaS</h1>
+                        <p class="lead__desc">Fraud Monitoring as a Service</p>
+                        <div class="lead__image"><img src="assets/images/fmaas.svg" /></div>
+                        <div class="lead__list">
+                            <p class="lead__item"><svg class="lead__item-icon">
+                                    <use xlink:href="assets/images/icon.svg#icon_check"></use>
+                                </svg>Проверка транзакций в&nbsp;реальном времени</p>
+                            <p class="lead__item"><svg class="lead__item-icon">
+                                    <use xlink:href="assets/images/icon.svg#icon_check"></use>
+                                </svg>Предотвращение мошенничества</p>
+                            <p class="lead__item"><svg class="lead__item-icon">
+                                    <use xlink:href="assets/images/icon.svg#icon_check"></use>
+                                </svg>Расследование инцидентов</p>
+                        </div>
+                        <div class="lead__bottom"><a class="button button_blue lead__button js-anchor" href="#form-section">Записаться
+                                на демонстрацию</a><a class="button button_white lead__button">Схема работы продукта</a></div>
+                    </div>
+                </div>
+            </div>
+            <section class="section section_grey-bg">
+                <div class="section__container container">
+                    <h2 class="section__heading">Статистика</h2>
+                    <div class="grid section__statcards">
+                        <div class="grid__col grid__col_xl_3 grid__col_md_6 grid__col_sm_12">
+                            <div class="statcard">
+                                <p class="statcard__number">17<span class="statcard__units">%</span></p>
+                                <p class="statcard__text">финансовых учреждений стали жертвами кибератак в 2017 году</p>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_3 grid__col_md_6 grid__col_sm_12">
+                            <div class="statcard">
+                                <p class="statcard__number">1,89</p>
+                                <p class="statcard__text">млрд руб. потеряли в 2016 году юрлица от несакнционированных
+                                    операций</p>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_3 grid__col_md_6 grid__col_sm_12">
+                            <div class="statcard">
+                                <p class="statcard__number">22,8</p>
+                                <p class="statcard__text">млрд долларов: объем мошенничества с банковскими картами в
+                                    2016 году</p>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_3 grid__col_md_6 grid__col_sm_12">
+                            <div class="statcard">
+                                <p class="statcard__number">100</p>
+                                <p class="statcard__text">дней — среднее время обнаружения инцидента в индустрии</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__container container">
+                    <h2 class="section__heading">Ценность для бизнеса</h2>
+                    <div class="grid section__addcards">
+                        <div class="grid__col grid__col_xl_6 grid__col_md_12">
+                            <div class="info info_small">
+                                <div class="info__image"><img src="assets/images/product1.svg" /></div>
+                                <div class="info__content">
+                                    <p class="info__heading">Репутационные списки</p>
+                                    <p class="info__text">Самые обширные списки по актуальным базам банков: белые,
+                                        серые и черные списки, в том числе по мошенникам, обнальщикам и дропам</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_6 grid__col_md_12">
+                            <div class="info info_small">
+                                <div class="info__image"><img src="assets/images/product1.svg" /></div>
+                                <div class="info__content">
+                                    <p class="info__heading">Кросс-канальный мониторинг</p>
+                                    <p class="info__text">Защита всех видов платежей, включая мобильный и
+                                        интернет-банк, SMS, эмиссию, эквайринг и AML</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_6 grid__col_md_12">
+                            <div class="info info_small">
+                                <div class="info__image"><img src="assets/images/product1.svg" /></div>
+                                <div class="info__content">
+                                    <p class="info__heading">Анализ поведения и выявление<br> фрода</p>
+                                    <p class="info__text">Использование статистики и машинного обучения для выявления
+                                        нетипичного поведения и возможных новых схем мошенничества</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_6 grid__col_md_12">
+                            <div class="info info_small">
+                                <div class="info__image"><img src="assets/images/product1.svg" /></div>
+                                <div class="info__content">
+                                    <p class="info__heading">Не требует много ресурсов</p>
+                                    <p class="info__text">Промышленная система обеспечивает надежную защиту без
+                                        необходимости внедрять полноценную антифрод-систему в инфраструктуре компании</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section_grey-bg section_button">
+                <div class="section__container container"><a class="button button_blue section__button js-anchor" href="#form-section">Записаться
+                        на демонстрацию</a></div>
+            </section>
+            <section class="section">
+                <div class="section__container container">
+                    <h2 class="section__heading">Модульная система</h2>
+                    <div class="grid section__listcards">
+                        <div class="grid__col grid__col_xl_4 grid__col_md_12">
+                            <div class="listcard">
+                                <p class="listcard__heading">Модуль правил</p>
+                                <ul class="listcard__list">
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Типовые и настраиваемые правила</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Алгоритмы машинного обучения</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Политики для разных клиентов</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Экспорт и импорт правил</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Автоподбор наиболее подходящих правил</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_4 grid__col_md_12">
+                            <div class="listcard">
+                                <p class="listcard__heading">Модуль расследования инцидентов</p>
+                                <ul class="listcard__list">
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Просмотр событий по клиенту</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Анализ сессий</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Поиск похожих событий по клиентам</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Просмотр событий по разным каналам платежей</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Анализ связей</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_4 grid__col_md_12">
+                            <div class="listcard">
+                                <p class="listcard__heading">Модуль отчетности</p>
+                                <ul class="listcard__list">
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Широкие возможности настройки</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Создание отчетов для сотрудников разного уровня</p>
+                                    </li>
+                                    <li class="listcard__item">
+                                        <p class="listcard__text">Понятная визуализация данных</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section_grey-bg">
+                <div class="section__container container">
+                    <h2 class="section__heading">Подробнее о FMaaS</h2>
+                    <div class="grid section__detailcards">
+                        <div class="grid__col grid__col_xl_4 grid__col_md_12">
+                            <div class="detailcard">
+                                <div class="detailcard__image"><img src="assets/images/product1.svg" /></div>
+                                <div class="detailcard__content">
+                                    <p class="detailcard__heading">Технологии</p>
+                                    <p class="detailcard__text">FMaaS использует ансамбль моделей для автоматической
+                                        оценки риска, основанный на байесовских сетях, решающих деревьях и других
+                                        интерпретируемых алгоритмах машинного обучения. Система самообучается по
+                                        результатам работы
+                                        за каждый день, и использует данные, полученные при эксплуатации решения на
+                                        различных каналах.</p>
+                                </div><a class="button detailcard__button" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_4 grid__col_md_12">
+                            <div class="detailcard">
+                                <div class="detailcard__image"><img src="assets/images/product1.svg" /></div>
+                                <div class="detailcard__content">
+                                    <p class="detailcard__heading">Возможности</p>
+                                    <p class="detailcard__text">В основе FMaaS — быстрое и гибкое промышленное решение.
+                                        Наиболее актуальные списки мошенников, моментальная обработка транзакций и
+                                        комбинирование подходов на основе правил и моделей позволяют выявлять
+                                        мошенничество
+                                        и предотвращать финансовые и репутационные потери.</p>
+                                </div><a class="button detailcard__button" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="grid__col grid__col_xl_4 grid__col_md_12">
+                            <div class="detailcard">
+                                <div class="detailcard__image"><img src="assets/images/product1.svg" /></div>
+                                <div class="detailcard__content">
+                                    <p class="detailcard__heading">Экспертная поддержка</p>
+                                    <p class="detailcard__text">Собственная команда реагирования BI.ZONE оперативно
+                                        выявляет мошеннические схемы и находит преступников, а круглосуточная
+                                        техническая и аналитическая поддержка помогает в настройке сервиса и
+                                        расследовании инцидентов.</p>
+                                </div><a class="button detailcard__button" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__container container">
+                    <h2 class="section__heading">Схема работы</h2>
+                    <div class="info section__info">
+                        <div class="info__image info__image_l"><img src="assets/images/product1.svg" /></div>
+                        <div class="info__content">
+                            <p class="info__heading">Попытка провести операцию</p>
+                            <p class="info__text">Клиент банка пытается провести операцию (например, войти в систему
+                                или осуществить платеж). Если для операции настроено правило реагирования, то она
+                                отправляется на проверку в сервис FMaaS. Сервис также собирает информацию
+                                о поведении клиента и параметры пользовательского устройства (версия браузера,
+                                IP-адрес, ОС, IMSI и т.д.). Вся собранная информация используется для построения
+                                профиля клиента и его устройств.</p>
+                        </div>
+                    </div>
+                    <div class="info section__info">
+                        <div class="info__content">
+                            <p class="info__heading">Оценка риска</p>
+                            <p class="info__text">FMaaS, используя подходы на основе правил и моделей, оценивает риск
+                                операции и выносит вердикт: легитимно (allow), подозрительно (review) или критично
+                                (deny). Затем он возвращает эту оценку в систему.</p>
+                        </div>
+                        <div class="info__image info__image_r"><img src="assets/images/product1.svg" /></div>
+                    </div>
+                    <div class="info section__info">
+                        <div class="info__image info__image_l"><img src="assets/images/product1.svg" /></div>
+                        <div class="info__content">
+                            <p class="info__heading">Одобрение или отклонение операции</p>
+                            <p class="info__text">В зависимости от вердикта система либо проводит операцию, либо
+                                отклоняет или приостанавливает ее, формируя уведомление для клиента.</p>
+                            <p class="info__text">Клиент, получив уведомление от системы, перезванивает в контакт-центр
+                                и подтверждает легитимность операции. По результатам общения с клиентом работник
+                                контакт-центра находит указанную клиентом операцию в модуле работы с инцидентами
+                                и помечает операцию как правомерную либо мошенническую.</p>
+                        </div>
+                    </div>
+                    <div class="info section__info">
+                        <div class="info__content">
+                            <p class="info__heading">Анализ и обучение системы</p>
+                            <p class="info__text">Результаты обработки операций и расследования инцидентов направляются
+                                в FMaaS для обучения моделей. По этим данным платформа FMaaS ежедневно производит
+                                перерасчет весов в моделях, самообучаясь и корректируя свою работу. В систему
+                                принятия решений ежедневно поступает информация об угрозах от банков и команды
+                                реагирования BI.ZONE</p>
+                        </div>
+                        <div class="info__image info__image_r"><img src="assets/images/product1.svg" /></div>
+                    </div>
+                    <div class="scheme section__scheme">
+                        <div class="scheme__col">
+                            <div class="scheme__row">
+                                <div class="scheme__item">
+                                    <p class="scheme__title">Cloud</p>
+                                    <div class="scheme__img"><img src="assets/images/product1.svg" /></div>
+                                </div>
+                                <div class="scheme__arrow"></div>
+                                <div class="scheme__item">
+                                    <p class="scheme__title">Servers</p>
+                                    <div class="scheme__img"><img src="assets/images/product1.svg" /></div>
+                                </div>
+                                <div class="scheme__arrow scheme__arrow_down"></div>
+                            </div>
+                            <div class="scheme__row scheme__row_add">
+                                <div class="scheme__item">
+                                    <div class="scheme__img"><img src="assets/images/product1.svg" /></div>
+                                </div>
+                                <div class="scheme__arrow"></div>
+                                <div class="scheme__item">
+                                    <div class="scheme__img"><img src="assets/images/product1.svg" /></div>
+                                </div>
+                                <div class="scheme__arrow scheme__arrow_up"></div>
+                            </div>
+                        </div>
+                        <div class="scheme__col">
+                            <div class="scheme__row scheme__row_sum">
+                                <div class="scheme__item">
+                                    <p class="scheme__title">Integration</p>
+                                    <div class="scheme__images">
+                                        <div class="scheme__img"><img src="assets/images/product1.svg" /></div>
+                                        <div class="scheme__img"><img src="assets/images/product1.svg" /></div>
+                                    </div>
+                                </div>
+                                <div class="scheme__arrow"></div>
+                                <div class="scheme__item">
+                                    <p class="scheme__title">Report</p>
+                                    <div class="scheme__img"><img src="assets/images/product1.svg" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="form-section" id="form-section">
+                <div class="form-section__container container container_small">
+                    <form class="form">
+                        <p class="form__heading">Записаться на демонстрацию</p>
+                        <div class="form__fieldset">
+                            <div class="form__field">
+                                <p class="form__title">Название организации</p><input class="input form__input" type="text"
+                                    name="company" />
+                            </div>
+                            <div class="form__field">
+                                <p class="form__title">ФИО контактного лица</p><input class="input form__input" type="text"
+                                    name="name" />
+                            </div>
+                            <div class="form__field">
+                                <p class="form__title">Телефон</p><input class="input form__input" type="tel" name="phone" />
+                            </div>
+                            <div class="form__field">
+                                <p class="form__title">E-mail</p><input class="input form__input" type="email" name="email"
+                                    placeholder="mailbox@domain.com" />
+                            </div>
+                            <div class="form__field">
+                                <p class="form__title">Опишите подробности</p><textarea class="textarea form__input"
+                                    name="details"></textarea>
+                                <p class="form__note">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div><button class="button button_blue form__button">Записаться</button>
+                    </form>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__top">
+                    <div class="footer__container container">
+                        <div class="footer__row">
+                            <div class="footer__col footer__col_left">
+                                <div class="footer__menu">
+                                    <p class="footer__title">Мониторинг и предотвращение</p>
+                                    <div class="footer__item"><a class="footer__link" href="#">Сбор информации о<br
+                                                class="show-sm" /> потенциальных угрозах</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Тестирование на
+                                            защищённость<br class="show-sm" /> от методов социальной<br class="show-sm" />
+                                            инженерии</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Тестирование
+                                            защищённости<br class="show-sm" /> мобильных и веб-приложений</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Тестирование на
+                                            проникновение</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Регулярное сканирование<br
+                                                class="show-sm" /> внешнего периметра</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Противодействие<br class="show-sm" />
+                                            технологическим и<br class="show-sm" /> информационным атакам</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Тестирование почтового
+                                            шлюза</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Нагрузочное тестирование</a></div>
+                                </div>
+                            </div>
+                            <div class="footer__col footer__col_mid">
+                                <div class="footer__menu">
+                                    <p class="footer__title">Расследование и реагирование</p>
+                                    <div class="footer__item"><a class="footer__link" href="#">Исследование и анализ<br
+                                                class="show-sm" /> вредоносного программного обеспечения</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Расследование инцидентов<br
+                                                class="show-sm" /> информацонной безопасности</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Защита от фишинга</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Реагирование на
+                                            инциденты</a></div>
+                                </div>
+                            </div>
+                            <div class="footer__col footer__col_side-left">
+                                <div class="footer__menu">
+                                    <p class="footer__title">BI.ZONE</p>
+                                    <div class="footer__item"><a class="footer__link" href="#">О компании</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Вакансии</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Новости</a></div>
+                                    <div class="footer__item"><a class="footer__link" href="#">Контакты</a></div>
+                                </div>
+                            </div>
+                            <div class="footer__col footer__col_side-right">
+                                <div class="footer__menu">
+                                    <p class="footer__title">Круглосуточная линия</p>
+                                    <div class="footer__item footer__item_phone"><a class="footer__link" href="tel:+74991102534">+7
+                                            499 110-25-34</a></div>
+                                    <div class="footer__item footer__item_mail"><a class="footer__link" href="mailto:info@bi.zone">info@bi.zone</a></div>
+                                </div>
+                            </div>
+                            <div class="footer__col footer__col_side-bottom"><a class="button button_transp-white footer__button"
+                                    href="#">СООБЩИТЬ ОБ ИНЦИДЕНТЕ</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__container container">
+                        <div class="footer__row footer__row_bottom">
+                            <p class="footer__copyright">© 2017 BI.ZONE</p>
+                            <div class="footer__social"><a class="footer__social-link" href="#"><svg class="footer__social-icon">
+                                        <rect width="18" height="18"></rect>
+                                    </svg></a><a class="footer__social-link" href="#"><svg class="footer__social-icon">
+                                        <rect width="18" height="18"></rect>
+                                    </svg></a>
+                                <a class="footer__social-link" href="#"><svg class="footer__social-icon">
+                                        <rect width="18" height="18"></rect>
+                                    </svg></a><a class="footer__social-link" href="#"><svg class="footer__social-icon">
+                                        <rect width="18" height="18"></rect>
+                                    </svg></a></div>
+                            <div class="footer__logo"><img src="assets/images/bizone_logo.svg" /></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="up-button">
+        <div class="up-button__icon"><svg>
+                <use xlink:href="assets/images/icon.svg#icon_arrow"></use>
+            </svg></div>
+    </div>
+    <script src="assets/scripts/smooth-scrolling.js"></script>
+    <script src="assets/scripts/app.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

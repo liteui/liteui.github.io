@@ -1,0 +1,592 @@
+@media (min-width: 1001px) {
+  /* line 4, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover {
+    flex: 0 1 66.6666%; }
+  /* line 5, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .bg {
+    height: 50%; }
+    /* line 6, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div:hover .bg .noise {
+      background-color: rgba(28, 25, 30, 0); }
+  /* line 8, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service {
+    min-height: 50% !important; }
+    /* line 9, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div:hover .service .bgcolor {
+      height: 100%; }
+  /* line 11, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service .hidden {
+    margin-top: 25px; }
+  /* line 12, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service .hidden p {
+    opacity: 1;
+    top: 0; }
+  /* line 13, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover .service .plus:after {
+    transform: rotate(90deg);
+    background-color: white; }
+  /* line 14, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container > p.big {
+    display: none; }
+  /* line 15, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table {
+    margin-bottom: 75px; }
+  /* line 16, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main {
+    padding-top: 52px; }
+  /* line 17, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment h2 {
+    margin-top: 25px; } }
+
+@media (max-width: 1400px), (max-height: 760px) {
+  /* line 21, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen .container {
+    width: 830px; }
+  /* line 22, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 60px; }
+  /* line 23, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen p {
+    margin-top: 38px; }
+  /* line 24, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service h3 {
+    font-size: 21px; }
+  /* line 25, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service {
+    padding: 44px 25px 198px; }
+  /* line 26, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div:hover {
+    flex: 0 1 60%; }
+  /* line 27, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service h3 {
+    font-size: 26px; }
+  /* line 28, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service p {
+    font-size: 18px; }
+  /* line 29, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main .container {
+    width: 600px; }
+  /* line 30, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .left div {
+    width: 355px; }
+  /* line 31, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    width: 900px; }
+  /* line 32, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a {
+    width: 158px;
+    height: 158px;
+    margin-right: 20px; }
+  /* line 33, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a p {
+    font-size: 18px; }
+  /* line 34, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .container {
+    width: 400px; }
+  /* line 36, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.big {
+    font-size: 22px; }
+  /* line 37, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.huge {
+    font-size: 26px; }
+  /* line 38, D:/Projects/home/ptt/www/css/adaptive.scss */
+  h2 {
+    font-size: 40px; }
+  /* line 39, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p {
+    font-size: 18px; }
+  /* line 41, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    margin-top: 30px; }
+  /* line 42, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    padding-bottom: 30px; }
+  /* line 43, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone {
+    margin-top: 34px; }
+  /* line 44, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.phone {
+    font-size: 26px;
+    margin-top: 30px;
+    line-height: .8em; }
+  /* line 45, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.big {
+    margin-top: 35px; }
+  /* line 46, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    padding-top: 140px; }
+  /* line 48, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .minicontainer {
+    width: 460px; }
+  /* line 49, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .right .bottom {
+    padding-top: 48px; }
+  /* line 50, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .minicontainer.down {
+    bottom: 155px; }
+  /* line 51, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .right .bottom:hover .minicontainer.down {
+    bottom: 130px; }
+  /* line 52, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production .right .bottom:hover {
+    padding-bottom: 170px; }
+  /* line 54, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .container, #videopopup .container {
+    width: 830px; }
+  /* line 55, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .three-col p {
+    font-size: 17px; }
+  /* line 57, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 50px; }
+  /* line 58, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.big {
+    font-size: 20px; }
+  /* line 59, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service p {
+    font-size: 16px; }
+  /* line 60, D:/Projects/home/ptt/www/css/adaptive.scss */
+  h2 {
+    font-size: 36px; }
+  /* line 61, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.small {
+    font-size: 16px; }
+  /* line 62, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table td {
+    padding: 20px 24px 20px 0; }
+  /* line 63, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p {
+    font-size: 16px; }
+  /* line 65, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.huge {
+    font-size: 23px; }
+  /* line 66, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a p {
+    font-size: 16px; }
+  /* line 67, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    padding-bottom: 118px; } }
+
+@media (max-width: 1000px) {
+  /* line 77, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .adaptiveshowmap {
+    display: block; }
+  /* line 78, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .container, section.firstscreen .container, section.transhipment .main .container, section.contacts .left .container {
+    width: 83%; }
+  /* line 79, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section, section.about, section.firstscreen, section.services, section.transhipment, section.production, section.contacts {
+    z-index: initial !important; }
+  /* line 81, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .videocontainer video {
+    display: none; }
+  /* line 82, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .videocontainer img {
+    display: block; }
+  /* line 85, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .videocontainer .noise {
+    display: none; }
+  /* line 87, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .map {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out; }
+    /* line 88, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.transhipment .map.active {
+      opacity: 1;
+      pointer-events: all; }
+  /* line 91, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .contacts_logo {
+    display: none; }
+  /* line 93, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .map .close {
+    display: block; }
+  /* line 94, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .map .mapcontrols {
+    bottom: 24px; }
+  /* line 97, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #logo {
+    width: 87px;
+    height: 42px; }
+  /* line 98, D:/Projects/home/ptt/www/css/adaptive.scss */
+  header .right, section.transhipment:after {
+    display: none; }
+  /* line 99, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section {
+    min-height: 0;
+    position: relative; }
+  /* line 100, D:/Projects/home/ptt/www/css/adaptive.scss */
+  header {
+    top: 28px;
+    padding: 0 8.5%; }
+  /* line 103, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen .container {
+    z-index: 20; }
+  /* line 104, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 33px; }
+    /* line 105, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.firstscreen h1 br {
+      display: none; }
+  /* line 107, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen {
+    padding: 299px 0 44px;
+    position: relative; }
+  /* line 108, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen p {
+    margin-top: 36px;
+    padding-left: 50px; }
+  /* line 111, D:/Projects/home/ptt/www/css/adaptive.scss */
+  p.big {
+    font-size: 20px; }
+  /* line 112, D:/Projects/home/ptt/www/css/adaptive.scss */
+  h2 {
+    font-size: 33px; }
+  /* line 115, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .bg {
+    display: none;
+    height: 200px;
+    position: absolute;
+    min-height: 0;
+    min-width: 0;
+    top: 80px;
+    transition: all 0 ease-in-out; }
+  /* line 116, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services {
+    display: block; }
+    /* line 117, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services h3, section.services .hidden {
+      width: 100%;
+      padding-left: 8.5%;
+      padding-right: 8.5%;
+      box-sizing: border-box; }
+  /* line 119, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div {
+    background-color: white;
+    display: block; }
+  /* line 120, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service h3 {
+    font-size: 20px;
+    padding-top: 27px;
+    padding-bottom: 29px;
+    cursor: pointer; }
+    /* line 121, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div .service h3 br {
+      display: none; }
+  /* line 123, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .plus {
+    background-color: white;
+    bottom: auto;
+    top: 39px !important;
+    width: 18px;
+    right: 8.5% !important;
+    height: 2px;
+    transform-origin: center; }
+  /* line 124, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .plus:after {
+    background-color: white;
+    width: 2px;
+    top: -8px;
+    left: 8px;
+    height: 18px; }
+  /* line 125, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div .service {
+    padding: 0; }
+  /* line 126, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .hidden {
+    margin-top: 0 !important;
+    padding-top: 257px !important;
+    height: auto !important;
+    display: none;
+    transition: all 0 ease-in-out; }
+  /* line 127, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .bgcolor {
+    height: 100%; }
+  /* line 128, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service p {
+    line-height: 30px; }
+  /* line 130, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active .bgcolor {
+    opacity: 0; }
+  /* line 131, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active h3 {
+    color: #3c2054; }
+  /* line 132, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active .plus {
+    background-color: #3c2054;
+    transform: rotate(45deg); }
+    /* line 133, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.services > div.active .plus:after {
+      background-color: #3c2054; }
+  /* line 135, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services > div.active .service p {
+    color: #3c2054;
+    font-weight: 300;
+    width: auto !important; }
+  /* line 140, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 38px 0; }
+  /* line 141, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points hr {
+    display: none; }
+  /* line 142, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points {
+    justify-content: space-between; }
+  /* line 143, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points p:last-child {
+    margin-left: 0; }
+  /* line 144, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .main .container {
+    margin: 0 auto; }
+  /* line 145, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .list {
+    margin-top: 42px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 18px;
+    margin-left: -18px; }
+  /* line 146, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials {
+    white-space: nowrap;
+    margin-left: -18px; }
+  /* line 147, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials li {
+    padding: 11px 18px 15px;
+    margin-right: 2px; }
+  /* line 148, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials li p {
+    letter-spacing: 0.09em; }
+  /* line 149, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table {
+    margin-top: 40px;
+    width: 152%; }
+  /* line 150, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table th:nth-child(2), section.transhipment table td:nth-child(2), section.transhipment table th:nth-child(3), section.transhipment table td:nth-child(3) {
+    width: auto; }
+  /* line 153, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    width: 83%; }
+  /* line 154, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info {
+    height: auto !important; }
+  /* line 157, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container {
+    padding-top: 38px;
+    padding-bottom: 43px; }
+  /* line 158, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li p.mini {
+    display: none; }
+  /* line 159, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li > div {
+    width: 100%; }
+  /* line 160, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li > div p {
+    font-size: 18px !important;
+    line-height: 30px !important; }
+  /* line 161, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info {
+    margin-top: 42px; }
+  /* line 162, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info > li {
+    margin-bottom: 35px; }
+    /* line 163, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.about ul.info > li.hidden {
+      display: none; }
+    /* line 164, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.about ul.info > li .hiddentext {
+      font-size: 0; }
+      /* line 165, D:/Projects/home/ptt/www/css/adaptive.scss */
+      section.about ul.info > li .hiddentext:before {
+        content: "[...]";
+        font-size: 18px; }
+  /* line 168, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about .container > p.big {
+    padding-left: 50px;
+    padding-top: 5px; }
+  /* line 169, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a {
+    margin-top: 20px; }
+  /* line 170, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.about ul.info li.partners .quarry a p {
+    line-height: 25px !important; }
+  /* line 173, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production {
+    display: none; }
+  /* line 175, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts {
+    display: block;
+    width: 100%; }
+    /* line 176, D:/Projects/home/ptt/www/css/adaptive.scss */
+    section.contacts:after {
+      display: none; }
+  /* line 178, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts > div {
+    width: 100%; }
+  /* line 179, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .right {
+    height: 200px; }
+  /* line 180, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left {
+    padding-top: 38px;
+    padding-bottom: 46px;
+    margin-bottom: 0; }
+  /* line 181, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    margin-top: 43px; }
+  /* line 182, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address p.big {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 23px; }
+  /* line 183, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .address {
+    padding-bottom: 41px; }
+  /* line 184, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone {
+    margin-top: 44px; }
+  /* line 185, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.phone {
+    font-size: 23px;
+    margin-top: 32px;
+    line-height: 1em; }
+  /* line 186, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.contacts .left .phone p.big {
+    margin-top: 31px; }
+  /* line 189, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .container {
+    width: 83%; }
+  /* line 190, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .six-col, #popup .nine-col {
+    width: 100%; }
+  /* line 191, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .six-col {
+    margin-top: 60px; }
+  /* line 192, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup textarea {
+    height: 41px; }
+  /* line 193, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .three-col {
+    width: 100%;
+    margin-top: 34px; }
+  /* line 194, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .fake-button {
+    margin-top: 50px; }
+  /* line 195, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup label p {
+    font-size: 18px; }
+  /* line 196, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup input, #popup textarea {
+    font-size: 18px;
+    padding-bottom: 10px; }
+  /* line 197, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .fake-button button {
+    font-size: 21px; }
+  /* line 198, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup .messages {
+    margin-top: 20px; }
+  /* line 199, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup p.infotext {
+    left: 0;
+    max-width: 100%; }
+  /* line 200, D:/Projects/home/ptt/www/css/adaptive.scss */
+  #popup p.infotext {
+    font-size: 16px;
+    white-space: inherit; }
+  /* line 203, D:/Projects/home/ptt/www/css/adaptive.scss */
+  footer {
+    display: none; }
+  /* line 204, D:/Projects/home/ptt/www/css/adaptive.scss */
+  header {
+    position: absolute; } }
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  /* line 211, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen h1 {
+    font-size: 45px; }
+  /* line 212, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .service .hidden {
+    padding-top: 357px !important; }
+  /* line 213, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.services .bg {
+    height: 300px; }
+  /* line 214, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .points hr {
+    display: block;
+    width: 30%;
+    flex: 1;
+    margin: 0 20px; }
+  /* line 215, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment table {
+    width: 100%; }
+  /* line 216, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment .list {
+    overflow: auto !important; }
+  /* line 217, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.transhipment ul.materials li:first-child {
+    margin-right: 18px; } }
+
+@media (min-width: 1001px) {
+  /* line 221, D:/Projects/home/ptt/www/css/adaptive.scss */
+  .videocontainer video {
+    display: none; }
+  /* line 222, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.firstscreen .videocontainer video {
+    display: block; }
+  /* line 223, D:/Projects/home/ptt/www/css/adaptive.scss */
+  footer {
+    display: none; }
+  /* line 225, D:/Projects/home/ptt/www/css/adaptive.scss */
+  body.mobile, html.mobile {
+    overflow: auto; }
+    /* line 226, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.transhipment:after, body.mobile section.production:after, body.mobile section.contacts:after, html.mobile section.transhipment:after, html.mobile section.production:after, html.mobile section.contacts:after {
+      display: none; }
+    /* line 227, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section, body.mobile section.about, body.mobile section.firstscreen, body.mobile section.services, body.mobile section.transhipment, body.mobile section.production, body.mobile section.contacts, html.mobile section, html.mobile section.about, html.mobile section.firstscreen, html.mobile section.services, html.mobile section.transhipment, html.mobile section.production, html.mobile section.contacts {
+      z-index: initial !important; }
+    /* line 228, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.firstscreen, html.mobile section.firstscreen {
+      padding-bottom: 110px; }
+    /* line 229, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.services .service .plus, html.mobile section.services .service .plus {
+      bottom: 50px; }
+    /* line 230, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.services > div .service, html.mobile section.services > div .service {
+      padding-bottom: 108px;
+      padding-top: 30px; }
+    /* line 231, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .left, html.mobile section.production .left {
+      padding-bottom: 100px; }
+    /* line 232, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .minicontainer.down, html.mobile section.production .minicontainer.down {
+      bottom: 65px; }
+    /* line 233, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .right .bottom, html.mobile section.production .right .bottom {
+      padding-bottom: 110px; }
+    /* line 234, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.production .right .bottom:hover .minicontainer.down, html.mobile section.production .right .bottom:hover .minicontainer.down {
+      bottom: 65px; }
+    /* line 235, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.about .container, html.mobile section.about .container {
+      padding-bottom: 108px; }
+    /* line 236, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.about, html.mobile section.about {
+      height: auto !important; }
+    /* line 237, D:/Projects/home/ptt/www/css/adaptive.scss */
+    body.mobile section.contacts .left, html.mobile section.contacts .left {
+      padding: 108px 0; }
+  /* line 240, D:/Projects/home/ptt/www/css/adaptive.scss */
+  section.production {
+    overflow: hidden; } }
+
+/*# sourceMappingURL=adaptive.css.map */

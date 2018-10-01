@@ -1,0 +1,266 @@
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  /* */
+  border: none; }
+
+*:focus {
+  outline: none; }
+
+::selection {
+  background: #b0966c;
+  color: white; }
+
+::-moz-selection {
+  background: #b0966c;
+  color: white; }
+
+::-webkit-selection {
+  background: #b0966c;
+  color: white; }
+
+::-webkit-input-placeholder {
+  color: #777; }
+
+::-moz-placeholder {
+  color: #777; }
+
+:-ms-input-placeholder {
+  color: #777; }
+
+:-moz-placeholder {
+  color: #777; }
+
+.noscroll {
+  position: fixed; }
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important; }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 50000000000s ease-in-out 0s !important; }
+
+.one-col {
+  width: 5.95%; }
+
+.two-col {
+  width: 14.5%; }
+
+.three-col {
+  width: 23.05%; }
+
+.four-col {
+  width: 31.6%; }
+
+.five-col {
+  width: 40.15%; }
+
+.six-col {
+  width: 48.7%; }
+
+.seven-col {
+  width: 57.25%; }
+
+.eight-col {
+  width: 65.8%; }
+
+.nine-col {
+  width: 74.35%; }
+
+.ten-col {
+  width: 82.9%; }
+
+.eleven-col {
+  width: 91.45%; }
+
+.twelve-col {
+  width: 100%; }
+
+.cols {
+  text-align: justify;
+  text-justify: distribute; }
+  .cols:after {
+    content: "";
+    display: inline-block;
+    height: 0.0000000000001px;
+    width: 100%; }
+  .cols > * {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: top; }
+
+html, body {
+  overflow-x: hidden; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  min-height: 100%;
+  font-size: 16px;
+  font-family: "Philosopher", "Arial", sans-serif;
+  color: #fff;
+  background-color: #272727;
+  /*background-image: linear-gradient(to right, $bg_color_3 0px, $bg_color_3 1px);
+  background-size: 1px;
+  background-position: center;
+  background-repeat: repeat-y;*/
+  position: relative; }
+
+header, section, footer {
+  width: 100%;
+  /*float:left;*/ }
+
+.container {
+  width: 1285px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+.slider {
+  overflow: hidden;
+  transform: translate3d(0, 0, 0); }
+
+.slider-overflow {
+  overflow: hidden; }
+
+.wrapper {
+  position: relative;
+  font-size: 0;
+  transition: all 0.25s ease-in-out; }
+
+.slide {
+  display: inline-block; }
+
+h1, h2, h3, h4, h5, h6, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+span {
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: inherit; }
+
+h1 {
+  font-size: 36px;
+  line-height: 1.22222em;
+  text-transform: uppercase;
+  color: #9c8561;
+  letter-spacing: 7.2px;
+  text-align: center;
+  font-weight: 700; }
+
+h2 {
+  font-size: 36px;
+  line-height: 1.22222em;
+  text-transform: uppercase;
+  color: #9c8561;
+  letter-spacing: 7.2px;
+  text-align: center;
+  font-weight: 700; }
+
+h3 {
+  font-size: 24px;
+  line-height: 1.66667em;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4.8px;
+  font-weight: 700; }
+
+h4 {
+  font-size: 22px;
+  line-height: 1.45455em;
+  color: #ac936a;
+  font-weight: 700; }
+
+h5 {
+  font-size: 18px;
+  line-height: 1.77778em;
+  color: #fff;
+  font-weight: 700;
+  font-style: italic; }
+
+p {
+  font-size: 14px;
+  line-height: 1.7em; }
+
+p.small {
+  font-size: 12px; }
+
+p.big {
+  font-size: 16px; }
+
+p.huge {
+  font-size: 18px; }
+
+.gotham {
+  font-family: "GothamPro", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 2.14286em; }
+
+.phil {
+  font-family: "Philosopher", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 2em;
+  font-style: italic; }
+
+.mapmarker__content {
+  position: absolute;
+  left: -100px;
+  top: -45px;
+  width: 230px;
+  text-align: center;
+  cursor: pointer; }
+
+.mapmarker__location {
+  font-family: "Philosopher", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 2em;
+  font-style: italic;
+  white-space: nowrap; }
+
+a, input, button, select, textarea {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/*a {text-decoration: inherit; font-weight: inherit; line-height:inherit; color:inherit;}*/
+select, input, textarea {
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  display: inline-block; }
+
+.button {
+  text-align: center;
+  border: 0;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  background-color: green; }
+  .button::hover {
+    background-color: blue; }
+
+/*# sourceMappingURL=basics.css.map */
