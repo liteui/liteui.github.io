@@ -1,0 +1,26 @@
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.btn {
+  min-width: 100px;
+}
+
+.btn-nav {
+  font-size: 0.875rem;
+}
+
+@media (min-width: 576px) {
+  .btn-nav {
+    font-size: 1rem;
+  }
+}
+
+.btn-nav:focus {
+  box-shadow: none !important;
+}
+
+.modal {
+  display: block;
+}
