@@ -1,0 +1,20 @@
+extends ../layouts/default
+
+include ../mixins/account
+
+block content
+
+  .py-5
+    section.pb-5
+      .container
+        .row
+          .col-md-3
+            .nav.flex-column.nav-pills
+              a.nav-link.active(data-toggle="pill" href="#data") Данные
+              a.nav-link(data-toggle="pill" href="#help") Справка
+          .col-md-9.mt-5.mt-md-0
+            .tab-content
+              .tab-pane.fade.show.active#data
+                +account-data()
+              .tab-pane.fade#help
+                +account-help()

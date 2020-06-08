@@ -1,0 +1,147 @@
+extends ../layouts/default
+
+mixin test-range(title, rangeId, rangeValueId)
+  .form-group.row
+    .col-12.col-md-4
+      p.test__title.text-left.p-3= title
+    .col-12.col-md-8
+      .row
+        .col-8.d-flex.align-items-center
+          .test__range.w-100(id=rangeId)
+        .col-4.d-flex.align-items-center.justify-content-center
+          .test__value(id=rangeValueId)
+
+mixin test-radio(title, name, inputs)
+  .form-group.row(data-required)
+    .col-12.col-md-4
+      p.test__title.text-left.p-3(data-toggle="tooltip-err" data-placement="top" title="Это поле обязательно")!= title
+    .col-12.col-md-8
+      .row
+        each input in inputs
+          .col-6.col-xl-3
+            label.test__control.mb-3
+              input.test__hidden-input(type="radio" name=name value=input.value)
+              span.test__radio.d-inline-block
+              span.d-block(data-title)!= input.title
+
+mixin test-checkbox(title, name, inputs)
+  .form-group.row
+    .col-12.col-md-4
+      p.test__title.text-left.p-3!= title
+    .col-12.col-md-8
+      .row
+        each input in inputs
+          .col-6.col-xl-3
+            label.test__control.mb-3
+              input.test__hidden-input(type="checkbox" name=name value=input.value)
+              span.test__check.d-inline-block
+              span.d-block(data-title)!= input.title
+
+mixin test-sum(title, id)
+  .pt-3&attributes(attributes)
+    .test__inner.p-3
+      p.test__sum-title= title
+      p.test__sum-value.mb-0(data-value=id) -
+
+mixin test-bar(title)
+  .col.col-sm-2
+    .test__stage.d-flex.flex-column.h-100
+      span.test__stage-value.mt-auto.mb-2.h6(data-stage) 89.2
+      .test__stage-fill(data-stage-fill)
+      span.test__stage-title!= title
+
+block content
+
+  .py-5
+    .test.section-lg#test-test
+      .container
+        form.test-form.text-center.py-3#testForm
+          div
+            div
+              .form-group.row
+                .col-12.col-md-4
+                  p.test__group-title.text-left.px-3.pt-3.pb-0 Группа 1
+              +test-radio('Параметр 1', 'p-1', [
+                { value: 'p-1-1', title: 'Вариант 1' },
+                { value: 'p-1-2', title: 'Вариант 2' }
+              ])
+              +test-range('Параметр 2', 'p-2', 'p-2-value')
+              +test-range('Параметр 3', 'p-3', 'p-3-value')
+              +test-radio('Параметр 4', 'p-4', [
+                { value: 'p-4-1', title: 'Вариант 1' },
+                { value: 'p-4-2', title: 'Вариант 2' }
+              ])
+              .form-group.row
+                .col-12.col-md-4
+                  p.test__group-title.text-left.px-3.pt-3.pb-0 Группа 2
+              +test-radio('Параметр 5', 'p-5', [
+                { value: 'p-5-1', title: 'Вариант 1' },
+                { value: 'p-5-2', title: 'Вариант 2' },
+                { value: 'p-5-3', title: 'Вариант 3' }
+              ])              
+              +test-checkbox('Параметр 6', 'p-6', [
+                { value: 'p-6-1', title: 'Вариант 1' }
+              ])
+              +test-checkbox('Параметр 7', 'p-7', [
+                { value: 'p-7-1', title: 'Вариант 1' },
+                { value: 'p-7-2', title: 'Вариант 2' },
+                { value: 'p-7-3', title: 'Вариант 3' },
+                { value: 'p-7-4', title: 'Вариант 4' },
+                { value: 'p-7-5', title: 'Вариант 5' }
+              ])
+              +test-radio('Параметр 8', 'p-8', [
+                { value: 'p-8-1', title: 'Вариант 1' },
+                { value: 'p-8-2', title: 'Вариант 2' },
+                { value: 'p-8-3', title: 'Вариант 3' }
+              ])
+          .my-5
+            h3 Сводка
+            .row
+              +test-sum('Параметр 1', 'p-1').col-12.col-md-6.col-xl-4
+              +test-sum('Параметр 2', 'p-2').col-12.col-md-6.col-xl-4
+              +test-sum('Параметр 3', 'p-3').col-12.col-md-6.col-xl-4
+              +test-sum('Параметр 4', 'p-4').col-12.col-md-6.col-xl-4
+              +test-sum('Параметр 5', 'p-5').col-12.col-md-6.col-xl-4
+              +test-sum('Параметр 6', 'p-6').col-12.col-md-6.col-xl-4
+              +test-sum('Параметр 7', 'p-7').col-12.col-md-6.col-xl-4
+              +test-sum('Параметр 8', 'p-8').col-12.col-md-6.col-xl-4
+          a.btn.btn-lg.btn-primary#calculateBtn(href="#") Рассчитать
+
+        .test-progress.py-3.d-none#testProgress
+          .progress-box.mb-5.text-center(data-progress)
+            p.progress-title Загрузка данных
+            .progress
+              .progress-bar(role="progressbar" data-duration="1" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100")
+          .progress-box.mb-5.text-center(data-progress)
+            p.progress-title Обработка данных
+            .progress
+              .progress-bar(role="progressbar" data-duration="3" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100")
+          .progress-box.mb-5.text-center(data-progress)
+            p.progress-title Подготовка отчета
+            .progress
+              .progress-bar(role="progressbar" data-duration="2" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100")
+
+        .test-result.d-none#testResult
+          h3.mb-5 Ваш результат
+          .test__inner.p-3
+            p.h2
+              span(data-result)
+              |  из 
+              span 110
+          .mt-5
+            h4.mb-5 Как улучшить результат
+            .row.align-items-center
+              .col-12.col-md-6
+                .row.justify-content-between
+                  +test-bar('1')
+                  +test-bar('2')
+                  +test-bar('3')
+                  +test-bar('4')
+                  +test-bar('5')
+              .col-12.col-md-6.mt-5.mt-md-0
+                .text-left
+                  p 1) Действие 1
+                  p 2) Действие 2
+                  p 3) Действие 3
+                  p 4) Действие 4
+                  p 5) Действие 5

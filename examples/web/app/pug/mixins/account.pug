@@ -1,0 +1,148 @@
+mixin form-input(id, label, name, placeholder, inputClass)
+  .form-group
+    label(for=id)= label
+    input.form-control(class=inputClass id=id type="text" name=name placeholder=placeholder autocomplete="off")
+
+mixin data-item(id)
+  .row.align-items-center
+    .col-lg-9
+      ul.nav.nav-tabs.mb-3
+        li.nav-item
+          a.nav-link.active(href="#" + id.chartTab data-toggle="tab") График
+        li.nav-item
+          a.nav-link(href="#" + id.listTab data-toggle="tab") История
+      .tab-content
+        .tab-pane.fade.show.active(id=id.chartTab)
+          div(style='height:235px;')
+            canvas.js-data-chart(id=id.chart)
+        .tab-pane.fade(id=id.listTab)
+          .pr-3.overflow-x-hidden.overflow-y-auto(style='height:235px;')
+            .row.align-items-center.js-data-list
+    .col-lg-3.text-center.mt-2.mt-lg-0
+      p.m-0 До цели осталось: 
+        span.js-data-diff
+        |  ед.
+
+mixin help-item(category, title, lists)
+  .text-center
+    h4= category
+    h3.text-primary= title
+    .row.mt-5.text-left
+      each list in lists
+        .col-6
+          h5.text-md.text-bold.text-primary-shade= list.name
+          ul.list.list-dotted
+            each item in list.items
+              li= item
+
+mixin account-data()
+  div
+    h3.text-center.text-md-left Данные
+    form.mt-5.js-data
+      .row.js-data-item(data-name='d-1')
+        .col-12.col-lg-6.js-data-input
+          +form-input('dv-1', 'Значение 1', 'd-1-value', 'Введите значение', 'js-num-inputmask')
+        .col-12.col-lg-6.js-data-input
+          +form-input('dt-1', 'Цель 1', 'd-1-target', 'Введите значение', 'js-num-inputmask')
+        .col-12.mt-3
+          +data-item({chartTab: 'd-1-tab-c', listTab: 'd-1-tab-h', chart: 'd-1'})
+      hr.my-4.my-sm-5
+      .row.js-data-item(data-name='d-2')
+        .col-12.col-lg-6
+          +form-input('dv-2', 'Значение 2', 'd-2-value', 'Введите значение', 'js-num-inputmask')
+        .col-12.col-lg-6
+          +form-input('dt-2', 'Цель 2', 'd-2-target', 'Введите значение', 'js-num-inputmask')
+        .col-12.mt-3
+          +data-item({chartTab: 'd-2-tab-c', listTab: 'd-2-tab-h', chart: 'd-2'})
+      hr.my-4.my-sm-5
+      .row.js-data-item(data-name='d-3')
+        .col-12.col-lg-6
+          +form-input('dv-3', 'Значение 3', 'd-3-value', 'Введите значение', 'js-num-inputmask')
+        .col-12.col-lg-6
+          +form-input('dt-3', 'Цель 3', 'd-3-target', 'Введите значение', 'js-num-inputmask')
+        .col-12.mt-3
+          +data-item({chartTab: 'd-3-tab-c', listTab: 'd-3-tab-h', chart: 'd-3'})
+      hr.my-4.my-sm-5
+      .d-flex.justify-content-center
+        button.btn.btn-primary(type="submit") Сохранить
+
+mixin account-help()
+  div
+    h3.text-center.text-md-left Справка
+    .mt-5.js-help
+      .js-help-nav
+        div
+          h4 Категория 1
+          ul.list
+            li
+              a.js-help-link(href='#item1') Глава 1
+            li
+              a.js-help-link(href='#item2') Глава 2
+            li
+              a.js-help-link(href='#item3') Глава 3
+        .mt-3
+          h4 Категория 2
+          ul.list
+            li
+              a.js-help-link(href='#item4') Глава 4
+            li
+              a.js-help-link(href='#item5') Глава 5
+            li
+              a.js-help-link(href='#item6') Глава 6
+        .mt-3
+          h4 Категория 3
+          ul.list
+            li
+              a.js-help-link(href='#item7') Глава 7
+            li
+              a.js-help-link(href='#item8') Глава 8
+            li
+              a.js-help-link(href='#item9') Глава 9
+      .d-none.js-help-item
+        button.btn.btn-secondary.js-help-back(type="button") Назад
+        .mt-5
+          .js-help-content.d-none#item1
+            +help-item('Категория 1', 'Глава 1', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3', 'Свойство 4', 'Свойство 5']},
+              {name: 'Список 2', items: ['Свойство 6', 'Свойство 7', 'Свойство 8']}
+            ])
+          .js-help-content.d-none#item2
+            +help-item('Категория 1', 'Глава 2', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3', 'Свойство 4', 'Свойство 5', 'Свойство 6', 'Свойство 7']},
+              {name: 'Список 2', items: ['Свойство 8', 'Свойство 9', 'Свойство 10', 'Свойство 11', 'Свойство 12', 'Свойство 13', 'Свойство 14']}
+            ])
+          .js-help-content.d-none#item3
+            +help-item('Категория 1', 'Глава 3', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3']},
+              {name: 'Список 2', items: ['Свойство 4', 'Свойство 5', 'Свойство 6', 'Свойство 7', 'Свойство 8']}
+            ])
+          .js-help-content.d-none#item4
+            +help-item('Категория 2', 'Глава 4', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3', 'Свойство 4', 'Свойство 5']},
+              {name: 'Список 2', items: ['Свойство 6', 'Свойство 7', 'Свойство 8']}
+            ])
+          .js-help-content.d-none#item5
+            +help-item('Категория 2', 'Глава 5', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3', 'Свойство 4', 'Свойство 5', 'Свойство 6', 'Свойство 7']},
+              {name: 'Список 2', items: ['Свойство 8', 'Свойство 9', 'Свойство 10', 'Свойство 11', 'Свойство 12', 'Свойство 13', 'Свойство 14']}
+            ])
+          .js-help-content.d-none#item6
+            +help-item('Категория 2', 'Глава 6', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3']},
+              {name: 'Список 2', items: ['Свойство 4', 'Свойство 5', 'Свойство 6', 'Свойство 7', 'Свойство 8']}
+            ])
+          .js-help-content.d-none#item7
+            +help-item('Категория 3', 'Глава 7', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3', 'Свойство 4', 'Свойство 5']},
+              {name: 'Список 2', items: ['Свойство 6', 'Свойство 7', 'Свойство 8']}
+            ])
+          .js-help-content.d-none#item8
+            +help-item('Категория 3', 'Глава 8', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3', 'Свойство 4', 'Свойство 5', 'Свойство 6', 'Свойство 7']},
+              {name: 'Список 2', items: ['Свойство 8', 'Свойство 9', 'Свойство 10', 'Свойство 11', 'Свойство 12', 'Свойство 13', 'Свойство 14']}
+            ])
+          .js-help-content.d-none#item9
+            +help-item('Категория 3', 'Глава 9', [
+              {name: 'Список 1', items: ['Свойство 1', 'Свойство 2', 'Свойство 3']},
+              {name: 'Список 2', items: ['Свойство 4', 'Свойство 5', 'Свойство 6', 'Свойство 7', 'Свойство 8']}
+            ])

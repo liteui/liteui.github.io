@@ -1,0 +1,235 @@
+$color-test-first: #07aacc;
+$color-test-first-light: #83d4f0;
+$color-test-first-lighter: #c2eaea;
+$color-test-secondary: #ababab;
+
+.test {
+  &__group-title {
+    color: $color-test-first;
+    font-size: 18px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 22px;
+    }
+  }
+
+  &__title {
+    background-color: $color-test-first;
+    color: #fff;
+    font-size: 18px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 22px;
+    }
+  }
+
+  &__value {
+    font-size: 32px;
+    color: $color-test-first;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 40px;
+    }
+  }
+
+  &__control {
+    font-size: 13px;
+    color: $color-test-secondary;
+    cursor: pointer;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 18px;
+    }
+  }
+
+  &__hidden-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+
+    &:checked ~ .test__radio,
+    &:checked ~ .test__check {
+      background: $color-test-first;
+      border-color: $color-test-first;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+    &:checked ~ .form__check-box:after {
+      opacity: 1;
+    }
+  }
+
+  &__radio,
+  &__check {
+    background: white;
+    border: 4px solid $color-test-secondary;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 5px;
+    position: relative;
+
+    &::after {
+      content: '';
+      border: 5px solid #fff;
+      border-top: 0;
+      border-right: 0;
+      position: absolute;
+      width: 20px;
+      height: 15px;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 6px;
+      margin: auto;
+      transform: rotate(-45deg);
+      opacity: 0;
+    }
+  }
+
+  &__radio {
+    border-radius: 25px;
+  }
+
+  &__inner {
+    position: relative;
+    background-color: $color-test-first-lighter;
+    color: #000;
+
+    &.is-negative {
+      border: 1px solid #ff0000;
+    }
+  }
+
+  &__stage-value {
+    color: $color-test-first;
+    margin-left: -12px;
+    margin-right: -12px;
+    text-align: center;
+  }
+
+  &__stage-fill {
+    height: 220px;
+    background-color: $color-test-first; 
+  }
+
+  &__stage-title {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .noUi-target {
+    background: $color-test-secondary;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+
+  .noUi-connects {
+    border-radius: 5px;
+  }
+
+  .noUi-connect {
+    background: $color-test-first;
+  }
+
+  .noUi-horizontal {
+    height: 10px;
+  }
+
+  .noUi-handle {
+    border-radius: 16px;
+    border: 4px solid $color-test-first;
+    background: $color-test-first;
+    box-shadow: none;
+    cursor: pointer;
+
+    &:hover {
+      background: #fff;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
+  .noUi-horizontal .noUi-handle {
+    width: 32px;
+    height: 32px;
+    top: -12px;
+  }
+
+  .fa-info-circle {
+    font-style: normal;
+  }
+
+  .btn {
+    border-radius: 0;
+  }
+
+  .progress {
+    border-radius: 0;
+    background-color: $color-test-first-light;
+  }
+
+  .progress-bar {
+    background-color: $color-test-first;
+    width: 0;
+
+    &.is-active {
+      width: 100%;
+    }
+  }
+}
+
+.tooltip {
+  font-size: 16px;
+}
+
+.tooltip.bs-tooltip-top {
+  padding: 10px 0;
+}
+
+.tooltip.bs-tooltip-top .arrow,
+.tooltip.bs-tooltip-bottom .arrow {
+  width: 10px;
+  height: 12px;
+}
+
+.tooltip.bs-tooltip-top .arrow::before {
+  margin-left: -6px;
+  border-width: 10px 10px 0;
+  border-top-color: #fff;
+}
+
+.tooltip.bs-tooltip-bottom .arrow::before {
+  margin-left: -6px;
+  border-width: 0 10px 10px;
+  border-bottom-color: #fff;
+}
+
+.tooltip-inner {
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  border: 1px solid $color-test-secondary;
+}
+
+.tooltip-err .tooltip-inner {
+  background-color: red;
+  color: #fff;
+}
+
+.tooltip-err.bs-tooltip-top .arrow::before {
+  border-top-color: red;
+}

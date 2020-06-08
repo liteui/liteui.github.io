@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "cross-env NODE_ENV=production gulp build",
+    "start": "cross-env NODE_ENV=development gulp"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "cross-env": "^4.0.0",
+    "debuga": "^1.0.2",
+    "del": "^2.2.2",
+    "gulp": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-jsbeautifier": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-plumber-error-handler": "^1.0.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}
