@@ -1,95 +1,91 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class Calculator extends Component {
-  state = {
-    items_value: Object.values(this.props.items.list).length ? Object.values(this.props.items.list)[0].value : null,
-    materials_value: Object.values(this.props.materials.list).length ? Object.values(this.props.materials.list)[0].value : null,
-    count: '',
-    result: null
-  }
+function Calculator(props) {
 
-  handleCalc = () => {
-    this.setState(state => {
-      return {
-        result: state.items_value * state.materials_value * state.count
-      };
-    });
-  }
+  let startingItem = props.items.length ? props.items[0].value : null;
+  let startingMaterial = props.materials.length ? props.materials[0].value : null;
 
-  handleCountChange = (e) => {
-    const value = e.target.value.trim().replace('.', '');
+  let [item, setItem] = useState(startingItem);
+  let changeItem = (e) => {
+    let id = +e.target.value;
+    let target = props.items.find(i => i.id === id);
+    setItem(target.value);
+  };
+
+  let [material, setMaterial] = useState(startingMaterial);
+  let changeMaterial = (e) => {
+    let id = +e.target.value;
+    let target = props.materials.find(i => i.id === id);
+    setMaterial(target.value);
+  };
+
+  let [count, setCount] = useState('');
+  let changeCount = (e) => {
+    let value = e.target.value.trim().replace('.', '');
 
     if (isFinite(value)) {
-      this.setState({
-        count: value
-      });
+      setCount(value);
     }
-  }
+  };
 
-  handleSelectChange = (type) => {
-    return (e) => {
-      const id = e.target.value;
+  let [result, setResult] = useState(null);
+  let calculate = () => {
+    setResult(item * material * count);
+  };
 
-      this.setState({
-        [type + '_value']: this.props[type].list[id].value
-      });
-    }
-  }
 
-  render() {
-    return (
-      <div className='py-3 py-md-0'>
-        <div className='row align-items-center justify-content-center'>
-          <div className='col-md-5 col-xl-3'>
-            <p className='mb-2 mb-md-0'>Предмет</p>
-          </div>
-          <div className='col-md-5 col-xl-3'>
-            {Object.values(this.props.items.list) && Object.values(this.props.items.list).length > 0 ? (
-              <select className='form-control' name='item' onChange={this.handleSelectChange('items')}>
-                {Object.values(this.props.items.list).map(item => (
-                  <option key={item.id} value={item.id}>{item.name}</option>
-                ))}
-              </select>
-            ) : (
-              <select className='form-control' name='item' disabled>
-                <option>Нет данных</option>
-              </select>
-            )}
-          </div>
+  return (
+    <div className='py-3 py-md-0'>
+      <div className='row align-items-center justify-content-center'>
+        <div className='col-md-5 col-xl-3'>
+          <p className='mb-2 mb-md-0'>Предмет</p>
         </div>
-        <div className='row align-items-center justify-content-center mt-3 mt-md-5'>
-          <div className='col-md-5 col-xl-3'>
-            <p className='mb-2 mb-md-0'>Материал</p>
-          </div>
-          <div className='col-md-5 col-xl-3'>
-            {Object.values(this.props.materials.list) && Object.values(this.props.materials.list).length > 0 ? (
-              <select className='form-control' name='material' onChange={this.handleSelectChange('materials')}>
-                {Object.values(this.props.materials.list).map(item => (
-                  <option key={item.id} value={item.id}>{item.name}</option>
-                ))}
-              </select>
-            ) : (
-              <select className='form-control' name='material' disabled>
-                <option>Нет данных</option>
-              </select>
-            )}
-          </div>
+        <div className='col-md-5 col-xl-3'>
+          {props.items && props.items.length > 0 ? (
+            <select className='form-control' name='item' onChange={changeItem}>
+              {props.items.map(item => (
+                <option key={'i-' + item.id} value={item.id}>{item.name}</option>
+              ))}
+            </select>
+          ) : (
+            <select className='form-control' name='item' disabled>
+              <option>Нет данных</option>
+            </select>
+          )}
         </div>
-        <div className='row align-items-center justify-content-center mt-3 mt-md-5'>
-          <div className='col-md-5 col-xl-3'>
-            <p className='mb-2 mb-md-0'>Количество</p>
-          </div>
-          <div className='col-md-5 col-xl-3'>
-            <input className='form-control px-3' type='text' name='count' placeholder='0' value={this.state.count} autoComplete='off' onChange={this.handleCountChange} />
-          </div>
-        </div>
-        <div className='text-center mt-5'>
-          <button type='button' className='btn btn-lg btn-primary' disabled={!this.state.items_value || !this.state.materials_value || !this.state.count} onClick={this.handleCalc}>Рассчитать</button>
-        </div>
-          {this.state.result && <p className='text-center h5 font-weight-normal mt-5 mb-0'>Стоимость составляет <span className='font-weight-bold'>{this.state.result}</span> единиц</p>}
       </div>
-    );
-  }
+      <div className='row align-items-center justify-content-center mt-3 mt-md-5'>
+        <div className='col-md-5 col-xl-3'>
+          <p className='mb-2 mb-md-0'>Материал</p>
+        </div>
+        <div className='col-md-5 col-xl-3'>
+          {props.materials && props.materials.length > 0 ? (
+            <select className='form-control' name='material' onChange={changeMaterial}>
+              {props.materials.map(item => (
+                <option key={'m-' + item.id} value={item.id}>{item.name}</option>
+              ))}
+            </select>
+          ) : (
+            <select className='form-control' name='material' disabled>
+              <option>Нет данных</option>
+            </select>
+          )}
+        </div>
+      </div>
+      <div className='row align-items-center justify-content-center mt-3 mt-md-5'>
+        <div className='col-md-5 col-xl-3'>
+          <p className='mb-2 mb-md-0'>Количество</p>
+        </div>
+        <div className='col-md-5 col-xl-3'>
+          <input className='form-control px-3' type='text' name='count' placeholder='0' value={count} autoComplete='off' onChange={changeCount} />
+        </div>
+      </div>
+      <div className='text-center mt-5'>
+        <button type='button' className='btn btn-lg btn-primary' disabled={!item || !material || !count} onClick={calculate}>Рассчитать</button>
+      </div>
+        {result && <p className='text-center h5 font-weight-normal mt-5 mb-0'>Стоимость составляет <span className='font-weight-bold'>{result}</span> единиц</p>}
+    </div>
+  );
 }
 
 export default Calculator;
